@@ -1,0 +1,230 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+Running main() from test_main.cc
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from TaggerTransitionTest
+[ RUN      ] TaggerTransitionTest.SingleSentenceDocumentTest
+2017-04-11 18:12:20.670881: I syntaxnet/tagger_transitions_test.cc:105] see doc
+:text       : "I can not recall any disorder in currency markets since the 1974 guidelines were adopted ."
+token: {
+  word    : "I"
+  start   : 0
+  end     : 0
+  head    : 3
+  tag     : "PRP"
+  category: "PRON"
+  label   : "nsubj"
+  break_level       : SENTENCE_BREAK
+}
+token: {
+  word    : "can"
+  start   : 2
+  end     : 4
+  head    : 3
+  tag     : "MD"
+  category: "VERB"
+  label   : "aux"
+}
+token: {
+  word    : "not"
+  start   : 6
+  end     : 8
+  head    : 3
+  tag     : "RB"
+  category: "ADV"
+  label   : "neg"
+}
+token: {
+  word    : "recall"
+  start   : 10
+  end     : 15
+  tag     : "VB"
+  category: "VERB"
+  label   : "ROOT"
+}
+token: {
+  word    : "any"
+  start   : 17
+  end     : 19
+  head    : 5
+  tag     : "DT"
+  category: "DET"
+  label   : "det"
+}
+token: {
+  word    : "disorder"
+  start   : 21
+  end     : 28
+  head    : 3
+  tag     : "NN"
+  category: "NOUN"
+  label   : "dobj"
+}
+token: {
+  word    : "in"
+  start   : 30
+  end     : 31
+  head    : 5
+  tag     : "IN"
+  category: "ADP"
+  label   : "prep"
+}
+token: {
+  word    : "currency"
+  start   : 33
+  end     : 40
+  head    : 8
+  tag     : "NN"
+  category: "NOUN"
+  label   : "nn"
+}
+token: {
+  word    : "markets"
+  start   : 42
+  end     : 48
+  head    : 6
+  tag     : "NNS"
+  category: "NOUN"
+  label   : "pobj"
+}
+token: {
+  word    : "since"
+  start   : 50
+  end     : 54
+  head    : 14
+  tag     : "IN"
+  category: "ADP"
+  label   : "mark"
+}
+token: {
+  word    : "the"
+  start   : 56
+  end     : 58
+  head    : 12
+  tag     : "DT"
+  category: "DET"
+  label   : "det"
+}
+token: {
+  word    : "1974"
+  start   : 60
+  end     : 63
+  head    : 12
+  tag     : "CD"
+  category: "NUM"
+  label   : "num"
+}
+token: {
+  word    : "guidelines"
+  start   : 65
+  end     : 74
+  head    : 14
+  tag     : "NNS"
+  category: "NOUN"
+  label   : "nsubjpass"
+}
+token: {
+  word    : "were"
+  start   : 76
+  end     : 79
+  head    : 14
+  tag     : "VBD"
+  category: "VERB"
+  label   : "auxpass"
+}
+token: {
+  word    : "adopted"
+  start   : 81
+  end     : 87
+  head    : 3
+  tag     : "VBN"
+  category: "VERB"
+  label   : "advcl"
+}
+token: {
+  word    : "."
+  start   : 89
+  end     : 89
+  head    : 3
+  tag     : "."
+  category: "."
+  label   : "p"
+}
+
+2017-04-11 18:12:20.672163: I syntaxnet/term_frequency_map.cc:137] Saved 15 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/tagger_transitions_test_1label-map.
+2017-04-11 18:12:20.672296: I syntaxnet/term_frequency_map.cc:137] Saved 12 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/tagger_transitions_test_1tag-map.
+2017-04-11 18:12:20.674143: I syntaxnet/term_frequency_map.cc:101] Loaded 12 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/tagger_transitions_test_1tag-map.
+2017-04-11 18:12:20.674947: I syntaxnet/term_frequency_map.cc:101] Loaded 12 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/tagger_transitions_test_1tag-map.
+2017-04-11 18:12:20.675205: I syntaxnet/tagger_transitions_test.cc:65] Initial parser state:  I can not recall any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675224: I syntaxnet/tagger_transitions_test.cc:69] Performing action: SHIFT(PRP)
+2017-04-11 18:12:20.675245: I syntaxnet/tagger_transitions_test.cc:72] Parser state:  I[PRP] can not recall any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675252: I syntaxnet/tagger_transitions_test.cc:69] Performing action: SHIFT(MD)
+2017-04-11 18:12:20.675258: I syntaxnet/tagger_transitions_test.cc:72] Parser state:  I[PRP]can[MD] not recall any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675262: I syntaxnet/tagger_transitions_test.cc:69] Performing action: SHIFT(RB)
+2017-04-11 18:12:20.675268: I syntaxnet/tagger_transitions_test.cc:72] Parser state:  I[PRP]can[MD] not[RB] recall any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675272: I syntaxnet/tagger_transitions_test.cc:69] Performing action: SHIFT(VB)
+2017-04-11 18:12:20.675278: I syntaxnet/tagger_transitions_test.cc:72] Parser state:  I[PRP]can[MD] not[RB] recall[VB] any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675282: I syntaxnet/tagger_transitions_test.cc:69] Performing action: SHIFT(DT)
+2017-04-11 18:12:20.675288: I syntaxnet/tagger_transitions_test.cc:72] Parser state:  I[PRP]can[MD] not[RB] recall[VB] any[DT] disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675293: I syntaxnet/tagger_transitions_test.cc:69] Performing action: SHIFT(NN)
+2017-04-11 18:12:20.675300: I syntaxnet/tagger_transitions_test.cc:72] Parser state:  I[PRP]can[MD] not[RB] recall[VB] any[DT] disorder[NN] in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675304: I syntaxnet/tagger_transitions_test.cc:69] Performing action: SHIFT(IN)
+2017-04-11 18:12:20.675310: I syntaxnet/tagger_transitions_test.cc:72] Parser state:  I[PRP]can[MD] not[RB] recall[VB] any[DT] disorder[NN] in[IN] currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675315: I syntaxnet/tagger_transitions_test.cc:69] Performing action: SHIFT(NN)
+2017-04-11 18:12:20.675321: I syntaxnet/tagger_transitions_test.cc:72] Parser state:  I[PRP]can[MD] not[RB] recall[VB] any[DT] disorder[NN] in[IN] currency[NN] markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675325: I syntaxnet/tagger_transitions_test.cc:69] Performing action: SHIFT(NNS)
+2017-04-11 18:12:20.675332: I syntaxnet/tagger_transitions_test.cc:72] Parser state:  I[PRP]can[MD] not[RB] recall[VB] any[DT] disorder[NN] in[IN] currency[NN] markets[NNS] since the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675337: I syntaxnet/tagger_transitions_test.cc:69] Performing action: SHIFT(IN)
+2017-04-11 18:12:20.675343: I syntaxnet/tagger_transitions_test.cc:72] Parser state:  I[PRP]can[MD] not[RB] recall[VB] any[DT] disorder[NN] in[IN] currency[NN] markets[NNS] since[IN] the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675347: I syntaxnet/tagger_transitions_test.cc:69] Performing action: SHIFT(DT)
+2017-04-11 18:12:20.675354: I syntaxnet/tagger_transitions_test.cc:72] Parser state:  I[PRP]can[MD] not[RB] recall[VB] any[DT] disorder[NN] in[IN] currency[NN] markets[NNS] since[IN] the[DT] 1974 guidelines were adopted .
+2017-04-11 18:12:20.675358: I syntaxnet/tagger_transitions_test.cc:69] Performing action: SHIFT(CD)
+2017-04-11 18:12:20.675365: I syntaxnet/tagger_transitions_test.cc:72] Parser state:  I[PRP]can[MD] not[RB] recall[VB] any[DT] disorder[NN] in[IN] currency[NN] markets[NNS] since[IN] the[DT] 1974[CD] guidelines were adopted .
+2017-04-11 18:12:20.675369: I syntaxnet/tagger_transitions_test.cc:69] Performing action: SHIFT(NNS)
+2017-04-11 18:12:20.675376: I syntaxnet/tagger_transitions_test.cc:72] Parser state:  I[PRP]can[MD] not[RB] recall[VB] any[DT] disorder[NN] in[IN] currency[NN] markets[NNS] since[IN] the[DT] 1974[CD] guidelines[NNS] were adopted .
+2017-04-11 18:12:20.675380: I syntaxnet/tagger_transitions_test.cc:69] Performing action: SHIFT(VBD)
+2017-04-11 18:12:20.675387: I syntaxnet/tagger_transitions_test.cc:72] Parser state:  I[PRP]can[MD] not[RB] recall[VB] any[DT] disorder[NN] in[IN] currency[NN] markets[NNS] since[IN] the[DT] 1974[CD] guidelines[NNS] were[VBD] adopted .
+2017-04-11 18:12:20.675391: I syntaxnet/tagger_transitions_test.cc:69] Performing action: SHIFT(VBN)
+2017-04-11 18:12:20.675398: I syntaxnet/tagger_transitions_test.cc:72] Parser state:  I[PRP]can[MD] not[RB] recall[VB] any[DT] disorder[NN] in[IN] currency[NN] markets[NNS] since[IN] the[DT] 1974[CD] guidelines[NNS] were[VBD] adopted[VBN] .
+2017-04-11 18:12:20.675402: I syntaxnet/tagger_transitions_test.cc:69] Performing action: SHIFT(.)
+2017-04-11 18:12:20.675409: I syntaxnet/tagger_transitions_test.cc:72] Parser state:  I[PRP]can[MD] not[RB] recall[VB] any[DT] disorder[NN] in[IN] currency[NN] markets[NNS] since[IN] the[DT] 1974[CD] guidelines[NNS] were[VBD] adopted[VBN] .[.]
+2017-04-11 18:12:20.675421: I syntaxnet/tagger_transitions_test.cc:81] Initial parser state:  I can not recall any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675434: I syntaxnet/tagger_transitions_test.cc:85] Performing action: SHIFT(DT)
+2017-04-11 18:12:20.675440: I syntaxnet/tagger_transitions_test.cc:88] Parser state:  I[DT] can not recall any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675445: I syntaxnet/tagger_transitions_test.cc:85] Performing action: SHIFT(DT)
+2017-04-11 18:12:20.675451: I syntaxnet/tagger_transitions_test.cc:88] Parser state:  I[DT]can[DT] not recall any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675455: I syntaxnet/tagger_transitions_test.cc:85] Performing action: SHIFT(DT)
+2017-04-11 18:12:20.675461: I syntaxnet/tagger_transitions_test.cc:88] Parser state:  I[DT]can[DT] not[DT] recall any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675465: I syntaxnet/tagger_transitions_test.cc:85] Performing action: SHIFT(DT)
+2017-04-11 18:12:20.675471: I syntaxnet/tagger_transitions_test.cc:88] Parser state:  I[DT]can[DT] not[DT] recall[DT] any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675475: I syntaxnet/tagger_transitions_test.cc:85] Performing action: SHIFT(DT)
+2017-04-11 18:12:20.675482: I syntaxnet/tagger_transitions_test.cc:88] Parser state:  I[DT]can[DT] not[DT] recall[DT] any[DT] disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675486: I syntaxnet/tagger_transitions_test.cc:85] Performing action: SHIFT(DT)
+2017-04-11 18:12:20.675492: I syntaxnet/tagger_transitions_test.cc:88] Parser state:  I[DT]can[DT] not[DT] recall[DT] any[DT] disorder[DT] in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675496: I syntaxnet/tagger_transitions_test.cc:85] Performing action: SHIFT(DT)
+2017-04-11 18:12:20.675503: I syntaxnet/tagger_transitions_test.cc:88] Parser state:  I[DT]can[DT] not[DT] recall[DT] any[DT] disorder[DT] in[DT] currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675507: I syntaxnet/tagger_transitions_test.cc:85] Performing action: SHIFT(DT)
+2017-04-11 18:12:20.675513: I syntaxnet/tagger_transitions_test.cc:88] Parser state:  I[DT]can[DT] not[DT] recall[DT] any[DT] disorder[DT] in[DT] currency[DT] markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675517: I syntaxnet/tagger_transitions_test.cc:85] Performing action: SHIFT(DT)
+2017-04-11 18:12:20.675524: I syntaxnet/tagger_transitions_test.cc:88] Parser state:  I[DT]can[DT] not[DT] recall[DT] any[DT] disorder[DT] in[DT] currency[DT] markets[DT] since the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675528: I syntaxnet/tagger_transitions_test.cc:85] Performing action: SHIFT(DT)
+2017-04-11 18:12:20.675535: I syntaxnet/tagger_transitions_test.cc:88] Parser state:  I[DT]can[DT] not[DT] recall[DT] any[DT] disorder[DT] in[DT] currency[DT] markets[DT] since[DT] the 1974 guidelines were adopted .
+2017-04-11 18:12:20.675539: I syntaxnet/tagger_transitions_test.cc:85] Performing action: SHIFT(DT)
+2017-04-11 18:12:20.675545: I syntaxnet/tagger_transitions_test.cc:88] Parser state:  I[DT]can[DT] not[DT] recall[DT] any[DT] disorder[DT] in[DT] currency[DT] markets[DT] since[DT] the[DT] 1974 guidelines were adopted .
+2017-04-11 18:12:20.675550: I syntaxnet/tagger_transitions_test.cc:85] Performing action: SHIFT(DT)
+2017-04-11 18:12:20.675556: I syntaxnet/tagger_transitions_test.cc:88] Parser state:  I[DT]can[DT] not[DT] recall[DT] any[DT] disorder[DT] in[DT] currency[DT] markets[DT] since[DT] the[DT] 1974[DT] guidelines were adopted .
+2017-04-11 18:12:20.675561: I syntaxnet/tagger_transitions_test.cc:85] Performing action: SHIFT(DT)
+2017-04-11 18:12:20.675567: I syntaxnet/tagger_transitions_test.cc:88] Parser state:  I[DT]can[DT] not[DT] recall[DT] any[DT] disorder[DT] in[DT] currency[DT] markets[DT] since[DT] the[DT] 1974[DT] guidelines[DT] were adopted .
+2017-04-11 18:12:20.675572: I syntaxnet/tagger_transitions_test.cc:85] Performing action: SHIFT(DT)
+2017-04-11 18:12:20.675578: I syntaxnet/tagger_transitions_test.cc:88] Parser state:  I[DT]can[DT] not[DT] recall[DT] any[DT] disorder[DT] in[DT] currency[DT] markets[DT] since[DT] the[DT] 1974[DT] guidelines[DT] were[DT] adopted .
+2017-04-11 18:12:20.675583: I syntaxnet/tagger_transitions_test.cc:85] Performing action: SHIFT(DT)
+2017-04-11 18:12:20.675590: I syntaxnet/tagger_transitions_test.cc:88] Parser state:  I[DT]can[DT] not[DT] recall[DT] any[DT] disorder[DT] in[DT] currency[DT] markets[DT] since[DT] the[DT] 1974[DT] guidelines[DT] were[DT] adopted[DT] .
+2017-04-11 18:12:20.675594: I syntaxnet/tagger_transitions_test.cc:85] Performing action: SHIFT(DT)
+2017-04-11 18:12:20.675601: I syntaxnet/tagger_transitions_test.cc:88] Parser state:  I[DT]can[DT] not[DT] recall[DT] any[DT] disorder[DT] in[DT] currency[DT] markets[DT] since[DT] the[DT] 1974[DT] guidelines[DT] were[DT] adopted[DT] .[DT]
+[       OK ] TaggerTransitionTest.SingleSentenceDocumentTest (5 ms)
+[----------] 1 test from TaggerTransitionTest (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (5 ms total)
+[  PASSED  ] 1 test.

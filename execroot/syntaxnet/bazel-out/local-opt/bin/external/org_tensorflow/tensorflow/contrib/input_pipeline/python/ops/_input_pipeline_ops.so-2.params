@@ -1,0 +1,7 @@
+-whole-archive
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/input_pipeline/_objs/python/ops/_input_pipeline_ops.so/external/org_tensorflow/tensorflow/contrib/input_pipeline/ops/input_pipeline_ops.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/input_pipeline/kernels/libinput_pipeline_kernels.pic.lo
+-no-whole-archive
+-lm
+-lstdc++
+-lm

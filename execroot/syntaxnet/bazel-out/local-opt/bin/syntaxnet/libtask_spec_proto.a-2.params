@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/syntaxnet/libtask_spec_proto.a
+bazel-out/local-opt/bin/syntaxnet/_objs/task_spec_proto/syntaxnet/task_spec.pb.o

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="22" failures="0" disabled="0" errors="0" timestamp="2017-04-11T18:12:16" time="2.607" name="AllTests">
+  <testsuite name="ComputeSessionImplTest" tests="22" failures="0" disabled="0" errors="0" time="2.607">
+    <testcase name="CreatesComponent" status="run" time="0.001" classname="ComputeSessionImplTest" />
+    <testcase name="ReturnsComponentSpec" status="run" time="0" classname="ComputeSessionImplTest" />
+    <testcase name="CreatesMultipleComponents" status="run" time="0" classname="ComputeSessionImplTest" />
+    <testcase name="InitializesComponents" status="run" time="0.001" classname="ComputeSessionImplTest" />
+    <testcase name="CreatesTranslator" status="run" time="0.001" classname="ComputeSessionImplTest" />
+    <testcase name="CreatesTranslatorWithLongWalk" status="run" time="0" classname="ComputeSessionImplTest" />
+    <testcase name="CreatesTranslatorForMultipleComponents" status="run" time="0" classname="ComputeSessionImplTest" />
+    <testcase name="CreatesMultipleTranslatorsBetweenSameComponents" status="run" time="0" classname="ComputeSessionImplTest" />
+    <testcase name="CreatesSelfReferentialTranslator" status="run" time="0" classname="ComputeSessionImplTest" />
+    <testcase name="CreateTranslatorFailsWithWrongNameDeathTest" status="run" time="0.204" classname="ComputeSessionImplTest" />
+    <testcase name="GetsSourceComponentBeamSize" status="run" time="0" classname="ComputeSessionImplTest" />
+    <testcase name="GetsTranslatedLinkFeatures" status="run" time="0" classname="ComputeSessionImplTest" />
+    <testcase name="InitializesComponentDataWithNoSource" status="run" time="0" classname="ComputeSessionImplTest" />
+    <testcase name="InitializesComponentWithSource" status="run" time="0.001" classname="ComputeSessionImplTest" />
+    <testcase name="InitializeDataFailsWhenInputDataNotProvidedDeathTest" status="run" time="0.156" classname="ComputeSessionImplTest" />
+    <testcase name="InitializeDataFailsWhenComponentDoesNotExistdeathTest" status="run" time="0.175" classname="ComputeSessionImplTest" />
+    <testcase name="InitializeDataFailsWhenSourceIsNotTerminalDeathTest" status="run" time="0.215" classname="ComputeSessionImplTest" />
+    <testcase name="ResetSessionResetsAllComponents" status="run" time="0" classname="ComputeSessionImplTest" />
+    <testcase name="SetTracingPropagatesToAllComponents" status="run" time="0.001" classname="ComputeSessionImplTest" />
+    <testcase name="TraceSourceBeamPath" status="run" time="0" classname="ComputeSessionImplTest" />
+    <testcase name="InterfacePassesThrough" status="run" time="0" classname="ComputeSessionImplTest" />
+    <testcase name="InterfaceRequiresReady" status="run" time="1.852" classname="ComputeSessionImplTest" />
+  </testsuite>
+</testsuites>

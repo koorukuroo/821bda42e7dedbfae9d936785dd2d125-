@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/distributed_runtime/libbase_rendezvous_mgr.pic.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/distributed_runtime/_objs/base_rendezvous_mgr/external/org_tensorflow/tensorflow/core/distributed_runtime/base_rendezvous_mgr.pic.o

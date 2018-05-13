@@ -1,0 +1,3 @@
+rcsD
+bazel-out/host/bin/dragnn/core/libdragnn_ops_op_lib.lo
+bazel-out/host/bin/dragnn/core/_objs/dragnn_ops_op_lib/dragnn/core/ops/dragnn_ops.o

@@ -1,0 +1,3 @@
+bazel-out/local-opt/bin/dragnn/core/_objs/compute_session_impl/dragnn/core/compute_session_impl.pic.o
+-lstdc++
+-lm

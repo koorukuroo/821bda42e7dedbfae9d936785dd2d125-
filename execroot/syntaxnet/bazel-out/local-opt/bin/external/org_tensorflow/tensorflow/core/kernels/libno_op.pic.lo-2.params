@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libno_op.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/no_op/external/org_tensorflow/tensorflow/core/kernels/no_op.pic.o

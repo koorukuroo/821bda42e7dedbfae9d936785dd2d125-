@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/dragnn/io/libsentence_input_batch.a
+bazel-out/local-opt/bin/dragnn/io/_objs/sentence_input_batch/dragnn/io/sentence_input_batch.o

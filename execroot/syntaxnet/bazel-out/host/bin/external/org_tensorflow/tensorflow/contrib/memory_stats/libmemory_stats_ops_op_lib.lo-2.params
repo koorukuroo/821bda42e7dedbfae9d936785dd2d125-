@@ -1,0 +1,3 @@
+rcsD
+bazel-out/host/bin/external/org_tensorflow/tensorflow/contrib/memory_stats/libmemory_stats_ops_op_lib.lo
+bazel-out/host/bin/external/org_tensorflow/tensorflow/contrib/memory_stats/_objs/memory_stats_ops_op_lib/external/org_tensorflow/tensorflow/contrib/memory_stats/ops/memory_stats_ops.o

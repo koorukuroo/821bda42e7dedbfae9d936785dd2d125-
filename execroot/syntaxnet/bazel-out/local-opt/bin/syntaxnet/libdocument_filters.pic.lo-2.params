@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/syntaxnet/libdocument_filters.pic.lo
+bazel-out/local-opt/bin/syntaxnet/_objs/document_filters/syntaxnet/document_filters.pic.o

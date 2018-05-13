@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/platform/cloud/libretrying_file_system.pic.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/platform/cloud/_objs/retrying_file_system/external/org_tensorflow/tensorflow/core/platform/cloud/retrying_file_system.pic.o

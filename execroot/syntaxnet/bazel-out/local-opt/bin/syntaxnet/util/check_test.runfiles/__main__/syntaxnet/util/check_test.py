@@ -1,0 +1,1 @@
+/opt/tensorflow/syntaxnet/syntaxnet/util/check_test.py

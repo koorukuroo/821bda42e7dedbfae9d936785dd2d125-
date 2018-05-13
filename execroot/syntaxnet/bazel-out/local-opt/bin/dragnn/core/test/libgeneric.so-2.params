@@ -1,0 +1,3 @@
+bazel-out/local-opt/bin/dragnn/core/test/_objs/generic/dragnn/core/test/generic.pic.o
+-lstdc++
+-lm

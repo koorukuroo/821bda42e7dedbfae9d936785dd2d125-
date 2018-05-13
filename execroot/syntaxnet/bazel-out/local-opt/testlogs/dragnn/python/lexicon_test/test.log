@@ -1,0 +1,20 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+2017-04-11 18:14:39.866508: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:39.866542: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:39.866548: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:39.866553: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:39.866558: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:39.870579: I syntaxnet/lexicon_builder.cc:162] Term maps collected over 0 tokens from 0 documents
+2017-04-11 18:14:39.870726: I syntaxnet/term_frequency_map.cc:137] Saved 0 terms to /tmp/lexicon_test/lexicon-output/word-map.
+2017-04-11 18:14:39.870823: I syntaxnet/term_frequency_map.cc:137] Saved 0 terms to /tmp/lexicon_test/lexicon-output/lcword-map.
+2017-04-11 18:14:39.870904: I syntaxnet/term_frequency_map.cc:137] Saved 0 terms to /tmp/lexicon_test/lexicon-output/tag-map.
+2017-04-11 18:14:39.870986: I syntaxnet/term_frequency_map.cc:137] Saved 0 terms to /tmp/lexicon_test/lexicon-output/category-map.
+2017-04-11 18:14:39.871073: I syntaxnet/term_frequency_map.cc:137] Saved 0 terms to /tmp/lexicon_test/lexicon-output/label-map.
+2017-04-11 18:14:39.871154: I syntaxnet/term_frequency_map.cc:137] Saved 0 terms to /tmp/lexicon_test/lexicon-output/char-map.
+2017-04-11 18:14:39.871237: I syntaxnet/term_frequency_map.cc:137] Saved 0 terms to /tmp/lexicon_test/lexicon-output/char-ngram-map.
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.008s
+
+OK

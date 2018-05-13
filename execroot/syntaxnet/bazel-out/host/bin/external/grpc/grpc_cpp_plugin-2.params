@@ -1,0 +1,9 @@
+bazel-out/host/bin/external/grpc/_objs/grpc_cpp_plugin/external/grpc/src/compiler/cpp_plugin.o
+bazel-out/host/bin/external/grpc/libgrpc_plugin_support.a
+bazel-out/host/bin/external/protobuf/libprotoc_lib.a
+bazel-out/host/bin/external/protobuf/libprotobuf.a
+bazel-out/host/bin/external/protobuf/libprotobuf_lite.a
+-lpthread
+-lm
+-lstdc++
+-lm

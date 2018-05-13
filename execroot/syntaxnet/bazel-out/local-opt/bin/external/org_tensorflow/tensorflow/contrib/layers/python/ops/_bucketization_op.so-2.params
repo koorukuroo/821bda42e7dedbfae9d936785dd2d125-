@@ -1,0 +1,7 @@
+-whole-archive
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/layers/_objs/python/ops/_bucketization_op.so/external/org_tensorflow/tensorflow/contrib/layers/ops/bucketization_op.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/layers/kernels/libbucketization_kernel.pic.lo
+-no-whole-archive
+-lm
+-lstdc++
+-lm

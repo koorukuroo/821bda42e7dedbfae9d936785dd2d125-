@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/liblistdiff_op.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/listdiff_op/external/org_tensorflow/tensorflow/core/kernels/listdiff_op.pic.o

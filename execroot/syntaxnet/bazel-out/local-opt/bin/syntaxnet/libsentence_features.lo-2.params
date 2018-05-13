@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/syntaxnet/libsentence_features.lo
+bazel-out/local-opt/bin/syntaxnet/_objs/sentence_features/syntaxnet/sentence_features.o

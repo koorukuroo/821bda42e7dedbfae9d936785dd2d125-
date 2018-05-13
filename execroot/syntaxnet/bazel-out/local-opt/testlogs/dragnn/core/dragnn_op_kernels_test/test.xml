@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="15" failures="0" disabled="0" errors="0" timestamp="2017-04-11T18:12:16" time="0.013" name="AllTests">
+  <testsuite name="DragnnOpKernelsTest" tests="15" failures="0" disabled="0" errors="0" time="0.013">
+    <testcase name="GetSessionOpTest" status="run" time="0.011" classname="DragnnOpKernelsTest" />
+    <testcase name="ReleaseSessionOpTest" status="run" time="0" classname="DragnnOpKernelsTest" />
+    <testcase name="AdvanceFromOracleOpTest" status="run" time="0" classname="DragnnOpKernelsTest" />
+    <testcase name="AdvanceFromPredictionOpTest" status="run" time="0" classname="DragnnOpKernelsTest" />
+    <testcase name="ExtractFixedFeaturesOpTest" status="run" time="0" classname="DragnnOpKernelsTest" />
+    <testcase name="ExtractLinkFeaturesOpTest" status="run" time="0.001" classname="DragnnOpKernelsTest" />
+    <testcase name="EmitOracleLabelsOpTest" status="run" time="0" classname="DragnnOpKernelsTest" />
+    <testcase name="EmitAllFinalOpTest" status="run" time="0" classname="DragnnOpKernelsTest" />
+    <testcase name="InitComponentDataOpTest" status="run" time="0" classname="DragnnOpKernelsTest" />
+    <testcase name="BatchSizeOpTest" status="run" time="0" classname="DragnnOpKernelsTest" />
+    <testcase name="AttachDataReaderOpTest" status="run" time="0" classname="DragnnOpKernelsTest" />
+    <testcase name="SetTracingOpTest" status="run" time="0" classname="DragnnOpKernelsTest" />
+    <testcase name="WriteAnnotationsOpTest" status="run" time="0" classname="DragnnOpKernelsTest" />
+    <testcase name="EmitAnnotationsOpTest" status="run" time="0" classname="DragnnOpKernelsTest" />
+    <testcase name="GetComponentTraceOpTest" status="run" time="0.001" classname="DragnnOpKernelsTest" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/input_pipeline/kernels/libinput_pipeline_kernels.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/input_pipeline/kernels/_objs/input_pipeline_kernels/external/org_tensorflow/tensorflow/contrib/input_pipeline/kernels/input_pipeline_kernels.pic.o

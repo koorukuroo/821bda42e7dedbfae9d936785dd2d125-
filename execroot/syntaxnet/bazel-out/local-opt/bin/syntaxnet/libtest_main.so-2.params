@@ -1,0 +1,4 @@
+bazel-out/local-opt/bin/syntaxnet/_objs/test_main/syntaxnet/test_main.pic.o
+-lm
+-lstdc++
+-lm

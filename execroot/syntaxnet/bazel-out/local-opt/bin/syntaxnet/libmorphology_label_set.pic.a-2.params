@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/syntaxnet/libmorphology_label_set.pic.a
+bazel-out/local-opt/bin/syntaxnet/_objs/morphology_label_set/syntaxnet/morphology_label_set.pic.o

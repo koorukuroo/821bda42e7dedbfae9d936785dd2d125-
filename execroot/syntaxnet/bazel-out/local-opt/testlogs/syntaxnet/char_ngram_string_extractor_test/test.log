@@ -1,0 +1,31 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+Running main() from test_main.cc
+[==========] Running 10 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 10 tests from CharNgramStringExtractorTest
+[ RUN      ] CharNgramStringExtractorTest.GetConfigId
+[       OK ] CharNgramStringExtractorTest.GetConfigId (1 ms)
+[ RUN      ] CharNgramStringExtractorTest.Normal
+[       OK ] CharNgramStringExtractorTest.Normal (0 ms)
+[ RUN      ] CharNgramStringExtractorTest.MinLength
+[       OK ] CharNgramStringExtractorTest.MinLength (0 ms)
+[ RUN      ] CharNgramStringExtractorTest.SpaceInMiddle
+[       OK ] CharNgramStringExtractorTest.SpaceInMiddle (0 ms)
+[ RUN      ] CharNgramStringExtractorTest.AddTerminators
+[       OK ] CharNgramStringExtractorTest.AddTerminators (0 ms)
+[ RUN      ] CharNgramStringExtractorTest.MarkBoundaries
+[       OK ] CharNgramStringExtractorTest.MarkBoundaries (0 ms)
+[ RUN      ] CharNgramStringExtractorTest.MarkBoundariesSingleton
+[       OK ] CharNgramStringExtractorTest.MarkBoundariesSingleton (0 ms)
+[ RUN      ] CharNgramStringExtractorTest.MarkBoundariesLeadingSpace
+[       OK ] CharNgramStringExtractorTest.MarkBoundariesLeadingSpace (0 ms)
+[ RUN      ] CharNgramStringExtractorTest.MarkBoundariesTrailingSpace
+[       OK ] CharNgramStringExtractorTest.MarkBoundariesTrailingSpace (0 ms)
+[ RUN      ] CharNgramStringExtractorTest.MarkBoundariesLeadingAndTrailingSpace
+[       OK ] CharNgramStringExtractorTest.MarkBoundariesLeadingAndTrailingSpace (0 ms)
+[----------] 10 tests from CharNgramStringExtractorTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 10 tests.

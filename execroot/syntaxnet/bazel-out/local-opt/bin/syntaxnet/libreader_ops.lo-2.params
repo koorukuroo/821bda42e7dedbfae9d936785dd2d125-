@@ -1,0 +1,4 @@
+rcsD
+bazel-out/local-opt/bin/syntaxnet/libreader_ops.lo
+bazel-out/local-opt/bin/syntaxnet/_objs/reader_ops/syntaxnet/beam_reader_ops.o
+bazel-out/local-opt/bin/syntaxnet/_objs/reader_ops/syntaxnet/reader_ops.o

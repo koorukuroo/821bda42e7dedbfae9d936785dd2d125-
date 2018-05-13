@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/syntaxnet/libdocument_format.a
+bazel-out/local-opt/bin/syntaxnet/_objs/document_format/syntaxnet/document_format.o

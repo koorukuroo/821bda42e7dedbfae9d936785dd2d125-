@@ -1,0 +1,3 @@
+rcsD
+bazel-out/host/bin/external/org_tensorflow/tensorflow/contrib/cudnn_rnn/libcudnn_rnn_ops_op_lib.lo
+bazel-out/host/bin/external/org_tensorflow/tensorflow/contrib/cudnn_rnn/_objs/cudnn_rnn_ops_op_lib/external/org_tensorflow/tensorflow/contrib/cudnn_rnn/ops/cudnn_rnn_ops.o

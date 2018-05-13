@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/dragnn/protos/libspec_proto.pic.a
+bazel-out/local-opt/bin/dragnn/protos/_objs/spec_proto/dragnn/protos/spec.pb.pic.o

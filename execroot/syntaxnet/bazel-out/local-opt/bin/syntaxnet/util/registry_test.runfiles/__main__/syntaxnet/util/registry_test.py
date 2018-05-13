@@ -1,0 +1,1 @@
+/opt/tensorflow/syntaxnet/syntaxnet/util/registry_test.py

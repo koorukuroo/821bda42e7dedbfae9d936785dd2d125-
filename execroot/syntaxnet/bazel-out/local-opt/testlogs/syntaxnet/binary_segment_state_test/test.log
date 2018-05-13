@@ -1,0 +1,21 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+Running main() from test_main.cc
+[==========] Running 5 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 5 tests from BinarySegmentStateTest
+[ RUN      ] BinarySegmentStateTest.AddStartLastStartNumStartsTest
+[       OK ] BinarySegmentStateTest.AddStartLastStartNumStartsTest (1 ms)
+[ RUN      ] BinarySegmentStateTest.AddParseToDocumentTest
+[       OK ] BinarySegmentStateTest.AddParseToDocumentTest (0 ms)
+[ RUN      ] BinarySegmentStateTest.SpaceDocumentTest
+[       OK ] BinarySegmentStateTest.SpaceDocumentTest (0 ms)
+[ RUN      ] BinarySegmentStateTest.DocumentBeginWithSpaceTest
+[       OK ] BinarySegmentStateTest.DocumentBeginWithSpaceTest (0 ms)
+[ RUN      ] BinarySegmentStateTest.EmptyDocumentTest
+[       OK ] BinarySegmentStateTest.EmptyDocumentTest (1 ms)
+[----------] 5 tests from BinarySegmentStateTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test case ran. (2 ms total)
+[  PASSED  ] 5 tests.

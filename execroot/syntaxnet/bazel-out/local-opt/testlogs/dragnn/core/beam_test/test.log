@@ -1,0 +1,45 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+Running main() from test_main.cc
+[==========] Running 17 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 17 tests from BeamTest
+[ RUN      ] BeamTest.AdvancesFromPredictionWithSingleBeam
+[       OK ] BeamTest.AdvancesFromPredictionWithSingleBeam (0 ms)
+[ RUN      ] BeamTest.AdvancingCreatesNewTransitions
+[       OK ] BeamTest.AdvancingCreatesNewTransitions (0 ms)
+[ RUN      ] BeamTest.MultipleElementBeamsAdvanceAllElements
+[       OK ] BeamTest.MultipleElementBeamsAdvanceAllElements (0 ms)
+[ RUN      ] BeamTest.AdvancingDropsLowValuePredictions
+[       OK ] BeamTest.AdvancingDropsLowValuePredictions (0 ms)
+[ RUN      ] BeamTest.AdvancesFromOracleWithSingleBeam
+[       OK ] BeamTest.AdvancesFromOracleWithSingleBeam (0 ms)
+[ RUN      ] BeamTest.AdvancesFromOracleWithMultipleStates
+[       OK ] BeamTest.AdvancesFromOracleWithMultipleStates (1 ms)
+[ RUN      ] BeamTest.ReportsNonFinality
+[       OK ] BeamTest.ReportsNonFinality (0 ms)
+[ RUN      ] BeamTest.ReportsFinality
+[       OK ] BeamTest.ReportsFinality (0 ms)
+[ RUN      ] BeamTest.IgnoresForbiddenTransitionActions
+[       OK ] BeamTest.IgnoresForbiddenTransitionActions (0 ms)
+[ RUN      ] BeamTest.BadlySizedMatrixDies
+[       OK ] BeamTest.BadlySizedMatrixDies (228 ms)
+[ RUN      ] BeamTest.BadlySizedBeamInitializationDies
+[       OK ] BeamTest.BadlySizedBeamInitializationDies (160 ms)
+[ RUN      ] BeamTest.ValidBeamIndicesAfterBeamInitialization
+[       OK ] BeamTest.ValidBeamIndicesAfterBeamInitialization (0 ms)
+[ RUN      ] BeamTest.FindPreviousIndexTracesHistory
+[       OK ] BeamTest.FindPreviousIndexTracesHistory (0 ms)
+[ RUN      ] BeamTest.FindPreviousIndexReturnsInError
+[       OK ] BeamTest.FindPreviousIndexReturnsInError (0 ms)
+[ RUN      ] BeamTest.ResetClearsBeamState
+[       OK ] BeamTest.ResetClearsBeamState (0 ms)
+[ RUN      ] BeamTest.ResetClearsBeamHistory
+[       OK ] BeamTest.ResetClearsBeamHistory (0 ms)
+[ RUN      ] BeamTest.SettingMaxSizeResetsBeam
+[       OK ] BeamTest.SettingMaxSizeResetsBeam (0 ms)
+[----------] 17 tests from BeamTest (389 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 1 test case ran. (389 ms total)
+[  PASSED  ] 17 tests.

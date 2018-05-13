@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/util/ctc/libctc_loss_calculator_lib.pic.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/util/ctc/_objs/ctc_loss_calculator_lib/external/org_tensorflow/tensorflow/core/util/ctc/ctc_loss_calculator.pic.o

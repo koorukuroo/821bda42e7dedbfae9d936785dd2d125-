@@ -1,0 +1,8 @@
+-whole-archive
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/rnn/_objs/python/ops/_lstm_ops.so/external/org_tensorflow/tensorflow/contrib/rnn/kernels/blas_gemm.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/rnn/_objs/python/ops/_lstm_ops.so/external/org_tensorflow/tensorflow/contrib/rnn/kernels/lstm_ops.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/rnn/_objs/python/ops/_lstm_ops.so/external/org_tensorflow/tensorflow/contrib/rnn/ops/lstm_ops.pic.o
+-no-whole-archive
+-lm
+-lstdc++
+-lm

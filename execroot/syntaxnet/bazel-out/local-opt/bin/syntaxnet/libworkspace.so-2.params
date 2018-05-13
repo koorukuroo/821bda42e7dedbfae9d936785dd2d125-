@@ -1,0 +1,3 @@
+bazel-out/local-opt/bin/syntaxnet/_objs/workspace/syntaxnet/workspace.pic.o
+-lstdc++
+-lm

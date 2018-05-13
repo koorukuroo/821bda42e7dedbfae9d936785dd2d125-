@@ -1,0 +1,3 @@
+rcsD
+bazel-out/host/bin/external/org_tensorflow/tensorflow/contrib/image/libimage_ops_op_lib.lo
+bazel-out/host/bin/external/org_tensorflow/tensorflow/contrib/image/_objs/image_ops_op_lib/external/org_tensorflow/tensorflow/contrib/image/ops/image_ops.o

@@ -1,0 +1,3 @@
+rcsD
+bazel-out/host/bin/external/org_tensorflow/tensorflow/core/libcandidate_sampling_ops_op_lib.lo
+bazel-out/host/bin/external/org_tensorflow/tensorflow/core/_objs/candidate_sampling_ops_op_lib/external/org_tensorflow/tensorflow/core/ops/candidate_sampling_ops.o

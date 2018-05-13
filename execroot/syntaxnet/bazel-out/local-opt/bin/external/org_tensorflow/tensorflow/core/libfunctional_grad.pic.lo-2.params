@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/libfunctional_grad.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/functional_grad/external/org_tensorflow/tensorflow/core/ops/functional_grad.pic.o

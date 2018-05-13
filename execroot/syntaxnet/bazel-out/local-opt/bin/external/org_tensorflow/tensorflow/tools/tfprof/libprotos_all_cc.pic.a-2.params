@@ -1,0 +1,5 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/tools/tfprof/libprotos_all_cc.pic.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/tools/tfprof/_objs/protos_all_cc/external/org_tensorflow/tensorflow/tools/tfprof/tfprof_log.pb.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/tools/tfprof/_objs/protos_all_cc/external/org_tensorflow/tensorflow/tools/tfprof/tfprof_options.pb.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/tools/tfprof/_objs/protos_all_cc/external/org_tensorflow/tensorflow/tools/tfprof/tfprof_output.pb.pic.o

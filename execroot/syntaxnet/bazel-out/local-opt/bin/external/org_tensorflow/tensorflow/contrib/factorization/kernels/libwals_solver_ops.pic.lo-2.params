@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/factorization/kernels/libwals_solver_ops.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/factorization/kernels/_objs/wals_solver_ops/external/org_tensorflow/tensorflow/contrib/factorization/kernels/wals_solver_ops.pic.o

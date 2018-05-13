@@ -1,0 +1,4 @@
+bazel-out/local-opt/bin/syntaxnet/_objs/reader_ops/syntaxnet/beam_reader_ops.pic.o
+bazel-out/local-opt/bin/syntaxnet/_objs/reader_ops/syntaxnet/reader_ops.pic.o
+-lstdc++
+-lm

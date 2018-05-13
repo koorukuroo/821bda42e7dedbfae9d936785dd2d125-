@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libfake_quant_ops.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/fake_quant_ops/external/org_tensorflow/tensorflow/core/kernels/fake_quant_ops.pic.o

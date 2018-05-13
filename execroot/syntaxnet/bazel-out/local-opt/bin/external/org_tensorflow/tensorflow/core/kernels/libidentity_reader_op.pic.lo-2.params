@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libidentity_reader_op.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/identity_reader_op/external/org_tensorflow/tensorflow/core/kernels/identity_reader_op.pic.o

@@ -1,0 +1,4 @@
+rcsD
+bazel-out/local-opt/bin/dragnn/core/libdragnn_bulk_ops_cc.a
+bazel-out/local-opt/bin/dragnn/core/_objs/dragnn_bulk_ops_cc/dragnn/core/ops/dragnn_bulk_op_kernels.o
+bazel-out/local-opt/bin/dragnn/core/_objs/dragnn_bulk_ops_cc/dragnn/core/ops/dragnn_bulk_ops.o

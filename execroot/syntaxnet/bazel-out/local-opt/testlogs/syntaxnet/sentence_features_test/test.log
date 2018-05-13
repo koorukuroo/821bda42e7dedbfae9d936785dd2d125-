@@ -1,0 +1,64 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+Running main() from test_main.cc
+[==========] Running 13 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 12 tests from CommonSentenceFeaturesTest
+[ RUN      ] CommonSentenceFeaturesTest.WordFeature
+2017-04-11 18:12:19.558353: I syntaxnet/term_frequency_map.cc:137] Saved 4 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1word-map.
+2017-04-11 18:12:19.559816: I syntaxnet/term_frequency_map.cc:101] Loaded 4 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1word-map.
+[       OK ] CommonSentenceFeaturesTest.WordFeature (4 ms)
+[ RUN      ] CommonSentenceFeaturesTest.KnownWordFeature
+2017-04-11 18:12:19.560674: I syntaxnet/term_frequency_map.cc:137] Saved 4 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1known-word-map.
+2017-04-11 18:12:19.561378: I syntaxnet/term_frequency_map.cc:101] Loaded 4 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1known-word-map.
+[       OK ] CommonSentenceFeaturesTest.KnownWordFeature (1 ms)
+[ RUN      ] CommonSentenceFeaturesTest.TagFeature
+2017-04-11 18:12:19.561923: I syntaxnet/term_frequency_map.cc:137] Saved 6 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1tag-map.
+2017-04-11 18:12:19.562292: I syntaxnet/term_frequency_map.cc:101] Loaded 6 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1tag-map.
+[       OK ] CommonSentenceFeaturesTest.TagFeature (1 ms)
+[ RUN      ] CommonSentenceFeaturesTest.TagFeaturePassesArgs
+2017-04-11 18:12:19.562831: I syntaxnet/term_frequency_map.cc:137] Saved 6 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1tag-map.
+2017-04-11 18:12:19.563215: I syntaxnet/term_frequency_map.cc:101] Loaded 0 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1tag-map.
+[       OK ] CommonSentenceFeaturesTest.TagFeaturePassesArgs (1 ms)
+[ RUN      ] CommonSentenceFeaturesTest.OffsetPlusTag
+2017-04-11 18:12:19.564055: I syntaxnet/term_frequency_map.cc:137] Saved 6 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1tag-map.
+2017-04-11 18:12:19.564414: I syntaxnet/term_frequency_map.cc:101] Loaded 2 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1tag-map.
+[       OK ] CommonSentenceFeaturesTest.OffsetPlusTag (1 ms)
+[ RUN      ] CommonSentenceFeaturesTest.CharNgramFeature
+2017-04-11 18:12:19.564969: I syntaxnet/term_frequency_map.cc:137] Saved 3 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1char-ngram-map.
+2017-04-11 18:12:19.565227: I syntaxnet/term_frequency_map.cc:101] Loaded 3 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1char-ngram-map.
+[       OK ] CommonSentenceFeaturesTest.CharNgramFeature (1 ms)
+[ RUN      ] CommonSentenceFeaturesTest.CharNgramFeatureWithMinLength
+2017-04-11 18:12:19.565921: I syntaxnet/term_frequency_map.cc:137] Saved 3 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1char-ngram-map.
+2017-04-11 18:12:19.566205: I syntaxnet/term_frequency_map.cc:101] Loaded 3 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1char-ngram-map.
+[       OK ] CommonSentenceFeaturesTest.CharNgramFeatureWithMinLength (1 ms)
+[ RUN      ] CommonSentenceFeaturesTest.CharNgramFeatureWithMaxLength
+2017-04-11 18:12:19.566778: I syntaxnet/term_frequency_map.cc:137] Saved 3 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1char-ngram-map.
+2017-04-11 18:12:19.567094: I syntaxnet/term_frequency_map.cc:101] Loaded 3 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1char-ngram-map.
+[       OK ] CommonSentenceFeaturesTest.CharNgramFeatureWithMaxLength (1 ms)
+[ RUN      ] CommonSentenceFeaturesTest.CharNgramFeatureWithTerminators
+2017-04-11 18:12:19.567676: I syntaxnet/term_frequency_map.cc:137] Saved 16 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1char-ngram-map.
+2017-04-11 18:12:19.568271: I syntaxnet/term_frequency_map.cc:101] Loaded 16 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1char-ngram-map.
+[       OK ] CommonSentenceFeaturesTest.CharNgramFeatureWithTerminators (1 ms)
+[ RUN      ] CommonSentenceFeaturesTest.CharNgramFeatureWithBoundaries
+2017-04-11 18:12:19.568845: I syntaxnet/term_frequency_map.cc:137] Saved 16 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1char-ngram-map.
+2017-04-11 18:12:19.569447: I syntaxnet/term_frequency_map.cc:101] Loaded 16 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1char-ngram-map.
+[       OK ] CommonSentenceFeaturesTest.CharNgramFeatureWithBoundaries (1 ms)
+[ RUN      ] CommonSentenceFeaturesTest.MorphologySetFeature
+2017-04-11 18:12:19.570042: I syntaxnet/term_frequency_map.cc:137] Saved 3 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1morphology-map.
+2017-04-11 18:12:19.570321: I syntaxnet/term_frequency_map.cc:101] Loaded 3 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1morphology-map.
+[       OK ] CommonSentenceFeaturesTest.MorphologySetFeature (1 ms)
+[ RUN      ] CommonSentenceFeaturesTest.CapitalizationProcessesCorrectly
+[       OK ] CommonSentenceFeaturesTest.CapitalizationProcessesCorrectly (0 ms)
+[----------] 12 tests from CommonSentenceFeaturesTest (14 ms total)
+
+[----------] 1 test from CharFeatureTest
+[ RUN      ] CharFeatureTest.CharFeature
+2017-04-11 18:12:19.571159: I syntaxnet/term_frequency_map.cc:137] Saved 4 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1char-map.
+2017-04-11 18:12:19.571464: I syntaxnet/term_frequency_map.cc:101] Loaded 4 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/sentence_features_test_1char-map.
+[       OK ] CharFeatureTest.CharFeature (1 ms)
+[----------] 1 test from CharFeatureTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 13 tests from 2 test cases ran. (15 ms total)
+[  PASSED  ] 13 tests.

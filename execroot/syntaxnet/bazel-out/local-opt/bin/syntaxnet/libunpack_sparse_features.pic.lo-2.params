@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/syntaxnet/libunpack_sparse_features.pic.lo
+bazel-out/local-opt/bin/syntaxnet/_objs/unpack_sparse_features/syntaxnet/unpack_sparse_features.pic.o

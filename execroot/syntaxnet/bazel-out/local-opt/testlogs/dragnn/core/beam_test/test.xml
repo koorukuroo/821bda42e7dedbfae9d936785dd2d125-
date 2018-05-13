@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="17" failures="0" disabled="0" errors="0" timestamp="2017-04-11T18:12:11" time="0.389" name="AllTests">
+  <testsuite name="BeamTest" tests="17" failures="0" disabled="0" errors="0" time="0.389">
+    <testcase name="AdvancesFromPredictionWithSingleBeam" status="run" time="0" classname="BeamTest" />
+    <testcase name="AdvancingCreatesNewTransitions" status="run" time="0" classname="BeamTest" />
+    <testcase name="MultipleElementBeamsAdvanceAllElements" status="run" time="0" classname="BeamTest" />
+    <testcase name="AdvancingDropsLowValuePredictions" status="run" time="0" classname="BeamTest" />
+    <testcase name="AdvancesFromOracleWithSingleBeam" status="run" time="0" classname="BeamTest" />
+    <testcase name="AdvancesFromOracleWithMultipleStates" status="run" time="0.001" classname="BeamTest" />
+    <testcase name="ReportsNonFinality" status="run" time="0" classname="BeamTest" />
+    <testcase name="ReportsFinality" status="run" time="0" classname="BeamTest" />
+    <testcase name="IgnoresForbiddenTransitionActions" status="run" time="0" classname="BeamTest" />
+    <testcase name="BadlySizedMatrixDies" status="run" time="0.228" classname="BeamTest" />
+    <testcase name="BadlySizedBeamInitializationDies" status="run" time="0.16" classname="BeamTest" />
+    <testcase name="ValidBeamIndicesAfterBeamInitialization" status="run" time="0" classname="BeamTest" />
+    <testcase name="FindPreviousIndexTracesHistory" status="run" time="0" classname="BeamTest" />
+    <testcase name="FindPreviousIndexReturnsInError" status="run" time="0" classname="BeamTest" />
+    <testcase name="ResetClearsBeamState" status="run" time="0" classname="BeamTest" />
+    <testcase name="ResetClearsBeamHistory" status="run" time="0" classname="BeamTest" />
+    <testcase name="SettingMaxSizeResetsBeam" status="run" time="0" classname="BeamTest" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,3 @@
+bazel-out/host/bin/external/protobuf/_objs/js_embed/external/protobuf/src/google/protobuf/compiler/js/embed.o
+-lstdc++
+-lm

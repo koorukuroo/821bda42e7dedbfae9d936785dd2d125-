@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/dragnn/protos/libdata_proto.a
+bazel-out/local-opt/bin/dragnn/protos/_objs/data_proto/dragnn/protos/data.pb.o

@@ -1,0 +1,3 @@
+bazel-out/local-opt/bin/dragnn/core/_objs/component_registry/dragnn/core/component_registry.pic.o
+-lstdc++
+-lm

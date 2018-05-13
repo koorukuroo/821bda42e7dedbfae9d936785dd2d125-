@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="0" disabled="0" errors="0" timestamp="2017-04-11T18:12:21" time="0.027" name="AllTests">
+  <testsuite name="SegmentationTransitionTest" tests="4" failures="0" disabled="0" errors="0" time="0.026">
+    <testcase name="GoldNextActionTest" status="run" time="0.003" classname="SegmentationTransitionTest" />
+    <testcase name="DefaultActionTest" status="run" time="0.002" classname="SegmentationTransitionTest" />
+    <testcase name="BigramFeatureTest" status="run" time="0.01" classname="SegmentationTransitionTest" />
+    <testcase name="LastWordFeatureTest" status="run" time="0.011" classname="SegmentationTransitionTest" />
+  </testsuite>
+</testsuites>

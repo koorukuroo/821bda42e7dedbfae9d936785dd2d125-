@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libinplace_ops.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/inplace_ops/external/org_tensorflow/tensorflow/core/kernels/inplace_ops.pic.o

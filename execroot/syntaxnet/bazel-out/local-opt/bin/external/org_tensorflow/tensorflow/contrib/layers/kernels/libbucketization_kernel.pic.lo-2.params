@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/layers/kernels/libbucketization_kernel.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/layers/kernels/_objs/bucketization_kernel/external/org_tensorflow/tensorflow/contrib/layers/kernels/bucketization_kernel.pic.o

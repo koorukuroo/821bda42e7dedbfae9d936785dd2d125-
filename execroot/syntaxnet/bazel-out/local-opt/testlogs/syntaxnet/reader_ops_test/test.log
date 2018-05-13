@@ -1,0 +1,91 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+2017-04-11 18:14:20.779542: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:20.779575: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:20.779581: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:20.779586: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:20.779591: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:20.813366: I syntaxnet/lexicon_builder.cc:162] Term maps collected over 964 tokens from 54 documents
+2017-04-11 18:14:20.813924: I syntaxnet/term_frequency_map.cc:137] Saved 547 terms to /tmp/reader_ops_test/word-map.
+2017-04-11 18:14:20.814299: I syntaxnet/term_frequency_map.cc:137] Saved 529 terms to /tmp/reader_ops_test/lcword-map.
+2017-04-11 18:14:20.814428: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/reader_ops_test/tag-map.
+2017-04-11 18:14:20.814541: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/reader_ops_test/category-map.
+2017-04-11 18:14:20.814646: I syntaxnet/term_frequency_map.cc:137] Saved 39 terms to /tmp/reader_ops_test/label-map.
+2017-04-11 18:14:20.814755: I syntaxnet/term_frequency_map.cc:137] Saved 57 terms to /tmp/reader_ops_test/char-map.
+2017-04-11 18:14:20.815530: I syntaxnet/term_frequency_map.cc:137] Saved 1680 terms to /tmp/reader_ops_test/char-ngram-map.
+2017-04-11 18:14:20.819951: I syntaxnet/term_frequency_map.cc:101] Loaded 39 terms from /tmp/reader_ops_test/label-map.
+2017-04-11 18:14:20.820193: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:14:20.820289: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:14:20.820296: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:14:20.830177: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/reader_ops_test/word-map.
+2017-04-11 18:14:20.831083: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/reader_ops_test/tag-map.
+2017-04-11 18:14:20.834046: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:14:20.834073: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:14:20.834079: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:14:20.846959: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/reader_ops_test/word-map.
+2017-04-11 18:14:20.848067: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/reader_ops_test/tag-map.
+2017-04-11 18:14:20.848977: I syntaxnet/reader_ops.cc:140] Starting epoch 1
+2017-04-11 18:14:21.178611: I syntaxnet/reader_ops.cc:140] Starting epoch 2
+2017-04-11 18:14:21.756809: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:14:21.756848: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:14:21.756854: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:14:21.763451: I syntaxnet/reader_ops.cc:140] Starting epoch 1
+2017-04-11 18:14:22.074670: I syntaxnet/reader_ops.cc:140] Starting epoch 2
+.2017-04-11 18:14:22.195161: I syntaxnet/lexicon_builder.cc:162] Term maps collected over 964 tokens from 54 documents
+2017-04-11 18:14:22.195633: I syntaxnet/term_frequency_map.cc:137] Saved 547 terms to /tmp/reader_ops_test/word-map.
+2017-04-11 18:14:22.196007: I syntaxnet/term_frequency_map.cc:137] Saved 529 terms to /tmp/reader_ops_test/lcword-map.
+2017-04-11 18:14:22.196136: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/reader_ops_test/tag-map.
+2017-04-11 18:14:22.196257: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/reader_ops_test/category-map.
+2017-04-11 18:14:22.196375: I syntaxnet/term_frequency_map.cc:137] Saved 39 terms to /tmp/reader_ops_test/label-map.
+2017-04-11 18:14:22.196512: I syntaxnet/term_frequency_map.cc:137] Saved 57 terms to /tmp/reader_ops_test/char-map.
+2017-04-11 18:14:22.197321: I syntaxnet/term_frequency_map.cc:137] Saved 1680 terms to /tmp/reader_ops_test/char-ngram-map.
+2017-04-11 18:14:22.219984: I syntaxnet/term_frequency_map.cc:101] Loaded 39 terms from /tmp/reader_ops_test/label-map.
+2017-04-11 18:14:22.220309: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:14:22.220329: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:14:22.220335: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:14:22.230201: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/reader_ops_test/word-map.
+2017-04-11 18:14:22.231101: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/reader_ops_test/tag-map.
+2017-04-11 18:14:22.263975: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:14:22.264012: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:14:22.264018: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:14:22.275772: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/reader_ops_test/word-map.
+2017-04-11 18:14:22.276757: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/reader_ops_test/tag-map.
+2017-04-11 18:14:22.277350: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:14:22.277375: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:14:22.277381: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:14:22.278152: I syntaxnet/reader_ops.cc:140] Starting epoch 1
+2017-04-11 18:14:22.280085: I syntaxnet/reader_ops.cc:140] Starting epoch 1
+2017-04-11 18:14:22.335498: I syntaxnet/reader_ops.cc:140] Starting epoch 2
+.2017-04-11 18:14:22.413239: I syntaxnet/lexicon_builder.cc:162] Term maps collected over 964 tokens from 54 documents
+2017-04-11 18:14:22.413753: I syntaxnet/term_frequency_map.cc:137] Saved 547 terms to /tmp/reader_ops_test/word-map.
+2017-04-11 18:14:22.414107: I syntaxnet/term_frequency_map.cc:137] Saved 529 terms to /tmp/reader_ops_test/lcword-map.
+2017-04-11 18:14:22.414246: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/reader_ops_test/tag-map.
+2017-04-11 18:14:22.414362: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/reader_ops_test/category-map.
+2017-04-11 18:14:22.414480: I syntaxnet/term_frequency_map.cc:137] Saved 39 terms to /tmp/reader_ops_test/label-map.
+2017-04-11 18:14:22.414605: I syntaxnet/term_frequency_map.cc:137] Saved 57 terms to /tmp/reader_ops_test/char-map.
+2017-04-11 18:14:22.415407: I syntaxnet/term_frequency_map.cc:137] Saved 1680 terms to /tmp/reader_ops_test/char-ngram-map.
+2017-04-11 18:14:22.439929: I syntaxnet/term_frequency_map.cc:101] Loaded 39 terms from /tmp/reader_ops_test/label-map.
+2017-04-11 18:14:22.440345: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:14:22.440365: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:14:22.440371: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:14:22.449967: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/reader_ops_test/word-map.
+2017-04-11 18:14:22.450898: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/reader_ops_test/tag-map.
+2017-04-11 18:14:22.484080: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/reader_ops_test/word-map.
+.2017-04-11 18:14:22.566467: I syntaxnet/lexicon_builder.cc:162] Term maps collected over 964 tokens from 54 documents
+2017-04-11 18:14:22.566992: I syntaxnet/term_frequency_map.cc:137] Saved 547 terms to /tmp/reader_ops_test/word-map.
+2017-04-11 18:14:22.567378: I syntaxnet/term_frequency_map.cc:137] Saved 529 terms to /tmp/reader_ops_test/lcword-map.
+2017-04-11 18:14:22.567516: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/reader_ops_test/tag-map.
+2017-04-11 18:14:22.567645: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/reader_ops_test/category-map.
+2017-04-11 18:14:22.567777: I syntaxnet/term_frequency_map.cc:137] Saved 39 terms to /tmp/reader_ops_test/label-map.
+2017-04-11 18:14:22.567907: I syntaxnet/term_frequency_map.cc:137] Saved 57 terms to /tmp/reader_ops_test/char-map.
+2017-04-11 18:14:22.568733: I syntaxnet/term_frequency_map.cc:137] Saved 1680 terms to /tmp/reader_ops_test/char-ngram-map.
+2017-04-11 18:14:22.597013: I syntaxnet/term_frequency_map.cc:101] Loaded 39 terms from /tmp/reader_ops_test/label-map.
+2017-04-11 18:14:22.597340: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:14:22.597360: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:14:22.597366: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:14:22.598698: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/reader_ops_test/tag-map.
+.s
+----------------------------------------------------------------------
+Ran 5 tests in 2.401s
+
+OK (skipped=1)

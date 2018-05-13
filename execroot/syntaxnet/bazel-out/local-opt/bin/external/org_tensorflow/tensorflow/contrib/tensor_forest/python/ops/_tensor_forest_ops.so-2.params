@@ -1,0 +1,16 @@
+-whole-archive
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/tensor_forest/_objs/python/ops/_tensor_forest_ops.so/external/org_tensorflow/tensorflow/contrib/tensor_forest/kernels/best_splits_op.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/tensor_forest/_objs/python/ops/_tensor_forest_ops.so/external/org_tensorflow/tensorflow/contrib/tensor_forest/kernels/count_extremely_random_stats_op.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/tensor_forest/_objs/python/ops/_tensor_forest_ops.so/external/org_tensorflow/tensorflow/contrib/tensor_forest/kernels/finished_nodes_op.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/tensor_forest/_objs/python/ops/_tensor_forest_ops.so/external/org_tensorflow/tensorflow/contrib/tensor_forest/kernels/grow_tree_op.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/tensor_forest/_objs/python/ops/_tensor_forest_ops.so/external/org_tensorflow/tensorflow/contrib/tensor_forest/kernels/reinterpret_string_to_float_op.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/tensor_forest/_objs/python/ops/_tensor_forest_ops.so/external/org_tensorflow/tensorflow/contrib/tensor_forest/kernels/sample_inputs_op.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/tensor_forest/_objs/python/ops/_tensor_forest_ops.so/external/org_tensorflow/tensorflow/contrib/tensor_forest/kernels/scatter_add_ndim_op.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/tensor_forest/_objs/python/ops/_tensor_forest_ops.so/external/org_tensorflow/tensorflow/contrib/tensor_forest/kernels/tree_predictions_op.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/tensor_forest/_objs/python/ops/_tensor_forest_ops.so/external/org_tensorflow/tensorflow/contrib/tensor_forest/kernels/update_fertile_slots_op.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/tensor_forest/_objs/python/ops/_tensor_forest_ops.so/external/org_tensorflow/tensorflow/contrib/tensor_forest/ops/tensor_forest_ops.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/tensor_forest/libtree_utils.pic.a
+-no-whole-archive
+-lm
+-lstdc++
+-lm

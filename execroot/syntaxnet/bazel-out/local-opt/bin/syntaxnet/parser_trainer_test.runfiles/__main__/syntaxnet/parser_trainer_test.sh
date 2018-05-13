@@ -1,0 +1,1 @@
+/opt/tensorflow/syntaxnet/syntaxnet/parser_trainer_test.sh

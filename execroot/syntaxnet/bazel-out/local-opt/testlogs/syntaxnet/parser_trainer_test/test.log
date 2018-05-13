@@ -1,0 +1,225 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
++ BINDIR=/root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/syntaxnet/parser_trainer_test.runfiles/__main__/syntaxnet
++ CONTEXT=/root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/syntaxnet/parser_trainer_test.runfiles/__main__/syntaxnet/testdata/context.pbtxt
++ TMP_DIR=/tmp/syntaxnet-output
++ mkdir -p /tmp/syntaxnet-output
++ sed s=SRCDIR=/root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/syntaxnet/parser_trainer_test.runfiles= /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/syntaxnet/parser_trainer_test.runfiles/__main__/syntaxnet/testdata/context.pbtxt
++ sed s=OUTPATH=/tmp/syntaxnet-output=
++ PARAMS=128-0.08-3600-0.9-0
++ /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/syntaxnet/parser_trainer_test.runfiles/__main__/syntaxnet/parser_trainer --arg_prefix=brain_parser --batch_size=32 --compute_lexicon --decay_steps=3600 --graph_builder=greedy --hidden_layer_sizes=128 --learning_rate=0.08 --momentum=0.9 --output_path=/tmp/syntaxnet-output --task_context=/tmp/syntaxnet-output/context --training_corpus=training-corpus --tuning_corpus=tuning-corpus --params=128-0.08-3600-0.9-0 --num_epochs=12 --report_every=100 --checkpoint_every=1000 --logtostderr
+INFO:tensorflow:Computing lexicon...
+2017-04-11 18:14:52.143643: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:52.143670: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:52.143676: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:52.143680: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:52.143686: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:52.176702: I syntaxnet/lexicon_builder.cc:162] Term maps collected over 964 tokens from 54 documents
+2017-04-11 18:14:52.177178: I syntaxnet/term_frequency_map.cc:137] Saved 547 terms to /tmp/syntaxnet-output/word-map.
+2017-04-11 18:14:52.177513: I syntaxnet/term_frequency_map.cc:137] Saved 529 terms to /tmp/syntaxnet-output/lcword-map.
+2017-04-11 18:14:52.177625: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/syntaxnet-output/tag-map.
+2017-04-11 18:14:52.177722: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/syntaxnet-output/category-map.
+2017-04-11 18:14:52.177809: I syntaxnet/term_frequency_map.cc:137] Saved 39 terms to /tmp/syntaxnet-output/label-map.
+2017-04-11 18:14:52.177890: I syntaxnet/term_frequency_map.cc:137] Saved 57 terms to /tmp/syntaxnet-output/char-map.
+2017-04-11 18:14:52.178686: I syntaxnet/term_frequency_map.cc:137] Saved 1680 terms to /tmp/syntaxnet-output/char-ngram-map.
+2017-04-11 18:14:52.183371: I syntaxnet/term_frequency_map.cc:101] Loaded 39 terms from /tmp/syntaxnet-output/label-map.
+2017-04-11 18:14:52.183493: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:14:52.183499: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:14:52.183502: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:14:52.193042: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/syntaxnet-output/word-map.
+2017-04-11 18:14:52.193921: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/syntaxnet-output/tag-map.
+INFO:tensorflow:Training...
+INFO:tensorflow:Building training network with parameters: feature_sizes: [6 6 4] domain_sizes: [549  39  42]
+INFO:tensorflow:Initializing...
+INFO:tensorflow:Training...
+2017-04-11 18:14:52.742802: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:14:52.742847: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:14:52.742851: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:14:52.752653: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/syntaxnet-output/word-map.
+2017-04-11 18:14:52.753616: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/syntaxnet-output/tag-map.
+2017-04-11 18:14:52.754398: I syntaxnet/term_frequency_map.cc:101] Loaded 39 terms from /tmp/syntaxnet-output/label-map.
+2017-04-11 18:14:52.759174: I syntaxnet/reader_ops.cc:140] Starting epoch 1
+INFO:tensorflow:Epochs: 1, num steps: 100, seconds elapsed: 0.74, avg cost: 1.57, 
+2017-04-11 18:14:52.934379: I syntaxnet/reader_ops.cc:140] Starting epoch 2
+INFO:tensorflow:Epochs: 2, num steps: 200, seconds elapsed: 0.92, avg cost: 1.24, 
+2017-04-11 18:14:53.115086: I syntaxnet/reader_ops.cc:140] Starting epoch 3
+INFO:tensorflow:Epochs: 3, num steps: 300, seconds elapsed: 1.09, avg cost: 0.98, 
+2017-04-11 18:14:53.286210: I syntaxnet/reader_ops.cc:140] Starting epoch 4
+INFO:tensorflow:Epochs: 4, num steps: 400, seconds elapsed: 1.27, avg cost: 0.75, 
+2017-04-11 18:14:53.472723: I syntaxnet/reader_ops.cc:140] Starting epoch 5
+INFO:tensorflow:Epochs: 5, num steps: 500, seconds elapsed: 1.44, avg cost: 0.55, 
+2017-04-11 18:14:53.646613: I syntaxnet/reader_ops.cc:140] Starting epoch 6
+INFO:tensorflow:Epochs: 6, num steps: 600, seconds elapsed: 1.62, avg cost: 0.41, 
+2017-04-11 18:14:53.821839: I syntaxnet/reader_ops.cc:140] Starting epoch 7
+INFO:tensorflow:Epochs: 7, num steps: 700, seconds elapsed: 1.77, avg cost: 0.31, 
+2017-04-11 18:14:53.981730: I syntaxnet/reader_ops.cc:140] Starting epoch 8
+INFO:tensorflow:Epochs: 8, num steps: 800, seconds elapsed: 1.97, avg cost: 0.24, 
+2017-04-11 18:14:54.181831: I syntaxnet/reader_ops.cc:140] Starting epoch 9
+INFO:tensorflow:Epochs: 9, num steps: 900, seconds elapsed: 2.15, avg cost: 0.20, 
+2017-04-11 18:14:54.360064: I syntaxnet/reader_ops.cc:140] Starting epoch 10
+INFO:tensorflow:Epochs: 10, num steps: 1000, seconds elapsed: 2.33, avg cost: 0.16, 
+INFO:tensorflow:Evaluating training network.
+2017-04-11 18:14:54.527505: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:14:54.527540: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:14:54.527546: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:14:54.528756: I syntaxnet/reader_ops.cc:140] Starting epoch 1
+2017-04-11 18:14:54.629856: I syntaxnet/reader_ops.cc:140] Starting epoch 2
+INFO:tensorflow:Seconds elapsed in evaluation: 0.12, eval metric: 89.63%
+INFO:tensorflow:Writing out trained parameters.
+2017-04-11 18:14:54.796716: I syntaxnet/reader_ops.cc:140] Starting epoch 11
+INFO:tensorflow:Epochs: 11, num steps: 1100, seconds elapsed: 2.76, avg cost: 0.13, 
+2017-04-11 18:14:54.977460: I syntaxnet/reader_ops.cc:140] Starting epoch 12
++ /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/syntaxnet/parser_trainer_test.runfiles/__main__/syntaxnet/parser_eval --task_context=/tmp/syntaxnet-output/brain_parser/greedy/128-0.08-3600-0.9-0/context --hidden_layer_sizes=128 --input=tuning-corpus --output=stdout --arg_prefix=brain_parser --graph_builder=greedy --model_path=/tmp/syntaxnet-output/brain_parser/greedy/128-0.08-3600-0.9-0/model --logtostderr
+2017-04-11 18:14:56.540151: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:56.540190: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:56.540197: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:56.540201: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:56.540206: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:56.544391: I syntaxnet/term_frequency_map.cc:101] Loaded 39 terms from /tmp/syntaxnet-output/label-map.
+2017-04-11 18:14:56.544651: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:14:56.544676: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:14:56.544682: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:14:56.554989: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/syntaxnet-output/word-map.
+2017-04-11 18:14:56.556104: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/syntaxnet-output/tag-map.
+INFO:tensorflow:Building training network with parameters: feature_sizes: [6 6 4] domain_sizes: [549  39  42]
+INFO:tensorflow:Restoring parameters from /tmp/syntaxnet-output/brain_parser/greedy/128-0.08-3600-0.9-0/model
+2017-04-11 18:14:56.824263: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:14:56.824309: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:14:56.824316: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:14:56.835784: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/syntaxnet-output/word-map.
+2017-04-11 18:14:56.836947: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/syntaxnet-output/tag-map.
+2017-04-11 18:14:56.837981: I syntaxnet/term_frequency_map.cc:101] Loaded 39 terms from /tmp/syntaxnet-output/label-map.
+2017-04-11 18:14:56.839257: I syntaxnet/reader_ops.cc:140] Starting epoch 1
+INFO:tensorflow:Processed 3 documents
+INFO:tensorflow:Processed 3 documents
+INFO:tensorflow:Processed 1 documents
+INFO:tensorflow:Processed 34 documents
+2017-04-11 18:14:56.956278: I syntaxnet/reader_ops.cc:140] Starting epoch 2
+INFO:tensorflow:Processed 13 documents
+INFO:tensorflow:Total processed documents: 54
+INFO:tensorflow:num correct tokens: 864
+INFO:tensorflow:total tokens: 964
+INFO:tensorflow:Seconds elapsed in evaluation: 0.16, eval metric: 89.63%
++ /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/syntaxnet/parser_trainer_test.runfiles/__main__/syntaxnet/parser_eval --task_context=/tmp/syntaxnet-output/context --hidden_layer_sizes=128 --beam_size=1 --input=tuning-corpus --output=stdout --arg_prefix=brain_parser --graph_builder=structured --model_path=/tmp/syntaxnet-output/brain_parser/greedy/128-0.08-3600-0.9-0/model --logtostderr
+2017-04-11 18:14:58.407395: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:58.407428: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:58.407435: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:58.407440: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:58.407444: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:58.411967: I syntaxnet/term_frequency_map.cc:101] Loaded 39 terms from /tmp/syntaxnet-output/label-map.
+2017-04-11 18:14:58.413069: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:14:58.413102: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:14:58.413107: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:14:58.426532: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/syntaxnet-output/word-map.
+2017-04-11 18:14:58.427619: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/syntaxnet-output/tag-map.
+INFO:tensorflow:Building training network with parameters: feature_sizes: [6 6 4] domain_sizes: [549  39  42]
+INFO:tensorflow:Restoring parameters from /tmp/syntaxnet-output/brain_parser/greedy/128-0.08-3600-0.9-0/model
+2017-04-11 18:14:58.774254: I syntaxnet/term_frequency_map.cc:101] Loaded 39 terms from /tmp/syntaxnet-output/label-map.
+2017-04-11 18:14:58.774298: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:14:58.774307: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:14:58.774311: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:14:58.783291: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/syntaxnet-output/word-map.
+2017-04-11 18:14:58.784198: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/syntaxnet-output/tag-map.
+INFO:tensorflow:Processed 32 documents
+INFO:tensorflow:Processed 22 documents
+INFO:tensorflow:Total processed documents: 54
+INFO:tensorflow:num correct tokens: 864
+INFO:tensorflow:total tokens: 964
+INFO:tensorflow:Seconds elapsed in evaluation: 0.12, eval metric: 89.63%
++ diff /tmp/syntaxnet-output/greedy-out /tmp/syntaxnet-output/struct-beam1-out
++ STRUCT_PARAMS=128-0.001-3600-0.9-0
++ /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/syntaxnet/parser_trainer_test.runfiles/__main__/syntaxnet/parser_trainer --arg_prefix=brain_parser --batch_size=8 --compute_lexicon --decay_steps=3600 --graph_builder=structured --hidden_layer_sizes=128 --learning_rate=0.001 --momentum=0.9 --pretrained_params=/tmp/syntaxnet-output/brain_parser/greedy/128-0.08-3600-0.9-0/model --pretrained_params_names=embedding_matrix_0,embedding_matrix_1,embedding_matrix_2,bias_0,weights_0 --output_path=/tmp/syntaxnet-output --task_context=/tmp/syntaxnet-output/context --training_corpus=training-corpus --tuning_corpus=tuning-corpus --params=128-0.001-3600-0.9-0 --num_epochs=20 --report_every=25 --checkpoint_every=200 --logtostderr
+INFO:tensorflow:Computing lexicon...
+2017-04-11 18:15:00.493867: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:15:00.493894: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:15:00.493900: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:15:00.493905: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:15:00.493910: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:15:00.542303: I syntaxnet/lexicon_builder.cc:162] Term maps collected over 964 tokens from 54 documents
+2017-04-11 18:15:00.543033: I syntaxnet/term_frequency_map.cc:137] Saved 547 terms to /tmp/syntaxnet-output/word-map.
+2017-04-11 18:15:00.543553: I syntaxnet/term_frequency_map.cc:137] Saved 529 terms to /tmp/syntaxnet-output/lcword-map.
+2017-04-11 18:15:00.543738: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/syntaxnet-output/tag-map.
+2017-04-11 18:15:00.543908: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/syntaxnet-output/category-map.
+2017-04-11 18:15:00.544053: I syntaxnet/term_frequency_map.cc:137] Saved 39 terms to /tmp/syntaxnet-output/label-map.
+2017-04-11 18:15:00.544197: I syntaxnet/term_frequency_map.cc:137] Saved 57 terms to /tmp/syntaxnet-output/char-map.
+2017-04-11 18:15:00.545338: I syntaxnet/term_frequency_map.cc:137] Saved 1680 terms to /tmp/syntaxnet-output/char-ngram-map.
+2017-04-11 18:15:00.552441: I syntaxnet/term_frequency_map.cc:101] Loaded 39 terms from /tmp/syntaxnet-output/label-map.
+2017-04-11 18:15:00.553097: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:00.553127: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:00.553133: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:00.570633: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/syntaxnet-output/word-map.
+2017-04-11 18:15:00.572363: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/syntaxnet-output/tag-map.
+INFO:tensorflow:Training...
+INFO:tensorflow:Building training network with parameters: feature_sizes: [6 6 4] domain_sizes: [549  39  42]
+INFO:tensorflow:trainable_param: embedding_matrix_2
+INFO:tensorflow:trainable_param: embedding_matrix_0
+INFO:tensorflow:trainable_param: embedding_matrix_1
+INFO:tensorflow:trainable_param: softmax_bias
+INFO:tensorflow:trainable_param: weights_0
+INFO:tensorflow:trainable_param: softmax_weight
+INFO:tensorflow:trainable_param: bias_0
+/root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/syntaxnet/parser_trainer_test.runfiles/org_tensorflow/tensorflow/python/ops/gradients_impl.py:93: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+INFO:tensorflow:Initializing...
+INFO:tensorflow:Loading pretrained params from /tmp/syntaxnet-output/brain_parser/greedy/128-0.08-3600-0.9-0/model
+INFO:tensorflow:Loading bias_0 with op save/Assign_1
+INFO:tensorflow:Loading embedding_matrix_0 with op save/Assign_4
+INFO:tensorflow:Loading embedding_matrix_1 with op save/Assign_7
+INFO:tensorflow:Loading embedding_matrix_2 with op save/Assign_10
+INFO:tensorflow:Loading weights_0 with op save/Assign_20
+INFO:tensorflow:Training...
+2017-04-11 18:15:03.292603: I syntaxnet/term_frequency_map.cc:101] Loaded 39 terms from /tmp/syntaxnet-output/label-map.
+2017-04-11 18:15:03.292672: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:03.292680: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:03.292685: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:03.303703: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/syntaxnet-output/word-map.
+2017-04-11 18:15:03.304880: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/syntaxnet-output/tag-map.
+INFO:tensorflow:Epochs: 0, num steps: 25, seconds elapsed: 3.29, avg cost: 2.33, 
+INFO:tensorflow:Epochs: 1, num steps: 50, seconds elapsed: 4.11, avg cost: 2.05, 
+INFO:tensorflow:Epochs: 2, num steps: 75, seconds elapsed: 5.08, avg cost: 2.00, 
+INFO:tensorflow:Epochs: 2, num steps: 100, seconds elapsed: 6.23, avg cost: 1.96, 
+INFO:tensorflow:Epochs: 4, num steps: 125, seconds elapsed: 7.38, avg cost: 1.68, 
+INFO:tensorflow:Epochs: 5, num steps: 150, seconds elapsed: 8.80, avg cost: 1.81, 
+INFO:tensorflow:Epochs: 6, num steps: 175, seconds elapsed: 10.28, avg cost: 1.88, 
+INFO:tensorflow:Epochs: 7, num steps: 200, seconds elapsed: 11.96, avg cost: 1.87, 
+INFO:tensorflow:Evaluating training network.
+2017-04-11 18:15:12.551626: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:12.551681: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:12.551687: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+INFO:tensorflow:Seconds elapsed in evaluation: 0.68, eval metric: 92.43%
+INFO:tensorflow:Writing out trained parameters.
+INFO:tensorflow:Epochs: 9, num steps: 225, seconds elapsed: 14.85, avg cost: 1.62, 
+INFO:tensorflow:Epochs: 10, num steps: 250, seconds elapsed: 16.75, avg cost: 2.01, 
+INFO:tensorflow:Epochs: 12, num steps: 275, seconds elapsed: 18.23, avg cost: 1.78, 
+INFO:tensorflow:Epochs: 13, num steps: 300, seconds elapsed: 20.39, avg cost: 1.94, 
+INFO:tensorflow:Epochs: 15, num steps: 325, seconds elapsed: 22.36, avg cost: 1.67, 
+INFO:tensorflow:Epochs: 17, num steps: 350, seconds elapsed: 24.81, avg cost: 1.78, 
+INFO:tensorflow:Epochs: 19, num steps: 375, seconds elapsed: 27.33, avg cost: 1.72, 
++ /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/syntaxnet/parser_trainer_test.runfiles/__main__/syntaxnet/parser_eval --task_context=/tmp/syntaxnet-output/context --hidden_layer_sizes=128 --beam_size=8 --input=tuning-corpus --output=stdout --arg_prefix=brain_parser --graph_builder=structured --model_path=/tmp/syntaxnet-output/brain_parser/structured/128-0.001-3600-0.9-0/model --logtostderr
+2017-04-11 18:15:29.689747: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:15:29.689903: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:15:29.689948: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:15:29.689986: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:15:29.690022: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:15:29.695041: I syntaxnet/term_frequency_map.cc:101] Loaded 39 terms from /tmp/syntaxnet-output/label-map.
+2017-04-11 18:15:29.695329: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:29.695348: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:29.695353: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:29.706070: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/syntaxnet-output/word-map.
+2017-04-11 18:15:29.707079: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/syntaxnet-output/tag-map.
+INFO:tensorflow:Building training network with parameters: feature_sizes: [6 6 4] domain_sizes: [549  39  42]
+INFO:tensorflow:Restoring parameters from /tmp/syntaxnet-output/brain_parser/structured/128-0.001-3600-0.9-0/model
+2017-04-11 18:15:30.107508: I syntaxnet/term_frequency_map.cc:101] Loaded 39 terms from /tmp/syntaxnet-output/label-map.
+2017-04-11 18:15:30.107560: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:30.107570: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:30.107575: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:30.117553: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/syntaxnet-output/word-map.
+2017-04-11 18:15:30.118667: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/syntaxnet-output/tag-map.
+INFO:tensorflow:Processed 32 documents
+INFO:tensorflow:Processed 22 documents
+INFO:tensorflow:Total processed documents: 54
+INFO:tensorflow:num correct tokens: 887
+INFO:tensorflow:total tokens: 964
+INFO:tensorflow:Seconds elapsed in evaluation: 0.55, eval metric: 92.01%
++ echo PASS
+PASS

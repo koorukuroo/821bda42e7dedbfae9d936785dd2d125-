@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/farmhash_archive/libfarmhash.a
+bazel-out/local-opt/bin/external/farmhash_archive/_objs/farmhash/external/farmhash_archive/src/farmhash.o

@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/dragnn/components/syntaxnet/libsyntaxnet_component.lo
+bazel-out/local-opt/bin/dragnn/components/syntaxnet/_objs/syntaxnet_component/dragnn/components/syntaxnet/syntaxnet_component.o

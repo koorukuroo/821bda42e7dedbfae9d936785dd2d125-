@@ -1,0 +1,40 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+Running main() from test_main.cc
+[==========] Running 6 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 6 tests from ComputeSessionPoolTest
+[ RUN      ] ComputeSessionPoolTest.DefaultConstructorWorks
+2017-04-11 18:12:15.959649: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:15.959838: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionPoolTest.DefaultConstructorWorks (0 ms)
+[ RUN      ] ComputeSessionPoolTest.ComponentBuilderInjectionWorks
+
+GMOCK WARNING:
+Uninteresting mock function call - returning directly.
+    Function call: InitializeComponent(@0x125c000 160-byte object <50-BA F1-82 8F-7F 00-00 00-00 00-00 00-00 00-00 11-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 ... 60-BF 25-01 00-00 00-00 C0-78 6F-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 90-BE 25-01 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 01-00 00-00 01-00 00-00 00-00 00-00>)
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/CookBook.md#knowing-when-to-expect for details.
+2017-04-11 18:12:15.960380: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:15.960421: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionPoolTest.ComponentBuilderInjectionWorks (1 ms)
+[ RUN      ] ComputeSessionPoolTest.CreatesNewSessionIfNoSessionsExist
+2017-04-11 18:12:15.961486: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 2
+2017-04-11 18:12:15.961515: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 2
+[       OK ] ComputeSessionPoolTest.CreatesNewSessionIfNoSessionsExist (1 ms)
+[ RUN      ] ComputeSessionPoolTest.ReusesAvailableSessions
+2017-04-11 18:12:15.961670: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 2
+2017-04-11 18:12:15.961679: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 2
+[       OK ] ComputeSessionPoolTest.ReusesAvailableSessions (0 ms)
+[ RUN      ] ComputeSessionPoolTest.AssignsUniqueIds
+2017-04-11 18:12:15.961697: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 2
+2017-04-11 18:12:15.961701: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 2
+[       OK ] ComputeSessionPoolTest.AssignsUniqueIds (0 ms)
+[ RUN      ] ComputeSessionPoolTest.SupportsMultithreadedAccess
+2017-04-11 18:12:15.969667: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 100
+2017-04-11 18:12:15.969754: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 100
+[       OK ] ComputeSessionPoolTest.SupportsMultithreadedAccess (8 ms)
+[----------] 6 tests from ComputeSessionPoolTest (10 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test case ran. (10 ms total)
+[  PASSED  ] 6 tests.

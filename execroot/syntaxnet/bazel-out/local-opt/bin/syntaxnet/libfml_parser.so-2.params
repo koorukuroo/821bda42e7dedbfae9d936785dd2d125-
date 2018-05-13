@@ -1,0 +1,3 @@
+bazel-out/local-opt/bin/syntaxnet/_objs/fml_parser/syntaxnet/fml_parser.pic.o
+-lstdc++
+-lm

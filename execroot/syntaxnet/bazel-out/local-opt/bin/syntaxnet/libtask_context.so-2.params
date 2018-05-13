@@ -1,0 +1,3 @@
+bazel-out/local-opt/bin/syntaxnet/_objs/task_context/syntaxnet/task_context.pic.o
+-lstdc++
+-lm

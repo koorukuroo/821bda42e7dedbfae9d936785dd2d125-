@@ -1,0 +1,3 @@
+bazel-out/local-opt/bin/syntaxnet/_objs/lexicon_builder/syntaxnet/lexicon_builder.pic.o
+-lstdc++
+-lm

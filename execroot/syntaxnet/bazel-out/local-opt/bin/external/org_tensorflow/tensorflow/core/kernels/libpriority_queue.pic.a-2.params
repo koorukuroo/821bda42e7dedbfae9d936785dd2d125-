@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libpriority_queue.pic.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/priority_queue/external/org_tensorflow/tensorflow/core/kernels/priority_queue.pic.o

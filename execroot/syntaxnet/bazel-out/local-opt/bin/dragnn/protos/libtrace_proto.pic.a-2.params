@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/dragnn/protos/libtrace_proto.pic.a
+bazel-out/local-opt/bin/dragnn/protos/_objs/trace_proto/dragnn/protos/trace.pb.pic.o

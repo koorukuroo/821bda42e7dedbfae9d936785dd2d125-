@@ -1,0 +1,53 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+Running main() from test_main.cc
+[==========] Running 10 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 1 test from SharedStoreDeathTest
+[ RUN      ] SharedStoreDeathTest.ClosureGetOrDie
+[       OK ] SharedStoreDeathTest.ClosureGetOrDie (226 ms)
+[----------] 1 test from SharedStoreDeathTest (226 ms total)
+
+[----------] 9 tests from SharedStoreTest
+[ RUN      ] SharedStoreTest.ConstructorArgs
+2017-04-11 18:12:19.151477: I syntaxnet/shared_store_test.cc:30] Calling NoArgs()
+2017-04-11 18:12:19.151585: I syntaxnet/shared_store_test.cc:37] Calling OneArg(Fred)
+2017-04-11 18:12:19.151598: I syntaxnet/shared_store_test.cc:45] Calling TwoArgs(Pebbles, 2)
+[       OK ] SharedStoreTest.ConstructorArgs (0 ms)
+[ RUN      ] SharedStoreTest.Shared
+2017-04-11 18:12:19.151624: I syntaxnet/shared_store_test.cc:30] Calling NoArgs()
+2017-04-11 18:12:19.151630: I syntaxnet/shared_store_test.cc:30] Calling NoArgs()
+[       OK ] SharedStoreTest.Shared (0 ms)
+[ RUN      ] SharedStoreTest.DifferentTypes
+2017-04-11 18:12:19.151651: I syntaxnet/shared_store_test.cc:30] Calling NoArgs()
+2017-04-11 18:12:19.151657: I syntaxnet/shared_store_test.cc:37] Calling OneArg(foo)
+2017-04-11 18:12:19.151672: I syntaxnet/shared_store_test.cc:45] Calling TwoArgs(bar, 5)
+[       OK ] SharedStoreTest.DifferentTypes (0 ms)
+[ RUN      ] SharedStoreTest.ClosureGet
+2017-04-11 18:12:19.151686: I syntaxnet/shared_store_test.cc:37] Calling OneArg(Al)
+[       OK ] SharedStoreTest.ClosureGet (0 ms)
+[ RUN      ] SharedStoreTest.PermanentCallback
+2017-04-11 18:12:19.151710: I syntaxnet/shared_store_test.cc:37] Calling OneArg(Al)
+[       OK ] SharedStoreTest.PermanentCallback (0 ms)
+[ RUN      ] SharedStoreTest.FailedClosureGet
+2017-04-11 18:12:19.151723: I syntaxnet/shared_store_test.cc:59] Calling CountCalls()
+2017-04-11 18:12:19.151727: I syntaxnet/shared_store_test.cc:64] Calling ~CountCalls()
+2017-04-11 18:12:19.151730: E ./syntaxnet/shared_store.h:153] Closure returned a null pointer
+[       OK ] SharedStoreTest.FailedClosureGet (0 ms)
+[ RUN      ] SharedStoreTest.Release
+2017-04-11 18:12:19.151744: I syntaxnet/shared_store_test.cc:37] Calling OneArg(Fred)
+[       OK ] SharedStoreTest.Release (0 ms)
+[ RUN      ] SharedStoreTest.Clear
+2017-04-11 18:12:19.151759: I syntaxnet/shared_store_test.cc:59] Calling CountCalls()
+2017-04-11 18:12:19.151764: I syntaxnet/shared_store_test.cc:59] Calling CountCalls()
+2017-04-11 18:12:19.151769: I syntaxnet/shared_store_test.cc:64] Calling ~CountCalls()
+2017-04-11 18:12:19.151772: I syntaxnet/shared_store_test.cc:64] Calling ~CountCalls()
+[       OK ] SharedStoreTest.Clear (0 ms)
+[ RUN      ] SharedStoreTest.ThreadSafety
+2017-04-11 18:12:19.152646: I syntaxnet/shared_store_test.cc:52] Calling Slow()
+[       OK ] SharedStoreTest.ThreadSafety (106 ms)
+[----------] 9 tests from SharedStoreTest (106 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 2 test cases ran. (332 ms total)
+[  PASSED  ] 10 tests.

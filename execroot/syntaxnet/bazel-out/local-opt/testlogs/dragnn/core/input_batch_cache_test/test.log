@@ -1,0 +1,23 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+Running main() from test_main.cc
+[==========] Running 6 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 6 tests from InputBatchCacheTest
+[ RUN      ] InputBatchCacheTest.ConvertsSingleInput
+[       OK ] InputBatchCacheTest.ConvertsSingleInput (0 ms)
+[ RUN      ] InputBatchCacheTest.ConvertsAddedInput
+[       OK ] InputBatchCacheTest.ConvertsAddedInput (0 ms)
+[ RUN      ] InputBatchCacheTest.ConvertsVectorOfInputs
+[       OK ] InputBatchCacheTest.ConvertsVectorOfInputs (0 ms)
+[ RUN      ] InputBatchCacheTest.ConvertingMultipleDataTypesCausesCheck
+[       OK ] InputBatchCacheTest.ConvertingMultipleDataTypesCausesCheck (531 ms)
+[ RUN      ] InputBatchCacheTest.ReturnsSingleInput
+[       OK ] InputBatchCacheTest.ReturnsSingleInput (0 ms)
+[ RUN      ] InputBatchCacheTest.ConvertsAddedInputDiesAfterGetAs
+[       OK ] InputBatchCacheTest.ConvertsAddedInputDiesAfterGetAs (203 ms)
+[----------] 6 tests from InputBatchCacheTest (734 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test case ran. (734 ms total)
+[  PASSED  ] 6 tests.

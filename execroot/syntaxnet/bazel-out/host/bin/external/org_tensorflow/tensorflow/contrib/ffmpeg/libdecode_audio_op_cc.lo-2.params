@@ -1,0 +1,3 @@
+rcsD
+bazel-out/host/bin/external/org_tensorflow/tensorflow/contrib/ffmpeg/libdecode_audio_op_cc.lo
+bazel-out/host/bin/external/org_tensorflow/tensorflow/contrib/ffmpeg/_objs/decode_audio_op_cc/external/org_tensorflow/tensorflow/contrib/ffmpeg/decode_audio_op.o

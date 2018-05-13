@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libsummary_image_op.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/summary_image_op/external/org_tensorflow/tensorflow/core/kernels/summary_image_op.pic.o

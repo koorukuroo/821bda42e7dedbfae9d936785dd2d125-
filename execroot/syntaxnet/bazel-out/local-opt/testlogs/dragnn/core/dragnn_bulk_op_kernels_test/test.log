@@ -1,0 +1,30 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+Running main() from test_main.cc
+[==========] Running 5 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 5 tests from DragnnBulkOpKernelsTest
+[ RUN      ] DragnnBulkOpKernelsTest.BulkFixedFeatures
+2017-04-11 18:12:13.021613: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:12:13.021767: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:12:13.021775: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:12:13.021779: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:12:13.021784: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:12:13.031740: I dragnn/core/ops/dragnn_bulk_op_kernels_test.cc:238] Channel 0
+2017-04-11 18:12:13.031899: I dragnn/core/ops/dragnn_bulk_op_kernels_test.cc:238] Channel 1
+[       OK ] DragnnBulkOpKernelsTest.BulkFixedFeatures (11 ms)
+[ RUN      ] DragnnBulkOpKernelsTest.BulkFixedEmbeddings
+2017-04-11 18:12:13.032519: I dragnn/core/ops/dragnn_bulk_op_kernels.cc:174] Creating new VectorTripleResource
+[       OK ] DragnnBulkOpKernelsTest.BulkFixedEmbeddings (0 ms)
+[ RUN      ] DragnnBulkOpKernelsTest.BulkFixedEmbeddingsWithPadding
+2017-04-11 18:12:13.032905: I dragnn/core/ops/dragnn_bulk_op_kernels.cc:174] Creating new VectorTripleResource
+[       OK ] DragnnBulkOpKernelsTest.BulkFixedEmbeddingsWithPadding (1 ms)
+[ RUN      ] DragnnBulkOpKernelsTest.BulkAdvanceFromOracle
+[       OK ] DragnnBulkOpKernelsTest.BulkAdvanceFromOracle (0 ms)
+[ RUN      ] DragnnBulkOpKernelsTest.BulkAdvanceFromPrediction
+[       OK ] DragnnBulkOpKernelsTest.BulkAdvanceFromPrediction (0 ms)
+[----------] 5 tests from DragnnBulkOpKernelsTest (12 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test case ran. (12 ms total)
+[  PASSED  ] 5 tests.

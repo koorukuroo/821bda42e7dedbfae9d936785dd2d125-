@@ -1,0 +1,183 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+Running main() from test_main.cc
+[==========] Running 9 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 9 tests from SyntaxNetTransitionStateTest
+[ RUN      ] SyntaxNetTransitionStateTest.CanSetAndGetBeamIndex
+2017-04-11 18:12:21.555521: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.555755: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.555787: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.559143: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_transition_state_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.561802: I syntaxnet/term_frequency_map.cc:101] Loaded 46 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_transition_state_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.label-map.
+2017-04-11 18:12:21.561924: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.561962: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.561990: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: GetScore()
+          Returns: 0
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/CookBook.md#knowing-when-to-expect for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: GetBeamIndex()
+          Returns: 0
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/CookBook.md#knowing-when-to-expect for details.
+[       OK ] SyntaxNetTransitionStateTest.CanSetAndGetBeamIndex (9 ms)
+[ RUN      ] SyntaxNetTransitionStateTest.CanSetAndGetScore
+2017-04-11 18:12:21.562989: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.563031: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.563058: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.564221: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_transition_state_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.564322: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.564340: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.564345: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: GetScore()
+          Returns: 0
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/CookBook.md#knowing-when-to-expect for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: GetBeamIndex()
+          Returns: 0
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/CookBook.md#knowing-when-to-expect for details.
+[       OK ] SyntaxNetTransitionStateTest.CanSetAndGetScore (2 ms)
+[ RUN      ] SyntaxNetTransitionStateTest.ReportsParentBeamIndex
+2017-04-11 18:12:21.564892: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.564914: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.564918: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.566366: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_transition_state_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.566438: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.566500: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.566506: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: GetScore()
+          Returns: 0
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/CookBook.md#knowing-when-to-expect for details.
+[       OK ] SyntaxNetTransitionStateTest.ReportsParentBeamIndex (2 ms)
+[ RUN      ] SyntaxNetTransitionStateTest.InitializationCopiesParentScore
+2017-04-11 18:12:21.566952: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.566967: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.566971: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.568102: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_transition_state_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.568209: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.568226: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.568230: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: GetBeamIndex()
+          Returns: 0
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/CookBook.md#knowing-when-to-expect for details.
+[       OK ] SyntaxNetTransitionStateTest.InitializationCopiesParentScore (2 ms)
+[ RUN      ] SyntaxNetTransitionStateTest.CloningMaintainsState
+2017-04-11 18:12:21.568768: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.568814: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.568841: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.570284: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_transition_state_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.570408: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.570444: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.570468: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: GetScore()
+          Returns: 0
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/CookBook.md#knowing-when-to-expect for details.
+[       OK ] SyntaxNetTransitionStateTest.CloningMaintainsState (2 ms)
+[ RUN      ] SyntaxNetTransitionStateTest.CanSetAndGetStepForToken
+2017-04-11 18:12:21.571045: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.571086: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.571118: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.572795: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_transition_state_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.572906: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.572942: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.572969: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: GetScore()
+          Returns: 0
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/CookBook.md#knowing-when-to-expect for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: GetBeamIndex()
+          Returns: 0
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/CookBook.md#knowing-when-to-expect for details.
+[       OK ] SyntaxNetTransitionStateTest.CanSetAndGetStepForToken (3 ms)
+[ RUN      ] SyntaxNetTransitionStateTest.CanSetAndGetParentStepForToken
+2017-04-11 18:12:21.573541: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.573585: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.573608: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.575154: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_transition_state_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.575268: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.575303: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.575326: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: GetScore()
+          Returns: 0
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/CookBook.md#knowing-when-to-expect for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: GetBeamIndex()
+          Returns: 0
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/CookBook.md#knowing-when-to-expect for details.
+[       OK ] SyntaxNetTransitionStateTest.CanSetAndGetParentStepForToken (2 ms)
+[ RUN      ] SyntaxNetTransitionStateTest.CanSetAndGetParentForToken
+2017-04-11 18:12:21.575817: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.575857: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.575880: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.577046: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_transition_state_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.577152: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.577199: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.577232: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: GetScore()
+          Returns: 0
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/CookBook.md#knowing-when-to-expect for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: GetBeamIndex()
+          Returns: 0
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/CookBook.md#knowing-when-to-expect for details.
+[       OK ] SyntaxNetTransitionStateTest.CanSetAndGetParentForToken (2 ms)
+[ RUN      ] SyntaxNetTransitionStateTest.CanSetAndGetTrace
+2017-04-11 18:12:21.577562: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.577578: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.577582: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.578890: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_transition_state_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.579002: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.579038: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.579063: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: GetScore()
+          Returns: 0
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/CookBook.md#knowing-when-to-expect for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: GetBeamIndex()
+          Returns: 0
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/CookBook.md#knowing-when-to-expect for details.
+[       OK ] SyntaxNetTransitionStateTest.CanSetAndGetTrace (2 ms)
+[----------] 9 tests from SyntaxNetTransitionStateTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 1 test case ran. (26 ms total)
+[  PASSED  ] 9 tests.

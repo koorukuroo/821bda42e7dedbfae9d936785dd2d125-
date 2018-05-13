@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="13" failures="0" disabled="0" errors="0" timestamp="2017-04-11T18:12:19" time="0.001" name="AllTests">
+  <testsuite name="UnicodeTextTest" tests="2" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Ownership" status="run" time="0" classname="UnicodeTextTest" />
+    <testcase name="InterchangeValidity" status="run" time="0" classname="UnicodeTextTest" />
+  </testsuite>
+  <testsuite name="IteratorTest" tests="9" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Iterates" status="run" time="0" classname="IteratorTest" />
+    <testcase name="Reverse" status="run" time="0" classname="IteratorTest" />
+    <testcase name="MultiPass" status="run" time="0" classname="IteratorTest" />
+    <testcase name="ReverseIterates" status="run" time="0" classname="IteratorTest" />
+    <testcase name="Comparable" status="run" time="0" classname="IteratorTest" />
+    <testcase name="Advance" status="run" time="0" classname="IteratorTest" />
+    <testcase name="Distance" status="run" time="0" classname="IteratorTest" />
+    <testcase name="Encode" status="run" time="0" classname="IteratorTest" />
+    <testcase name="Decode" status="run" time="0" classname="IteratorTest" />
+  </testsuite>
+  <testsuite name="OperatorTest" tests="2" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Clear" status="run" time="0" classname="OperatorTest" />
+    <testcase name="Empty" status="run" time="0" classname="OperatorTest" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="10" failures="0" disabled="0" errors="0" timestamp="2017-04-11T18:12:18" time="0.332" name="AllTests">
+  <testsuite name="SharedStoreDeathTest" tests="1" failures="0" disabled="0" errors="0" time="0.226">
+    <testcase name="ClosureGetOrDie" status="run" time="0.226" classname="SharedStoreDeathTest" />
+  </testsuite>
+  <testsuite name="SharedStoreTest" tests="9" failures="0" disabled="0" errors="0" time="0.106">
+    <testcase name="ConstructorArgs" status="run" time="0" classname="SharedStoreTest" />
+    <testcase name="Shared" status="run" time="0" classname="SharedStoreTest" />
+    <testcase name="DifferentTypes" status="run" time="0" classname="SharedStoreTest" />
+    <testcase name="ClosureGet" status="run" time="0" classname="SharedStoreTest" />
+    <testcase name="PermanentCallback" status="run" time="0" classname="SharedStoreTest" />
+    <testcase name="FailedClosureGet" status="run" time="0" classname="SharedStoreTest" />
+    <testcase name="Release" status="run" time="0" classname="SharedStoreTest" />
+    <testcase name="Clear" status="run" time="0" classname="SharedStoreTest" />
+    <testcase name="ThreadSafety" status="run" time="0.106" classname="SharedStoreTest" />
+  </testsuite>
+</testsuites>

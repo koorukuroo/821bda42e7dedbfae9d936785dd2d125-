@@ -1,0 +1,11 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libconv_ops.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/conv_ops/external/org_tensorflow/tensorflow/core/kernels/conv_grad_filter_ops.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/conv_ops/external/org_tensorflow/tensorflow/core/kernels/conv_grad_input_ops.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/conv_ops/external/org_tensorflow/tensorflow/core/kernels/conv_grad_ops.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/conv_ops/external/org_tensorflow/tensorflow/core/kernels/conv_grad_ops_3d.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/conv_ops/external/org_tensorflow/tensorflow/core/kernels/deep_conv2d.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/conv_ops/external/org_tensorflow/tensorflow/core/kernels/conv_ops.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/conv_ops/external/org_tensorflow/tensorflow/core/kernels/conv_ops_3d.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/conv_ops/external/org_tensorflow/tensorflow/core/kernels/conv_ops_fused.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/conv_ops/external/org_tensorflow/tensorflow/core/kernels/conv_ops_using_gemm.pic.o

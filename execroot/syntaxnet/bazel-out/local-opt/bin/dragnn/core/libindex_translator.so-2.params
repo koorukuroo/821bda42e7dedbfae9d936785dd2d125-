@@ -1,0 +1,3 @@
+bazel-out/local-opt/bin/dragnn/core/_objs/index_translator/dragnn/core/index_translator.pic.o
+-lstdc++
+-lm

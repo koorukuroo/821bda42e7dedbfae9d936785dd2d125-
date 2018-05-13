@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/factorization/kernels/libmasked_matmul_ops.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/factorization/kernels/_objs/masked_matmul_ops/external/org_tensorflow/tensorflow/contrib/factorization/kernels/masked_matmul_ops.pic.o

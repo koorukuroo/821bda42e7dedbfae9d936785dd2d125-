@@ -1,0 +1,8 @@
+-whole-archive
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/ffmpeg/libdecode_audio_op_cc.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/ffmpeg/libencode_audio_op_cc.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/ffmpeg/default/libffmpeg_lib.pic.a
+-no-whole-archive
+-lm
+-lstdc++
+-lm

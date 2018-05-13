@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="6" failures="0" disabled="0" errors="0" timestamp="2017-04-11T18:12:15" time="0.01" name="AllTests">
+  <testsuite name="ComputeSessionPoolTest" tests="6" failures="0" disabled="0" errors="0" time="0.01">
+    <testcase name="DefaultConstructorWorks" status="run" time="0" classname="ComputeSessionPoolTest" />
+    <testcase name="ComponentBuilderInjectionWorks" status="run" time="0.001" classname="ComputeSessionPoolTest" />
+    <testcase name="CreatesNewSessionIfNoSessionsExist" status="run" time="0.001" classname="ComputeSessionPoolTest" />
+    <testcase name="ReusesAvailableSessions" status="run" time="0" classname="ComputeSessionPoolTest" />
+    <testcase name="AssignsUniqueIds" status="run" time="0" classname="ComputeSessionPoolTest" />
+    <testcase name="SupportsMultithreadedAccess" status="run" time="0.008" classname="ComputeSessionPoolTest" />
+  </testsuite>
+</testsuites>

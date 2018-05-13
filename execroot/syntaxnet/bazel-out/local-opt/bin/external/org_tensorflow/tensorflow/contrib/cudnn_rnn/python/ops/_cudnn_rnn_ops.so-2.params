@@ -1,0 +1,7 @@
+-whole-archive
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/cudnn_rnn/_objs/python/ops/_cudnn_rnn_ops.so/external/org_tensorflow/tensorflow/contrib/cudnn_rnn/kernels/cudnn_rnn_ops.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/cudnn_rnn/_objs/python/ops/_cudnn_rnn_ops.so/external/org_tensorflow/tensorflow/contrib/cudnn_rnn/ops/cudnn_rnn_ops.pic.o
+-no-whole-archive
+-lm
+-lstdc++
+-lm

@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libmatrix_inverse_op.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/matrix_inverse_op/external/org_tensorflow/tensorflow/core/kernels/matrix_inverse_op.pic.o

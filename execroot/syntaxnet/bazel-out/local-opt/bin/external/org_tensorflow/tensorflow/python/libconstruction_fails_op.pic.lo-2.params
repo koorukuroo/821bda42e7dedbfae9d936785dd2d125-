@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/python/libconstruction_fails_op.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/python/_objs/construction_fails_op/external/org_tensorflow/tensorflow/python/client/test_construction_fails_op.pic.o

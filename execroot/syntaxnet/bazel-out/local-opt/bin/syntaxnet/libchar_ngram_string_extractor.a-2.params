@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/syntaxnet/libchar_ngram_string_extractor.a
+bazel-out/local-opt/bin/syntaxnet/_objs/char_ngram_string_extractor/syntaxnet/char_ngram_string_extractor.o

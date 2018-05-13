@@ -1,0 +1,10 @@
+rcsD
+bazel-out/host/bin/external/gif_archive/libgif.a
+bazel-out/host/bin/external/gif_archive/_objs/gif/external/gif_archive/lib/dgif_lib.o
+bazel-out/host/bin/external/gif_archive/_objs/gif/external/gif_archive/lib/egif_lib.o
+bazel-out/host/bin/external/gif_archive/_objs/gif/external/gif_archive/lib/gif_err.o
+bazel-out/host/bin/external/gif_archive/_objs/gif/external/gif_archive/lib/gif_font.o
+bazel-out/host/bin/external/gif_archive/_objs/gif/external/gif_archive/lib/gif_hash.o
+bazel-out/host/bin/external/gif_archive/_objs/gif/external/gif_archive/lib/gifalloc.o
+bazel-out/host/bin/external/gif_archive/_objs/gif/external/gif_archive/lib/openbsd-reallocarray.o
+bazel-out/host/bin/external/gif_archive/_objs/gif/external/gif_archive/lib/quantize.o

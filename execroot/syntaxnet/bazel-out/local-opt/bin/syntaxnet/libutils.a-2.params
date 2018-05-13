@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/syntaxnet/libutils.a
+bazel-out/local-opt/bin/syntaxnet/_objs/utils/syntaxnet/utils.o

@@ -1,0 +1,296 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+/root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/python/graph_builder_test.runfiles/org_tensorflow/tensorflow/python/ops/gradients_impl.py:93: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+.WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+.WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+.WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+.WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+2017-04-11 18:12:45.351724: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:12:45.351764: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:12:45.351771: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:12:45.351775: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:12:45.351779: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:12:45.630543: I dragnn/core/ops/dragnn_op_kernels.cc:79] Creating new ComputeSessionPool in container handle: simple-parser
+2017-04-11 18:12:45.630726: I syntaxnet/embedding_feature_extractor.cc:35] Features: input(-1).word input(-2).word input(-3).word input.word input(1).word input(2).word input(3).word
+2017-04-11 18:12:45.630738: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words
+2017-04-11 18:12:45.630743: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 64
+2017-04-11 18:12:45.632394: I syntaxnet/term_frequency_map.cc:101] Loaded 3 terms from dragnn/core/testdata/syntaxnet_tagger.word-map.
+2017-04-11 18:12:45.634574: I syntaxnet/term_frequency_map.cc:101] Loaded 46 terms from dragnn/core/testdata/syntaxnet_tagger.label-map.
+2017-04-11 18:12:45.634624: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:45.634633: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: rnn
+2017-04-11 18:12:45.634637: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+WARNING:tensorflow:*******************************************************
+WARNING:tensorflow:TensorFlow's V1 checkpoint format has been deprecated.
+WARNING:tensorflow:Consider switching to the more efficient V2 format:
+WARNING:tensorflow:   `tf.train.Saver(write_version=tf.train.SaverDef.V2)`
+WARNING:tensorflow:now on by default.
+WARNING:tensorflow:*******************************************************
+2017-04-11 18:12:46.712583: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+.WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+2017-04-11 18:12:48.625032: I dragnn/core/ops/dragnn_op_kernels.cc:79] Creating new ComputeSessionPool in container handle: simple-tagger
+2017-04-11 18:12:48.625311: I syntaxnet/embedding_feature_extractor.cc:35] Features: input(-1).word input(-2).word input(-3).word input.word input(1).word input(2).word input(3).word
+2017-04-11 18:12:48.625331: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words
+2017-04-11 18:12:48.625336: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 64
+2017-04-11 18:12:48.626110: I syntaxnet/term_frequency_map.cc:101] Loaded 3 terms from dragnn/core/testdata/syntaxnet_tagger.word-map.
+2017-04-11 18:12:48.628364: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from dragnn/core/testdata/syntaxnet_tagger.tag-map.
+2017-04-11 18:12:48.628474: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus
+2017-04-11 18:12:48.628489: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: rnn
+2017-04-11 18:12:48.628494: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+WARNING:tensorflow:*******************************************************
+WARNING:tensorflow:TensorFlow's V1 checkpoint format has been deprecated.
+WARNING:tensorflow:Consider switching to the more efficient V2 format:
+WARNING:tensorflow:   `tf.train.Saver(write_version=tf.train.SaverDef.V2)`
+WARNING:tensorflow:now on by default.
+WARNING:tensorflow:*******************************************************
+2017-04-11 18:12:49.416516: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+.WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+2017-04-11 18:12:51.889764: I dragnn/core/ops/dragnn_op_kernels.cc:79] Creating new ComputeSessionPool in container handle: simple-tagger-lstm
+2017-04-11 18:12:51.889996: I syntaxnet/embedding_feature_extractor.cc:35] Features: input(-1).word input(-2).word input(-3).word input.word input(1).word input(2).word input(3).word
+2017-04-11 18:12:51.890013: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words
+2017-04-11 18:12:51.890018: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 64
+2017-04-11 18:12:51.890782: I syntaxnet/term_frequency_map.cc:101] Loaded 3 terms from dragnn/core/testdata/syntaxnet_tagger.word-map.
+2017-04-11 18:12:51.891982: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from dragnn/core/testdata/syntaxnet_tagger.tag-map.
+WARNING:tensorflow:*******************************************************
+WARNING:tensorflow:TensorFlow's V1 checkpoint format has been deprecated.
+WARNING:tensorflow:Consider switching to the more efficient V2 format:
+WARNING:tensorflow:   `tf.train.Saver(write_version=tf.train.SaverDef.V2)`
+WARNING:tensorflow:now on by default.
+WARNING:tensorflow:*******************************************************
+2017-04-11 18:12:53.473972: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+.WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+2017-04-11 18:12:56.636852: I dragnn/core/ops/dragnn_op_kernels.cc:79] Creating new ComputeSessionPool in container handle: simple-tagger
+2017-04-11 18:12:56.637042: I syntaxnet/embedding_feature_extractor.cc:35] Features: input(-1).word input(-2).word input(-3).word input.word input(1).word input(2).word input(3).word
+2017-04-11 18:12:56.637053: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words
+2017-04-11 18:12:56.637059: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 64
+2017-04-11 18:12:56.638010: I syntaxnet/term_frequency_map.cc:101] Loaded 3 terms from dragnn/core/testdata/syntaxnet_tagger.word-map.
+2017-04-11 18:12:56.652569: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from dragnn/core/testdata/syntaxnet_tagger.tag-map.
+2017-04-11 18:12:56.652746: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus
+2017-04-11 18:12:56.652758: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: rnn
+2017-04-11 18:12:56.652764: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+WARNING:tensorflow:*******************************************************
+WARNING:tensorflow:TensorFlow's V1 checkpoint format has been deprecated.
+WARNING:tensorflow:Consider switching to the more efficient V2 format:
+WARNING:tensorflow:   `tf.train.Saver(write_version=tf.train.SaverDef.V2)`
+WARNING:tensorflow:now on by default.
+WARNING:tensorflow:*******************************************************
+2017-04-11 18:12:57.875465: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+.WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+2017-04-11 18:13:22.069825: I dragnn/core/ops/dragnn_op_kernels.cc:79] Creating new ComputeSessionPool in container handle: simple-tagger-wrapped-lstm
+2017-04-11 18:13:22.069980: I syntaxnet/embedding_feature_extractor.cc:35] Features: input(-1).word input(-2).word input(-3).word input.word input(1).word input(2).word input(3).word
+2017-04-11 18:13:22.069990: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words
+2017-04-11 18:13:22.069994: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 64
+2017-04-11 18:13:22.070863: I syntaxnet/term_frequency_map.cc:101] Loaded 3 terms from dragnn/core/testdata/syntaxnet_tagger.word-map.
+2017-04-11 18:13:22.072096: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from dragnn/core/testdata/syntaxnet_tagger.tag-map.
+WARNING:tensorflow:*******************************************************
+WARNING:tensorflow:TensorFlow's V1 checkpoint format has been deprecated.
+WARNING:tensorflow:Consider switching to the more efficient V2 format:
+WARNING:tensorflow:   `tf.train.Saver(write_version=tf.train.SaverDef.V2)`
+WARNING:tensorflow:now on by default.
+WARNING:tensorflow:*******************************************************
+2017-04-11 18:13:27.614485: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+.WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+2017-04-11 18:13:30.312493: I dragnn/core/ops/dragnn_op_kernels.cc:79] Creating new ComputeSessionPool in container handle: split-tagger
+2017-04-11 18:13:30.312775: I syntaxnet/embedding_feature_extractor.cc:35] Features: input(-1).word input(-2).word input(-3).word input.word input(1).word input(2).word input(3).word
+2017-04-11 18:13:30.312811: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words
+2017-04-11 18:13:30.312831: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 64
+2017-04-11 18:13:30.313694: I syntaxnet/term_frequency_map.cc:101] Loaded 3 terms from dragnn/core/testdata/syntaxnet_tagger.word-map.
+2017-04-11 18:13:30.315690: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from dragnn/core/testdata/syntaxnet_tagger.tag-map.
+2017-04-11 18:13:30.315793: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus
+2017-04-11 18:13:30.315809: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: rnn
+2017-04-11 18:13:30.315814: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+2017-04-11 18:13:30.315888: I syntaxnet/embedding_feature_extractor.cc:35] Features: 
+2017-04-11 18:13:30.315900: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: 
+2017-04-11 18:13:30.315905: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 
+2017-04-11 18:13:30.315920: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.focus
+2017-04-11 18:13:30.315925: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: features
+2017-04-11 18:13:30.315929: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: -1
+WARNING:tensorflow:*******************************************************
+WARNING:tensorflow:TensorFlow's V1 checkpoint format has been deprecated.
+WARNING:tensorflow:Consider switching to the more efficient V2 format:
+WARNING:tensorflow:   `tf.train.Saver(write_version=tf.train.SaverDef.V2)`
+WARNING:tensorflow:now on by default.
+WARNING:tensorflow:*******************************************************
+2017-04-11 18:13:31.129140: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+.WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+2017-04-11 18:13:32.833108: I dragnn/core/ops/dragnn_op_kernels.cc:79] Creating new ComputeSessionPool in container handle: simple-parser
+2017-04-11 18:13:32.833353: I syntaxnet/embedding_feature_extractor.cc:35] Features: input(-1).word input(-2).word input(-3).word input.word input(1).word input(2).word input(3).word
+2017-04-11 18:13:32.833369: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words
+2017-04-11 18:13:32.833375: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 64
+2017-04-11 18:13:32.834078: I syntaxnet/term_frequency_map.cc:101] Loaded 3 terms from dragnn/core/testdata/syntaxnet_tagger.word-map.
+2017-04-11 18:13:32.834230: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:13:32.834245: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: rnn
+2017-04-11 18:13:32.834250: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+2017-04-11 18:13:32.852516: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:13:32.852565: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+.WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+2017-04-11 18:13:37.672292: I dragnn/core/ops/dragnn_op_kernels.cc:79] Creating new ComputeSessionPool in container handle: tagger-parser
+2017-04-11 18:13:37.672592: I syntaxnet/embedding_feature_extractor.cc:35] Features: input(-1).word input(-2).word input(-3).word input.word input(1).word input(2).word input(3).word
+2017-04-11 18:13:37.672610: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words
+2017-04-11 18:13:37.672615: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 64
+2017-04-11 18:13:37.673353: I syntaxnet/term_frequency_map.cc:101] Loaded 3 terms from dragnn/core/testdata/syntaxnet_tagger.word-map.
+2017-04-11 18:13:37.673560: I syntaxnet/embedding_feature_extractor.cc:35] Features: 
+2017-04-11 18:13:37.673576: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: 
+2017-04-11 18:13:37.673585: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 
+2017-04-11 18:13:37.674759: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from dragnn/core/testdata/syntaxnet_tagger.tag-map.
+2017-04-11 18:13:37.674851: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.focus;stack.focus
+2017-04-11 18:13:37.674866: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;rnn
+2017-04-11 18:13:37.674871: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: -1;32
+2017-04-11 18:13:37.674941: I syntaxnet/embedding_feature_extractor.cc:35] Features: last-action
+2017-04-11 18:13:37.674952: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: action
+2017-04-11 18:13:37.674957: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+2017-04-11 18:13:37.674976: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.focus;stack.focus;stack.focus
+2017-04-11 18:13:37.674982: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tagger;rnn
+2017-04-11 18:13:37.674987: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: -1;32;32
+WARNING:tensorflow:*******************************************************
+WARNING:tensorflow:TensorFlow's V1 checkpoint format has been deprecated.
+WARNING:tensorflow:Consider switching to the more efficient V2 format:
+WARNING:tensorflow:   `tf.train.Saver(write_version=tf.train.SaverDef.V2)`
+WARNING:tensorflow:now on by default.
+WARNING:tensorflow:*******************************************************
+2017-04-11 18:13:39.718461: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+.WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+2017-04-11 18:13:45.206015: I dragnn/core/ops/dragnn_op_kernels.cc:79] Creating new ComputeSessionPool in container handle: tagger-parser
+2017-04-11 18:13:45.206339: I syntaxnet/embedding_feature_extractor.cc:35] Features: input(-1).word input(-2).word input(-3).word input.word input(1).word input(2).word input(3).word
+2017-04-11 18:13:45.206356: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words
+2017-04-11 18:13:45.206361: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 64
+2017-04-11 18:13:45.207131: I syntaxnet/term_frequency_map.cc:101] Loaded 3 terms from dragnn/core/testdata/syntaxnet_tagger.word-map.
+2017-04-11 18:13:45.207310: I syntaxnet/embedding_feature_extractor.cc:35] Features: 
+2017-04-11 18:13:45.207326: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: 
+2017-04-11 18:13:45.207331: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 
+2017-04-11 18:13:45.208745: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from dragnn/core/testdata/syntaxnet_tagger.tag-map.
+2017-04-11 18:13:45.208838: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.focus;stack.focus
+2017-04-11 18:13:45.208859: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;rnn
+2017-04-11 18:13:45.208864: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: -1;32
+2017-04-11 18:13:45.208942: I syntaxnet/embedding_feature_extractor.cc:35] Features: last-action
+2017-04-11 18:13:45.208958: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: action
+2017-04-11 18:13:45.208963: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+2017-04-11 18:13:45.208984: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.focus;stack.focus;stack.focus
+2017-04-11 18:13:45.208989: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tagger;rnn
+2017-04-11 18:13:45.208993: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: -1;32;32
+WARNING:tensorflow:*******************************************************
+WARNING:tensorflow:TensorFlow's V1 checkpoint format has been deprecated.
+WARNING:tensorflow:Consider switching to the more efficient V2 format:
+WARNING:tensorflow:   `tf.train.Saver(write_version=tf.train.SaverDef.V2)`
+WARNING:tensorflow:now on by default.
+WARNING:tensorflow:*******************************************************
+2017-04-11 18:13:47.495148: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+.WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+2017-04-11 18:13:53.328883: I dragnn/core/ops/dragnn_op_kernels.cc:79] Creating new ComputeSessionPool in container handle: tagger-parser
+2017-04-11 18:13:53.329195: I syntaxnet/embedding_feature_extractor.cc:35] Features: input(-1).word input(-2).word input(-3).word input.word input(1).word input(2).word input(3).word
+2017-04-11 18:13:53.329212: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words
+2017-04-11 18:13:53.329218: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 64
+2017-04-11 18:13:53.329937: I syntaxnet/term_frequency_map.cc:101] Loaded 3 terms from dragnn/core/testdata/syntaxnet_tagger.word-map.
+2017-04-11 18:13:53.330112: I syntaxnet/embedding_feature_extractor.cc:35] Features: 
+2017-04-11 18:13:53.330129: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: 
+2017-04-11 18:13:53.330134: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 
+2017-04-11 18:13:53.331441: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from dragnn/core/testdata/syntaxnet_tagger.tag-map.
+2017-04-11 18:13:53.331533: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.focus;stack.focus
+2017-04-11 18:13:53.331550: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;rnn
+2017-04-11 18:13:53.331555: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: -1;32
+2017-04-11 18:13:53.331631: I syntaxnet/embedding_feature_extractor.cc:35] Features: last-action
+2017-04-11 18:13:53.331643: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: action
+2017-04-11 18:13:53.331648: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+2017-04-11 18:13:53.331668: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.focus;stack.focus;stack.focus
+2017-04-11 18:13:53.331674: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tagger;rnn
+2017-04-11 18:13:53.331678: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: -1;32;32
+2017-04-11 18:13:53.378000: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:13:53.378056: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+.WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+2017-04-11 18:13:54.667438: I dragnn/core/ops/dragnn_op_kernels.cc:79] Creating new ComputeSessionPool in container handle: shared
+2017-04-11 18:13:54.667701: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag stack.tag stack(1).tag;input.word
+2017-04-11 18:13:54.667723: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;words
+2017-04-11 18:13:54.667728: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;64
+2017-04-11 18:13:54.669197: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from dragnn/core/testdata/syntaxnet_tagger.tag-map.
+2017-04-11 18:13:54.669748: I syntaxnet/term_frequency_map.cc:101] Loaded 3 terms from dragnn/core/testdata/syntaxnet_tagger.word-map.
+2017-04-11 18:13:54.669885: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus
+2017-04-11 18:13:54.669906: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: rnn
+2017-04-11 18:13:54.669911: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+2017-04-11 18:13:54.694907: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+.WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+2017-04-11 18:13:56.199441: I dragnn/core/ops/dragnn_op_kernels.cc:79] Creating new ComputeSessionPool in container handle: shared
+2017-04-11 18:13:56.199683: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag stack.tag stack(1).tag;input.word
+2017-04-11 18:13:56.199734: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;words
+2017-04-11 18:13:56.199761: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;64
+2017-04-11 18:13:56.201882: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from dragnn/core/testdata/syntaxnet_tagger.tag-map.
+2017-04-11 18:13:56.214465: I syntaxnet/term_frequency_map.cc:101] Loaded 3 terms from dragnn/core/testdata/syntaxnet_tagger.word-map.
+2017-04-11 18:13:56.214640: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus
+2017-04-11 18:13:56.214668: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: rnn
+2017-04-11 18:13:56.214674: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+2017-04-11 18:13:56.279923: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+.WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+2017-04-11 18:13:57.749722: I dragnn/core/ops/dragnn_op_kernels.cc:79] Creating new ComputeSessionPool in container handle: shared
+2017-04-11 18:13:57.749878: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag stack.tag stack(1).tag;input.word
+2017-04-11 18:13:57.749891: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;words
+2017-04-11 18:13:57.749896: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;64
+2017-04-11 18:13:57.751482: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from dragnn/core/testdata/syntaxnet_tagger.tag-map.
+2017-04-11 18:13:57.752113: I syntaxnet/term_frequency_map.cc:101] Loaded 3 terms from dragnn/core/testdata/syntaxnet_tagger.word-map.
+2017-04-11 18:13:57.752225: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus
+2017-04-11 18:13:57.752321: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: rnn
+2017-04-11 18:13:57.752327: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+2017-04-11 18:13:57.780691: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+.WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+2017-04-11 18:13:59.943729: I dragnn/core/ops/dragnn_op_kernels.cc:79] Creating new ComputeSessionPool in container handle: shared
+2017-04-11 18:13:59.943978: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag stack.tag stack(1).tag;input.word
+2017-04-11 18:13:59.943996: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;words
+2017-04-11 18:13:59.944001: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;64
+2017-04-11 18:13:59.946043: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from dragnn/core/testdata/syntaxnet_tagger.tag-map.
+2017-04-11 18:13:59.946736: I syntaxnet/term_frequency_map.cc:101] Loaded 3 terms from dragnn/core/testdata/syntaxnet_tagger.word-map.
+2017-04-11 18:13:59.946859: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus
+2017-04-11 18:13:59.946875: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: rnn
+2017-04-11 18:13:59.946880: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+2017-04-11 18:13:59.973566: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+..
+----------------------------------------------------------------------
+Ran 19 tests in 78.355s
+
+OK

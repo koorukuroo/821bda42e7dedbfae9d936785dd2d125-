@@ -1,0 +1,110 @@
+__init__.py 
+__main__/dragnn/__init__.py 
+__main__/dragnn/protos/__init__.py 
+__main__/dragnn/protos/data_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/dragnn/protos/data_pb2.py
+__main__/dragnn/protos/trace_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/dragnn/protos/trace_pb2.py
+__main__/dragnn/python/__init__.py 
+__main__/dragnn/python/visualization /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/python/visualization
+__main__/dragnn/python/visualization.py /opt/tensorflow/syntaxnet/dragnn/python/visualization.py
+__main__/dragnn/viz/viz.min.js.gz /opt/tensorflow/syntaxnet/dragnn/viz/viz.min.js.gz
+__main__/external/__init__.py 
+__main__/external/org_tensorflow/util/python/python_checked /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/org_tensorflow/util/python/python_checked
+__main__/external/protobuf/__init__.py 
+__main__/external/protobuf/python/__init__.py 
+__main__/external/protobuf/python/google/__init__.py 
+__main__/external/protobuf/python/google/protobuf/__init__.py 
+__main__/external/protobuf/python/google/protobuf/any_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/any_pb2.py
+__main__/external/protobuf/python/google/protobuf/api_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/api_pb2.py
+__main__/external/protobuf/python/google/protobuf/compiler/__init__.py 
+__main__/external/protobuf/python/google/protobuf/compiler/plugin_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/compiler/plugin_pb2.py
+__main__/external/protobuf/python/google/protobuf/descriptor.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/descriptor.py
+__main__/external/protobuf/python/google/protobuf/descriptor_database.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/descriptor_database.py
+__main__/external/protobuf/python/google/protobuf/descriptor_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/descriptor_pb2.py
+__main__/external/protobuf/python/google/protobuf/descriptor_pool.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/descriptor_pool.py
+__main__/external/protobuf/python/google/protobuf/duration_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/duration_pb2.py
+__main__/external/protobuf/python/google/protobuf/empty_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/empty_pb2.py
+__main__/external/protobuf/python/google/protobuf/field_mask_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/field_mask_pb2.py
+__main__/external/protobuf/python/google/protobuf/internal/__init__.py 
+__main__/external/protobuf/python/google/protobuf/internal/_api_implementation.so /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/external/protobuf/python/google/protobuf/internal/_api_implementation.so
+__main__/external/protobuf/python/google/protobuf/internal/_parameterized.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/_parameterized.py
+__main__/external/protobuf/python/google/protobuf/internal/api_implementation.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/api_implementation.py
+__main__/external/protobuf/python/google/protobuf/internal/containers.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/containers.py
+__main__/external/protobuf/python/google/protobuf/internal/decoder.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/decoder.py
+__main__/external/protobuf/python/google/protobuf/internal/encoder.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/encoder.py
+__main__/external/protobuf/python/google/protobuf/internal/enum_type_wrapper.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/enum_type_wrapper.py
+__main__/external/protobuf/python/google/protobuf/internal/message_listener.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/message_listener.py
+__main__/external/protobuf/python/google/protobuf/internal/python_message.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/python_message.py
+__main__/external/protobuf/python/google/protobuf/internal/testing_refleaks.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/testing_refleaks.py
+__main__/external/protobuf/python/google/protobuf/internal/type_checkers.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/type_checkers.py
+__main__/external/protobuf/python/google/protobuf/internal/well_known_types.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/well_known_types.py
+__main__/external/protobuf/python/google/protobuf/internal/wire_format.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/wire_format.py
+__main__/external/protobuf/python/google/protobuf/json_format.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/json_format.py
+__main__/external/protobuf/python/google/protobuf/message.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/message.py
+__main__/external/protobuf/python/google/protobuf/message_factory.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/message_factory.py
+__main__/external/protobuf/python/google/protobuf/proto_builder.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/proto_builder.py
+__main__/external/protobuf/python/google/protobuf/pyext/__init__.py 
+__main__/external/protobuf/python/google/protobuf/pyext/_message.so /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/external/protobuf/python/google/protobuf/pyext/_message.so
+__main__/external/protobuf/python/google/protobuf/pyext/cpp_message.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/pyext/cpp_message.py
+__main__/external/protobuf/python/google/protobuf/reflection.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/reflection.py
+__main__/external/protobuf/python/google/protobuf/service.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/service.py
+__main__/external/protobuf/python/google/protobuf/service_reflection.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/service_reflection.py
+__main__/external/protobuf/python/google/protobuf/source_context_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/source_context_pb2.py
+__main__/external/protobuf/python/google/protobuf/struct_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/struct_pb2.py
+__main__/external/protobuf/python/google/protobuf/symbol_database.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/symbol_database.py
+__main__/external/protobuf/python/google/protobuf/text_encoding.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/text_encoding.py
+__main__/external/protobuf/python/google/protobuf/text_format.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/text_format.py
+__main__/external/protobuf/python/google/protobuf/timestamp_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/timestamp_pb2.py
+__main__/external/protobuf/python/google/protobuf/type_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/type_pb2.py
+__main__/external/protobuf/python/google/protobuf/wrappers_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/wrappers_pb2.py
+__main__/external/six_archive/__init__.py 
+__main__/external/six_archive/six.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/six_archive/six.py
+org_tensorflow/util/python/python_checked /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/org_tensorflow/util/python/python_checked
+protobuf/__init__.py 
+protobuf/python/__init__.py 
+protobuf/python/google/__init__.py 
+protobuf/python/google/protobuf/__init__.py 
+protobuf/python/google/protobuf/any_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/any_pb2.py
+protobuf/python/google/protobuf/api_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/api_pb2.py
+protobuf/python/google/protobuf/compiler/__init__.py 
+protobuf/python/google/protobuf/compiler/plugin_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/compiler/plugin_pb2.py
+protobuf/python/google/protobuf/descriptor.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/descriptor.py
+protobuf/python/google/protobuf/descriptor_database.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/descriptor_database.py
+protobuf/python/google/protobuf/descriptor_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/descriptor_pb2.py
+protobuf/python/google/protobuf/descriptor_pool.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/descriptor_pool.py
+protobuf/python/google/protobuf/duration_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/duration_pb2.py
+protobuf/python/google/protobuf/empty_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/empty_pb2.py
+protobuf/python/google/protobuf/field_mask_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/field_mask_pb2.py
+protobuf/python/google/protobuf/internal/__init__.py 
+protobuf/python/google/protobuf/internal/_api_implementation.so /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/external/protobuf/python/google/protobuf/internal/_api_implementation.so
+protobuf/python/google/protobuf/internal/_parameterized.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/_parameterized.py
+protobuf/python/google/protobuf/internal/api_implementation.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/api_implementation.py
+protobuf/python/google/protobuf/internal/containers.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/containers.py
+protobuf/python/google/protobuf/internal/decoder.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/decoder.py
+protobuf/python/google/protobuf/internal/encoder.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/encoder.py
+protobuf/python/google/protobuf/internal/enum_type_wrapper.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/enum_type_wrapper.py
+protobuf/python/google/protobuf/internal/message_listener.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/message_listener.py
+protobuf/python/google/protobuf/internal/python_message.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/python_message.py
+protobuf/python/google/protobuf/internal/testing_refleaks.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/testing_refleaks.py
+protobuf/python/google/protobuf/internal/type_checkers.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/type_checkers.py
+protobuf/python/google/protobuf/internal/well_known_types.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/well_known_types.py
+protobuf/python/google/protobuf/internal/wire_format.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/wire_format.py
+protobuf/python/google/protobuf/json_format.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/json_format.py
+protobuf/python/google/protobuf/message.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/message.py
+protobuf/python/google/protobuf/message_factory.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/message_factory.py
+protobuf/python/google/protobuf/proto_builder.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/proto_builder.py
+protobuf/python/google/protobuf/pyext/__init__.py 
+protobuf/python/google/protobuf/pyext/_message.so /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/external/protobuf/python/google/protobuf/pyext/_message.so
+protobuf/python/google/protobuf/pyext/cpp_message.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/pyext/cpp_message.py
+protobuf/python/google/protobuf/reflection.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/reflection.py
+protobuf/python/google/protobuf/service.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/service.py
+protobuf/python/google/protobuf/service_reflection.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/service_reflection.py
+protobuf/python/google/protobuf/source_context_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/source_context_pb2.py
+protobuf/python/google/protobuf/struct_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/struct_pb2.py
+protobuf/python/google/protobuf/symbol_database.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/symbol_database.py
+protobuf/python/google/protobuf/text_encoding.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/text_encoding.py
+protobuf/python/google/protobuf/text_format.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/text_format.py
+protobuf/python/google/protobuf/timestamp_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/timestamp_pb2.py
+protobuf/python/google/protobuf/type_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/type_pb2.py
+protobuf/python/google/protobuf/wrappers_pb2.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/genfiles/external/protobuf/python/google/protobuf/wrappers_pb2.py
+six_archive/__init__.py 
+six_archive/six.py /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/six_archive/six.py

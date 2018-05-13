@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/tools/graph_transforms/libtransform_graph_lib.pic.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/tools/graph_transforms/_objs/transform_graph_lib/external/org_tensorflow/tensorflow/tools/graph_transforms/transform_graph.pic.o

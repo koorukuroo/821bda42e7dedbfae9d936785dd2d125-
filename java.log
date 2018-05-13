@@ -1,0 +1,117 @@
+Apr 11, 2017 6:10:40 PM com.google.devtools.build.lib.analysis.BlazeVersionInfo logVersionInfo
+INFO: Blaze version info: Build label: 0.4.3
+Build target: bazel-out/local-fastbuild/bin/src/main/java/com/google/devtools/build/lib/bazel/BazelServer_deploy.jar
+Build time: Thu Dec 22 12:31:25 2016 (1482409885)
+Build timestamp: 1482409885
+Build timestamp as int: 1482409885
+Apr 11, 2017 6:10:41 PM com.google.devtools.build.lib.runtime.BlazeRuntime main
+INFO: Starting Blaze server with args [--max_idle_secs=10800, --connect_timeout_secs=10, --install_base=/root/.cache/bazel/_bazel_root/install/eb8f56e396a53e354febafe5175189a2, --install_md5=eb8f56e396a53e354febafe5175189a2, --output_base=/root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125, --workspace_directory=/opt/tensorflow/syntaxnet, --deep_execroot, --experimental_oom_more_eagerly_threshold=100, --nofatal_event_bus_exceptions, --client_debug=false, --product_name=Bazel, --option_sources=]
+Apr 11, 2017 6:10:50 PM com.google.devtools.build.lib.server.GrpcServerImpl$RunningCommand <init>
+INFO: Starting command 07f38f46-2716-4331-ac81-4c6717e9c459 on thread grpc-default-worker-ELG-3-1
+Apr 11, 2017 6:10:50 PM com.google.devtools.build.lib.server.GrpcServerImpl$RunningCommand close
+INFO: Finished command 07f38f46-2716-4331-ac81-4c6717e9c459 on thread grpc-default-worker-ELG-3-1
+Apr 11, 2017 6:10:50 PM com.google.devtools.build.lib.server.GrpcServerImpl$RunningCommand <init>
+INFO: Starting command 19f58f07-0824-4c34-8dc5-79468c6dcf7c on thread grpc-command-0
+Apr 11, 2017 6:10:50 PM com.google.devtools.build.lib.runtime.CommandExecutor exec
+INFO: [test, --startup_time=27, --restart_reason=no_daemon, --binary_path=/usr/local/bin/bazel, --rc_source=client, --default_override=0:common=--isatty=0, --default_override=0:common=--terminal_columns=80, --rc_source=/opt/tensorflow/syntaxnet/tools/bazel.rc, --rc_source=/etc/bazel.bazelrc, --default_override=1:build=--force_python=py2, --default_override=1:build=--host_force_python=py2, --default_override=1:build=--define=use_fast_cpp_protos=true, --default_override=1:build=--define=allow_oversize_protos=true, --default_override=1:build=--spawn_strategy=standalone, --default_override=1:build=--genrule_strategy=standalone, --default_override=1:build=--copt, --default_override=1:build=-funsigned-char, --default_override=1:build=-c, --default_override=1:build=opt, --default_override=1:build:cuda=--crosstool_top=@local_config_cuda//crosstool:toolchain, --default_override=1:build:cuda=--define=using_cuda=true, --default_override=1:build:cuda=--define=using_cuda_nvcc=true, --default_override=1:build:opt=--cxxopt=-march=native, --default_override=1:build:opt=--copt=-march=native, --default_override=1:build:win-cuda=--define=using_cuda=true, --default_override=1:build:win-cuda=--define=using_cuda_nvcc=true, --default_override=1:run=--spawn_strategy=standalone, --default_override=1:run=--genrule_strategy=standalone, --default_override=1:run=-c, --default_override=1:run=opt, --default_override=1:test=--force_python=py2, --default_override=1:test=--host_force_python=py2, --default_override=1:test=--spawn_strategy=standalone, --default_override=1:test=--genrule_strategy=standalone, --default_override=1:test=-c, --default_override=1:test=opt, --client_env=HOSTNAME=7e9ec6cde4d1, --client_env=SYNTAXNETDIR=/opt/tensorflow, --client_env=CA_CERTIFICATES_JAVA_VERSION=20161107~bpo8+1, --client_env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/bin, --client_env=PWD=/opt/tensorflow/syntaxnet, --client_env=JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64, --client_env=LANG=C.UTF-8, --client_env=JAVA_VERSION=8u121, --client_env=BAZEL_REAL=/usr/local/lib/bazel/bin/bazel-real, --client_env=SHLVL=0, --client_env=JAVA_DEBIAN_VERSION=8u121-b13-1~bpo8+1, --client_env=HOME=/root, --client_cwd=/opt/tensorflow/syntaxnet, -c, opt, ...]
+Apr 11, 2017 6:10:50 PM com.google.devtools.build.lib.runtime.BlazeRuntime setupLogging
+INFO: Log level: INFO
+Apr 11, 2017 6:10:50 PM com.google.devtools.build.lib.skyframe.DiffAwarenessManager maybeGetDiffAwarenessState
+INFO: Using local DiffAwareness strategy for /opt/tensorflow/syntaxnet
+Apr 11, 2017 6:10:50 PM com.google.devtools.build.lib.skyframe.DiffAwarenessManager getDiff
+INFO: Initial baseline view for /opt/tensorflow/syntaxnet is SequentialView[owner=null, position=-2, modifiedAbsolutePaths=[]]
+Apr 11, 2017 6:10:50 PM com.google.devtools.build.lib.skyframe.FilesystemValueChecker$4 accept
+INFO: Spent 0 ms checking 0 filesystem nodes (10 scanned)
+Apr 11, 2017 6:10:50 PM com.google.devtools.build.lib.skyframe.SequencedSkyframeExecutor logDiffInfo
+INFO: DiffAwareness found 0 modified source files and directory listings for /opt/tensorflow/syntaxnet
+Apr 11, 2017 6:10:51 PM com.google.devtools.build.lib.buildtool.BuildTool buildTargets
+INFO: Build identifier: 764ff21b-7d0d-4799-83d3-22110f2eb3dd
+Apr 11, 2017 6:10:51 PM com.google.devtools.build.lib.skyframe.LegacyLoadingPhaseRunner execute
+INFO: Starting pattern evaluation
+Apr 11, 2017 6:10:55 PM com.google.devtools.build.lib.skyframe.LegacyLoadingPhaseRunner execute
+INFO: Starting test suite expansion
+Apr 11, 2017 6:10:55 PM com.google.devtools.build.lib.skyframe.LegacyLoadingPhaseRunner execute
+INFO: Target pattern evaluation finished
+Apr 11, 2017 6:10:57 PM com.google.devtools.build.lib.buildtool.BuildTool buildTargets
+INFO: Configurations created
+Apr 11, 2017 6:10:57 PM com.google.devtools.build.lib.analysis.BuildView update
+INFO: Starting analysis
+Apr 11, 2017 6:11:09 PM com.google.devtools.build.lib.profiler.AutoProfiler$LoggingElapsedTimeReceiver accept
+INFO: Spent 264 milliseconds doing discovering artifact conflicts
+Apr 11, 2017 6:11:09 PM com.google.devtools.build.lib.analysis.BuildView update
+INFO: Finished analysis
+Apr 11, 2017 6:11:09 PM com.google.devtools.build.lib.profiler.AutoProfiler$LoggingElapsedTimeReceiver accept
+INFO: Spent 132 milliseconds doing Loading action cache
+Apr 11, 2017 6:11:10 PM com.google.devtools.build.lib.skyframe.FilesystemValueChecker getDirtyActionValues
+INFO: Accumulating dirty actions
+Apr 11, 2017 6:11:10 PM com.google.devtools.build.lib.skyframe.FilesystemValueChecker getDirtyActionValues
+INFO: Sharded action values for batching
+Apr 11, 2017 6:11:10 PM com.google.devtools.build.lib.skyframe.FilesystemValueChecker getDirtyActionValues
+INFO: Completed output file stat checks
+Apr 11, 2017 6:11:10 PM com.google.devtools.build.lib.skyframe.SkyframeExecutor informAboutNumberOfModifiedFiles
+INFO: Found 0 modified files from last build
+Apr 11, 2017 6:16:10 PM com.google.devtools.build.lib.profiler.AutoProfiler$LoggingElapsedTimeReceiver accept
+INFO: Spent 27 milliseconds doing Saving action cache
+Apr 11, 2017 6:16:10 PM com.google.devtools.build.lib.runtime.BuildSummaryStatsModule buildComplete
+INFO: Critical Path: 262.52s
+  226.92s Testing //syntaxnet:lexicon_builder_test
+  0.00s Middleman _middlemen/syntaxnet_Slexicon_Ubuilder_Utest-runfiles
+  0.03s Middleman _middlemen/syntaxnet_Slexicon_Ubuilder_Utest-runfiles_artifacts
+  1.42s Linking external/org_tensorflow/tensorflow/python/_pywrap_tensorflow_internal.so
+  6.09s Linking external/org_tensorflow/tensorflow/core/kernels/libcwise_op.pic.lo
+  16.59s Compiling external/org_tensorflow/tensorflow/core/kernels/cwise_op_equal_to_1.cc
+  0.00s Middleman _middlemen/@org_Utensorflow_S_Stensorflow_Score_Skernels_Ccwise_Uop-cpp_compilation_prerequisites
+  0.00s Middleman _middlemen/@org_Utensorflow_S_Stensorflow_Score_Ccore_Ucpu-cpp_compilation_prerequisites
+  0.00s Middleman _middlemen/@org_Utensorflow_S_Stensorflow_Score_Ccore_Ucpu_Uinternal-cpp_compilation_prerequisites
+  0.00s Middleman _middlemen/@org_Utensorflow_S_Stensorflow_Score_Skernels_Crequired-cpp_compilation_prerequisites
+  0.00s Middleman _middlemen/@org_Utensorflow_S_Stensorflow_Score_Skernels_Csendrecv_Uops-cpp_compilation_prerequisites
+  0.00s Middleman _middlemen/@org_Utensorflow_S_Stensorflow_Score_Cno_Uop_Uop_Ulib-cpp_compilation_prerequisites
+  0.00s Middleman _middlemen/@org_Utensorflow_S_Stensorflow_Score_Cframework-cpp_compilation_prerequisites
+  0.00s Middleman _middlemen/@org_Utensorflow_S_Stensorflow_Score_Cframework_Uinternal-cpp_compilation_prerequisites
+  0.00s Middleman _middlemen/@org_Utensorflow_S_Stensorflow_Score_Cproto_Utext-cpp_compilation_prerequisites
+  3.00s Executing genrule @org_tensorflow//tensorflow/core:proto_text_srcs_all
+  0.00s Middleman _middlemen/external_Sorg_Utensorflow_Stensorflow_Stools_Sproto_Utext_Sgen_Uproto_Utext_Ufunctions-runfiles
+  0.02s Linking external/org_tensorflow/tensorflow/tools/proto_text/gen_proto_text_functions [for host]
+  0.33s Linking external/org_tensorflow/tensorflow/core/libprotos_all_cc.a [for host]
+  1.26s Compiling external/org_tensorflow/tensorflow/core/protobuf/meta_graph.pb.cc [for host]
+  0.00s Middleman _middlemen/@org_Utensorflow_S_Stensorflow_Score_Cprotos_Uall_Ucc-cpp_compilation_prerequisites
+  1.16s ProtoCompile external/org_tensorflow/tensorflow/core/example/example.pb.cc [for host]
+  0.00s Middleman _middlemen/external_Sprotobuf_Sprotoc-runfiles
+  0.17s Linking external/protobuf/protoc [for host]
+  1.87s Linking external/protobuf/libprotobuf_lite.a [for host]
+  3.66s Compiling external/protobuf/src/google/protobuf/stubs/bytestream.cc [for host]
+  0.00s Middleman _middlemen/@protobuf_S_S_Cprotobuf_Ulite-cpp_compilation_prerequisites
+Apr 11, 2017 6:16:10 PM com.google.devtools.build.lib.runtime.BuildSummaryStatsModule buildComplete
+INFO: Slowest actions:
+  226.92s Testing //syntaxnet:lexicon_builder_test
+  224.44s Testing //syntaxnet:graph_builder_test
+  214.15s Testing //syntaxnet:beam_reader_ops_test
+  192.35s Testing //syntaxnet/util:registry_test
+  189.91s Testing //dragnn/python:sentence_io_test
+  186.97s Testing //syntaxnet:parser_trainer_test
+  146.07s Testing //dragnn/python:render_spec_with_graphviz_test
+  143.81s Testing //syntaxnet:text_formats_test
+  141.33s Testing //dragnn/python:network_units_test
+  138.80s Testing //dragnn/python:evaluation_test
+  136.20s Testing //dragnn/python:lexicon_test
+  133.15s Testing //dragnn/python:render_parse_tree_graphviz_test
+  128.60s Testing //dragnn/python:composite_optimizer_test
+  122.89s Testing //dragnn/python:bulk_component_test
+  119.55s Testing //syntaxnet:reader_ops_test
+  114.56s Testing //dragnn/tools:model_trainer_test
+  96.95s Testing //dragnn/python:graph_builder_test
+  17.09s Compiling external/org_tensorflow/tensorflow/core/kernels/conv_grad_ops.cc
+  16.59s Compiling external/org_tensorflow/tensorflow/core/kernels/cwise_op_equal_to_1.cc
+  15.20s Testing //dragnn/python:digraph_ops_test
+  12.71s Testing //syntaxnet/util:check_test
+  10.48s Testing //dragnn/python:visualization_test
+  9.04s Compiling external/org_tensorflow/tensorflow/core/ops/array_grad.cc
+  9.01s Compiling external/org_tensorflow/tensorflow/core/kernels/gather_nd_op_cpu_impl_1.cc
+  9.01s Compiling external/org_tensorflow/tensorflow/core/debug/debug.cc
+  9.01s Compiling external/org_tensorflow/tensorflow/core/kernels/gather_nd_op_cpu_impl_0.cc
+  9.01s Compiling external/org_tensorflow/tensorflow/core/ops/array_ops.cc
+  9.01s Compiling external/org_tensorflow/tensorflow/core/kernels/concat_op.cc
+  9.00s Compiling external/org_tensorflow/tensorflow/core/ops/debug_ops.cc
+  9.00s Compiling external/org_tensorflow/tensorflow/core/kernels/gather_nd_op_cpu_impl_4.cc
+Apr 11, 2017 6:16:10 PM com.google.devtools.build.lib.server.GrpcServerImpl$RunningCommand close
+INFO: Finished command 19f58f07-0824-4c34-8dc5-79468c6dcf7c on thread grpc-command-0

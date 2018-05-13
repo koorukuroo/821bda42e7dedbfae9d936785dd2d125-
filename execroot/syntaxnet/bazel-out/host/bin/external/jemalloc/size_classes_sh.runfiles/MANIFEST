@@ -1,0 +1,4 @@
+__main__/external/jemalloc/include/jemalloc/internal/size_classes.sh /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/jemalloc/include/jemalloc/internal/size_classes.sh
+__main__/external/jemalloc/size_classes_sh /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/host/bin/external/jemalloc/size_classes_sh
+jemalloc/include/jemalloc/internal/size_classes.sh /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/jemalloc/include/jemalloc/internal/size_classes.sh
+jemalloc/size_classes_sh /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/host/bin/external/jemalloc/size_classes_sh

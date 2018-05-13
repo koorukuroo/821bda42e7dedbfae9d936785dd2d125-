@@ -1,0 +1,4 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libconcat_lib.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/concat_lib/external/org_tensorflow/tensorflow/core/kernels/concat_lib_cpu.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/concat_lib/external/org_tensorflow/tensorflow/core/kernels/concat_lib_gpu.o

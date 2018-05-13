@@ -1,0 +1,3 @@
+bazel-out/local-opt/bin/external/highwayhash/_objs/sip_hash/external/highwayhash/highwayhash/sip_hash.pic.o
+-lstdc++
+-lm

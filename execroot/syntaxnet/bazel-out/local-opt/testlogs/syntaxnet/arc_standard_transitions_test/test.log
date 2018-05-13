@@ -1,0 +1,292 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+Running main() from test_main.cc
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ArcStandardTransitionTest
+[ RUN      ] ArcStandardTransitionTest.SingleSentenceDocumentTest
+2017-04-11 18:12:21.455460: I syntaxnet/arc_standard_transitions_test.cc:109] see doc
+:text       : "I can not recall any disorder in currency markets since the 1974 guidelines were adopted ."
+token: {
+  word    : "I"
+  start   : 0
+  end     : 0
+  head    : 3
+  tag     : "PRP"
+  category: "PRON"
+  label   : "nsubj"
+  break_level       : SENTENCE_BREAK
+}
+token: {
+  word    : "can"
+  start   : 2
+  end     : 4
+  head    : 3
+  tag     : "MD"
+  category: "VERB"
+  label   : "aux"
+}
+token: {
+  word    : "not"
+  start   : 6
+  end     : 8
+  head    : 3
+  tag     : "RB"
+  category: "ADV"
+  label   : "neg"
+}
+token: {
+  word    : "recall"
+  start   : 10
+  end     : 15
+  tag     : "VB"
+  category: "VERB"
+  label   : "ROOT"
+}
+token: {
+  word    : "any"
+  start   : 17
+  end     : 19
+  head    : 5
+  tag     : "DT"
+  category: "DET"
+  label   : "det"
+}
+token: {
+  word    : "disorder"
+  start   : 21
+  end     : 28
+  head    : 3
+  tag     : "NN"
+  category: "NOUN"
+  label   : "dobj"
+}
+token: {
+  word    : "in"
+  start   : 30
+  end     : 31
+  head    : 5
+  tag     : "IN"
+  category: "ADP"
+  label   : "prep"
+}
+token: {
+  word    : "currency"
+  start   : 33
+  end     : 40
+  head    : 8
+  tag     : "NN"
+  category: "NOUN"
+  label   : "nn"
+}
+token: {
+  word    : "markets"
+  start   : 42
+  end     : 48
+  head    : 6
+  tag     : "NNS"
+  category: "NOUN"
+  label   : "pobj"
+}
+token: {
+  word    : "since"
+  start   : 50
+  end     : 54
+  head    : 14
+  tag     : "IN"
+  category: "ADP"
+  label   : "mark"
+}
+token: {
+  word    : "the"
+  start   : 56
+  end     : 58
+  head    : 12
+  tag     : "DT"
+  category: "DET"
+  label   : "det"
+}
+token: {
+  word    : "1974"
+  start   : 60
+  end     : 63
+  head    : 12
+  tag     : "CD"
+  category: "NUM"
+  label   : "num"
+}
+token: {
+  word    : "guidelines"
+  start   : 65
+  end     : 74
+  head    : 14
+  tag     : "NNS"
+  category: "NOUN"
+  label   : "nsubjpass"
+}
+token: {
+  word    : "were"
+  start   : 76
+  end     : 79
+  head    : 14
+  tag     : "VBD"
+  category: "VERB"
+  label   : "auxpass"
+}
+token: {
+  word    : "adopted"
+  start   : 81
+  end     : 87
+  head    : 3
+  tag     : "VBN"
+  category: "VERB"
+  label   : "advcl"
+}
+token: {
+  word    : "."
+  start   : 89
+  end     : 89
+  head    : 3
+  tag     : "."
+  category: "."
+  label   : "p"
+}
+
+2017-04-11 18:12:21.456454: I syntaxnet/term_frequency_map.cc:137] Saved 15 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/arc_standard_transitions_test_1label-map.
+2017-04-11 18:12:21.457596: I syntaxnet/term_frequency_map.cc:101] Loaded 15 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/arc_standard_transitions_test_1label-map.
+2017-04-11 18:12:21.457772: I syntaxnet/arc_standard_transitions_test.cc:65] Initial parser state: [ROOT] I can not recall any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.457795: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: SHIFT
+2017-04-11 18:12:21.457813: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT I] can not recall any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.457823: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: SHIFT
+2017-04-11 18:12:21.457836: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT I can] not recall any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.457841: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: SHIFT
+2017-04-11 18:12:21.457847: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT I can not] recall any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.457852: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: SHIFT
+2017-04-11 18:12:21.457858: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT I can not recall] any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.457880: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: LEFT_ARC(neg)
+2017-04-11 18:12:21.457893: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT I can recall] any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.457900: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: LEFT_ARC(aux)
+2017-04-11 18:12:21.457906: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT I recall] any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.457912: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: LEFT_ARC(nsubj)
+2017-04-11 18:12:21.457918: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall] any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.457923: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: SHIFT
+2017-04-11 18:12:21.457929: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall any] disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.457933: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: SHIFT
+2017-04-11 18:12:21.457939: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall any disorder] in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.457944: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: LEFT_ARC(det)
+2017-04-11 18:12:21.457950: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall disorder] in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.457955: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: SHIFT
+2017-04-11 18:12:21.457961: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall disorder in] currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.457965: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: SHIFT
+2017-04-11 18:12:21.457971: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall disorder in currency] markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.457975: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: SHIFT
+2017-04-11 18:12:21.457981: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall disorder in currency markets] since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.457986: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: LEFT_ARC(nn)
+2017-04-11 18:12:21.457992: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall disorder in markets] since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.457997: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: RIGHT_ARC(pobj)
+2017-04-11 18:12:21.458003: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall disorder in] since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.458008: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: RIGHT_ARC(prep)
+2017-04-11 18:12:21.458013: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall disorder] since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.458018: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: RIGHT_ARC(dobj)
+2017-04-11 18:12:21.458024: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall] since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.458028: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: SHIFT
+2017-04-11 18:12:21.458034: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall since] the 1974 guidelines were adopted .
+2017-04-11 18:12:21.458038: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: SHIFT
+2017-04-11 18:12:21.458044: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall since the] 1974 guidelines were adopted .
+2017-04-11 18:12:21.458048: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: SHIFT
+2017-04-11 18:12:21.458053: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall since the 1974] guidelines were adopted .
+2017-04-11 18:12:21.458058: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: SHIFT
+2017-04-11 18:12:21.458063: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall since the 1974 guidelines] were adopted .
+2017-04-11 18:12:21.458068: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: LEFT_ARC(num)
+2017-04-11 18:12:21.458073: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall since the guidelines] were adopted .
+2017-04-11 18:12:21.458078: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: LEFT_ARC(det)
+2017-04-11 18:12:21.458083: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall since guidelines] were adopted .
+2017-04-11 18:12:21.458087: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: SHIFT
+2017-04-11 18:12:21.458093: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall since guidelines were] adopted .
+2017-04-11 18:12:21.458097: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: SHIFT
+2017-04-11 18:12:21.458102: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall since guidelines were adopted] .
+2017-04-11 18:12:21.458107: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: LEFT_ARC(auxpass)
+2017-04-11 18:12:21.458113: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall since guidelines adopted] .
+2017-04-11 18:12:21.458129: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: LEFT_ARC(nsubjpass)
+2017-04-11 18:12:21.458135: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall since adopted] .
+2017-04-11 18:12:21.458140: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: LEFT_ARC(mark)
+2017-04-11 18:12:21.458145: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall adopted] .
+2017-04-11 18:12:21.458150: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: RIGHT_ARC(advcl)
+2017-04-11 18:12:21.458155: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall] .
+2017-04-11 18:12:21.458167: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: SHIFT
+2017-04-11 18:12:21.458176: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall .]
+2017-04-11 18:12:21.458181: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: RIGHT_ARC(p)
+2017-04-11 18:12:21.458186: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT recall]
+2017-04-11 18:12:21.458190: I syntaxnet/arc_standard_transitions_test.cc:69] Performing action: RIGHT_ARC(ROOT)
+2017-04-11 18:12:21.458195: I syntaxnet/arc_standard_transitions_test.cc:72] Parser state: [ROOT]
+2017-04-11 18:12:21.458217: I syntaxnet/arc_standard_transitions_test.cc:85] Initial parser state: [ROOT] I can not recall any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.458245: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: SHIFT
+2017-04-11 18:12:21.458252: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I] can not recall any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.458257: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: SHIFT
+2017-04-11 18:12:21.458263: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can] not recall any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.458267: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: SHIFT
+2017-04-11 18:12:21.458273: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not] recall any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.458277: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: SHIFT
+2017-04-11 18:12:21.458283: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall] any disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.458287: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: SHIFT
+2017-04-11 18:12:21.458293: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any] disorder in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.458297: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: SHIFT
+2017-04-11 18:12:21.458303: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any disorder] in currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.458308: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: SHIFT
+2017-04-11 18:12:21.458314: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any disorder in] currency markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.458318: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: SHIFT
+2017-04-11 18:12:21.458324: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any disorder in currency] markets since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.458328: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: SHIFT
+2017-04-11 18:12:21.458334: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any disorder in currency markets] since the 1974 guidelines were adopted .
+2017-04-11 18:12:21.458338: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: SHIFT
+2017-04-11 18:12:21.458343: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any disorder in currency markets since] the 1974 guidelines were adopted .
+2017-04-11 18:12:21.458347: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: SHIFT
+2017-04-11 18:12:21.458353: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any disorder in currency markets since the] 1974 guidelines were adopted .
+2017-04-11 18:12:21.458357: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: SHIFT
+2017-04-11 18:12:21.458363: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any disorder in currency markets since the 1974] guidelines were adopted .
+2017-04-11 18:12:21.458368: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: SHIFT
+2017-04-11 18:12:21.458374: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any disorder in currency markets since the 1974 guidelines] were adopted .
+2017-04-11 18:12:21.458378: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: SHIFT
+2017-04-11 18:12:21.458384: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any disorder in currency markets since the 1974 guidelines were] adopted .
+2017-04-11 18:12:21.458388: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: SHIFT
+2017-04-11 18:12:21.458394: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any disorder in currency markets since the 1974 guidelines were adopted] .
+2017-04-11 18:12:21.458399: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: SHIFT
+2017-04-11 18:12:21.458405: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any disorder in currency markets since the 1974 guidelines were adopted .]
+2017-04-11 18:12:21.458410: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: RIGHT_ARC(advcl)
+2017-04-11 18:12:21.458417: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any disorder in currency markets since the 1974 guidelines were adopted]
+2017-04-11 18:12:21.458422: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: RIGHT_ARC(advcl)
+2017-04-11 18:12:21.458428: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any disorder in currency markets since the 1974 guidelines were]
+2017-04-11 18:12:21.458432: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: RIGHT_ARC(advcl)
+2017-04-11 18:12:21.458438: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any disorder in currency markets since the 1974 guidelines]
+2017-04-11 18:12:21.458442: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: RIGHT_ARC(advcl)
+2017-04-11 18:12:21.458448: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any disorder in currency markets since the 1974]
+2017-04-11 18:12:21.458453: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: RIGHT_ARC(advcl)
+2017-04-11 18:12:21.458458: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any disorder in currency markets since the]
+2017-04-11 18:12:21.458463: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: RIGHT_ARC(advcl)
+2017-04-11 18:12:21.458468: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any disorder in currency markets since]
+2017-04-11 18:12:21.458473: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: RIGHT_ARC(advcl)
+2017-04-11 18:12:21.458478: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any disorder in currency markets]
+2017-04-11 18:12:21.458482: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: RIGHT_ARC(advcl)
+2017-04-11 18:12:21.458488: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any disorder in currency]
+2017-04-11 18:12:21.458492: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: RIGHT_ARC(advcl)
+2017-04-11 18:12:21.458497: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any disorder in]
+2017-04-11 18:12:21.458501: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: RIGHT_ARC(advcl)
+2017-04-11 18:12:21.458506: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any disorder]
+2017-04-11 18:12:21.458511: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: RIGHT_ARC(advcl)
+2017-04-11 18:12:21.458516: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall any]
+2017-04-11 18:12:21.458520: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: RIGHT_ARC(advcl)
+2017-04-11 18:12:21.458525: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not recall]
+2017-04-11 18:12:21.458529: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: RIGHT_ARC(advcl)
+2017-04-11 18:12:21.458534: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can not]
+2017-04-11 18:12:21.458538: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: RIGHT_ARC(advcl)
+2017-04-11 18:12:21.458543: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I can]
+2017-04-11 18:12:21.458547: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: RIGHT_ARC(advcl)
+2017-04-11 18:12:21.458552: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT I]
+2017-04-11 18:12:21.458556: I syntaxnet/arc_standard_transitions_test.cc:89] Performing action: RIGHT_ARC(advcl)
+2017-04-11 18:12:21.458560: I syntaxnet/arc_standard_transitions_test.cc:92] Parser state: [ROOT]
+[       OK ] ArcStandardTransitionTest.SingleSentenceDocumentTest (3 ms)
+[----------] 1 test from ArcStandardTransitionTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (3 ms total)
+[  PASSED  ] 1 test.

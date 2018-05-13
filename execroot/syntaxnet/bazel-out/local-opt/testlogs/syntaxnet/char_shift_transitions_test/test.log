@@ -1,0 +1,25 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+Running main() from test_main.cc
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from CharShiftTransitionTest
+[ RUN      ] CharShiftTransitionTest.LRShift
+2017-04-11 18:12:21.016055: I syntaxnet/term_frequency_map.cc:137] Saved 13 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/char_shift_transitions_test_1char-map.
+[       OK ] CharShiftTransitionTest.LRShift (2 ms)
+[ RUN      ] CharShiftTransitionTest.RLShift
+2017-04-11 18:12:21.017059: I syntaxnet/term_frequency_map.cc:137] Saved 13 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/char_shift_transitions_test_1char-map.
+[       OK ] CharShiftTransitionTest.RLShift (1 ms)
+[ RUN      ] CharShiftTransitionTest.TextChar
+2017-04-11 18:12:21.069928: I syntaxnet/term_frequency_map.cc:137] Saved 13 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/char_shift_transitions_test_1char-map.
+2017-04-11 18:12:21.071821: I syntaxnet/term_frequency_map.cc:101] Loaded 13 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/char_shift_transitions_test_1char-map.
+[       OK ] CharShiftTransitionTest.TextChar (55 ms)
+[ RUN      ] CharShiftTransitionTest.LastCharFocus
+2017-04-11 18:12:21.072637: I syntaxnet/term_frequency_map.cc:137] Saved 13 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/char_shift_transitions_test_1char-map.
+2017-04-11 18:12:21.072715: W syntaxnet/shift_transitions.cc:83] 'left-to-right' parameter set: this is DEPRECATED. Use 'left_to_right' instead.
+[       OK ] CharShiftTransitionTest.LastCharFocus (0 ms)
+[----------] 4 tests from CharShiftTransitionTest (58 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (58 ms total)
+[  PASSED  ] 4 tests.

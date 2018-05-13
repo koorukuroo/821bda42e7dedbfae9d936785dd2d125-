@@ -1,0 +1,46 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+[==========] Running 13 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 2 tests from UnicodeTextTest
+[ RUN      ] UnicodeTextTest.Ownership
+[       OK ] UnicodeTextTest.Ownership (0 ms)
+[ RUN      ] UnicodeTextTest.InterchangeValidity
+2017-04-11 18:12:19.459595: W util/utf8/unicodetext.cc:260] UTF-8 buffer is not interchange-valid.
+2017-04-11 18:12:19.459773: W util/utf8/unicodetext.cc:361] Unicode value 0xfdd0 is not valid for interchange
+2017-04-11 18:12:19.459874: W util/utf8/unicodetext.cc:241] UTF-8 buffer is not interchange-valid.
+2017-04-11 18:12:19.459910: W util/utf8/unicodetext.cc:361] Unicode value 0xfdd0 is not valid for interchange
+[       OK ] UnicodeTextTest.InterchangeValidity (0 ms)
+[----------] 2 tests from UnicodeTextTest (0 ms total)
+
+[----------] 9 tests from IteratorTest
+[ RUN      ] IteratorTest.Iterates
+[       OK ] IteratorTest.Iterates (0 ms)
+[ RUN      ] IteratorTest.Reverse
+[       OK ] IteratorTest.Reverse (0 ms)
+[ RUN      ] IteratorTest.MultiPass
+[       OK ] IteratorTest.MultiPass (0 ms)
+[ RUN      ] IteratorTest.ReverseIterates
+[       OK ] IteratorTest.ReverseIterates (0 ms)
+[ RUN      ] IteratorTest.Comparable
+[       OK ] IteratorTest.Comparable (0 ms)
+[ RUN      ] IteratorTest.Advance
+[       OK ] IteratorTest.Advance (0 ms)
+[ RUN      ] IteratorTest.Distance
+[       OK ] IteratorTest.Distance (0 ms)
+[ RUN      ] IteratorTest.Encode
+[       OK ] IteratorTest.Encode (0 ms)
+[ RUN      ] IteratorTest.Decode
+[       OK ] IteratorTest.Decode (0 ms)
+[----------] 9 tests from IteratorTest (0 ms total)
+
+[----------] 2 tests from OperatorTest
+[ RUN      ] OperatorTest.Clear
+[       OK ] OperatorTest.Clear (0 ms)
+[ RUN      ] OperatorTest.Empty
+[       OK ] OperatorTest.Empty (0 ms)
+[----------] 2 tests from OperatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 13 tests from 3 test cases ran. (1 ms total)
+[  PASSED  ] 13 tests.

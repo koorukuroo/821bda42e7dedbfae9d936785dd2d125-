@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/hexagon/libhexagon_rewriter_transform.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/hexagon/_objs/hexagon_rewriter_transform/external/org_tensorflow/tensorflow/core/kernels/hexagon/hexagon_rewriter_transform.pic.o

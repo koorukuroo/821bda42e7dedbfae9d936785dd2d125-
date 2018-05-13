@@ -1,0 +1,164 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+2017-04-11 18:15:38.763596: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:15:38.763634: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:15:38.763641: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:15:38.763646: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:15:38.763651: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:15:38.796996: I syntaxnet/lexicon_builder.cc:162] Term maps collected over 964 tokens from 54 documents
+2017-04-11 18:15:38.797454: I syntaxnet/term_frequency_map.cc:137] Saved 547 terms to /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:38.797841: I syntaxnet/term_frequency_map.cc:137] Saved 529 terms to /tmp/beam_reader_ops_test/lcword-map.
+2017-04-11 18:15:38.797954: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/beam_reader_ops_test/tag-map.
+2017-04-11 18:15:38.798052: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/beam_reader_ops_test/category-map.
+2017-04-11 18:15:38.798152: I syntaxnet/term_frequency_map.cc:137] Saved 39 terms to /tmp/beam_reader_ops_test/label-map.
+2017-04-11 18:15:38.798260: I syntaxnet/term_frequency_map.cc:137] Saved 57 terms to /tmp/beam_reader_ops_test/char-map.
+2017-04-11 18:15:38.798994: I syntaxnet/term_frequency_map.cc:137] Saved 1680 terms to /tmp/beam_reader_ops_test/char-ngram-map.
+2017-04-11 18:15:38.803921: I syntaxnet/term_frequency_map.cc:101] Loaded 39 terms from /tmp/beam_reader_ops_test/label-map.
+2017-04-11 18:15:38.804183: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:38.804203: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:38.804208: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:38.813732: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:38.814974: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/beam_reader_ops_test/tag-map.
+2017-04-11 18:15:38.818957: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:38.818988: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:38.818994: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:38.829877: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:38.830987: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/beam_reader_ops_test/tag-map.
+/root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/syntaxnet/beam_reader_ops_test.runfiles/org_tensorflow/tensorflow/python/ops/gradients_impl.py:93: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+2017-04-11 18:15:43.242173: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:43.242222: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:43.242229: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:43.261034: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:43.262721: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/beam_reader_ops_test/tag-map.
+.2017-04-11 18:15:43.346502: I syntaxnet/lexicon_builder.cc:162] Term maps collected over 964 tokens from 54 documents
+2017-04-11 18:15:43.347105: I syntaxnet/term_frequency_map.cc:137] Saved 547 terms to /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:43.347506: I syntaxnet/term_frequency_map.cc:137] Saved 529 terms to /tmp/beam_reader_ops_test/lcword-map.
+2017-04-11 18:15:43.347652: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/beam_reader_ops_test/tag-map.
+2017-04-11 18:15:43.347782: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/beam_reader_ops_test/category-map.
+2017-04-11 18:15:43.347911: I syntaxnet/term_frequency_map.cc:137] Saved 39 terms to /tmp/beam_reader_ops_test/label-map.
+2017-04-11 18:15:43.348061: I syntaxnet/term_frequency_map.cc:137] Saved 57 terms to /tmp/beam_reader_ops_test/char-map.
+2017-04-11 18:15:43.348920: I syntaxnet/term_frequency_map.cc:137] Saved 1680 terms to /tmp/beam_reader_ops_test/char-ngram-map.
+2017-04-11 18:15:43.354963: I syntaxnet/term_frequency_map.cc:101] Loaded 39 terms from /tmp/beam_reader_ops_test/label-map.
+2017-04-11 18:15:43.355874: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:43.356000: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:43.356006: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:43.368159: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:43.369616: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/beam_reader_ops_test/tag-map.
+2017-04-11 18:15:43.374115: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:43.374156: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:43.374163: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:43.386681: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:43.388408: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/beam_reader_ops_test/tag-map.
+2017-04-11 18:15:47.667437: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:47.667481: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:47.667487: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:47.680861: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:47.682213: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/beam_reader_ops_test/tag-map.
+.2017-04-11 18:15:47.949311: I syntaxnet/lexicon_builder.cc:162] Term maps collected over 964 tokens from 54 documents
+2017-04-11 18:15:47.949857: I syntaxnet/term_frequency_map.cc:137] Saved 547 terms to /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:47.950216: I syntaxnet/term_frequency_map.cc:137] Saved 529 terms to /tmp/beam_reader_ops_test/lcword-map.
+2017-04-11 18:15:47.950349: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/beam_reader_ops_test/tag-map.
+2017-04-11 18:15:47.950468: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/beam_reader_ops_test/category-map.
+2017-04-11 18:15:47.950588: I syntaxnet/term_frequency_map.cc:137] Saved 39 terms to /tmp/beam_reader_ops_test/label-map.
+2017-04-11 18:15:47.950734: I syntaxnet/term_frequency_map.cc:137] Saved 57 terms to /tmp/beam_reader_ops_test/char-map.
+2017-04-11 18:15:47.951501: I syntaxnet/term_frequency_map.cc:137] Saved 1680 terms to /tmp/beam_reader_ops_test/char-ngram-map.
+2017-04-11 18:15:47.956811: I syntaxnet/term_frequency_map.cc:101] Loaded 39 terms from /tmp/beam_reader_ops_test/label-map.
+2017-04-11 18:15:47.957124: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:47.957143: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:47.957149: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:47.966394: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:47.967285: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/beam_reader_ops_test/tag-map.
+2017-04-11 18:15:47.970377: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:47.970406: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:47.970413: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:47.982857: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:47.984070: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/beam_reader_ops_test/tag-map.
+2017-04-11 18:15:49.658443: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:49.658492: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:49.658502: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:49.667612: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:49.668571: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/beam_reader_ops_test/tag-map.
+2017-04-11 18:15:49.781399: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:49.781439: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:49.781446: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:49.792667: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:49.793777: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/beam_reader_ops_test/tag-map.
+2017-04-11 18:15:51.436319: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:51.436366: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:51.436372: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:51.448836: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:51.450148: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/beam_reader_ops_test/tag-map.
+2017-04-11 18:15:51.547800: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:51.547870: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:51.547878: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:51.561511: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:51.563661: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/beam_reader_ops_test/tag-map.
+2017-04-11 18:15:52.906588: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:52.906636: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:52.906642: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:52.920098: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:52.921046: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/beam_reader_ops_test/tag-map.
+2017-04-11 18:15:53.015462: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:53.015502: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:53.015509: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:53.030472: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:53.032203: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/beam_reader_ops_test/tag-map.
+2017-04-11 18:15:54.424965: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:54.425003: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:54.425009: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:54.436766: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:54.437970: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/beam_reader_ops_test/tag-map.
+.2017-04-11 18:15:54.563892: I syntaxnet/lexicon_builder.cc:162] Term maps collected over 964 tokens from 54 documents
+2017-04-11 18:15:54.564519: I syntaxnet/term_frequency_map.cc:137] Saved 547 terms to /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:54.565101: I syntaxnet/term_frequency_map.cc:137] Saved 529 terms to /tmp/beam_reader_ops_test/lcword-map.
+2017-04-11 18:15:54.565309: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/beam_reader_ops_test/tag-map.
+2017-04-11 18:15:54.565445: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/beam_reader_ops_test/category-map.
+2017-04-11 18:15:54.565578: I syntaxnet/term_frequency_map.cc:137] Saved 39 terms to /tmp/beam_reader_ops_test/label-map.
+2017-04-11 18:15:54.565743: I syntaxnet/term_frequency_map.cc:137] Saved 57 terms to /tmp/beam_reader_ops_test/char-map.
+2017-04-11 18:15:54.566835: I syntaxnet/term_frequency_map.cc:137] Saved 1680 terms to /tmp/beam_reader_ops_test/char-ngram-map.
+2017-04-11 18:15:54.573164: I syntaxnet/term_frequency_map.cc:101] Loaded 39 terms from /tmp/beam_reader_ops_test/label-map.
+2017-04-11 18:15:54.573470: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:54.573482: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:54.573486: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:54.585963: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:54.587014: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/beam_reader_ops_test/tag-map.
+2017-04-11 18:15:54.590673: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:54.590753: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:54.590760: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:54.599669: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:54.600559: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/beam_reader_ops_test/tag-map.
+2017-04-11 18:15:56.253037: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:56.253078: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:56.253084: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:56.262514: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:56.263548: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/beam_reader_ops_test/tag-map.
+.2017-04-11 18:15:56.314634: I syntaxnet/lexicon_builder.cc:162] Term maps collected over 964 tokens from 54 documents
+2017-04-11 18:15:56.315130: I syntaxnet/term_frequency_map.cc:137] Saved 547 terms to /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:56.315486: I syntaxnet/term_frequency_map.cc:137] Saved 529 terms to /tmp/beam_reader_ops_test/lcword-map.
+2017-04-11 18:15:56.315614: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/beam_reader_ops_test/tag-map.
+2017-04-11 18:15:56.315733: I syntaxnet/term_frequency_map.cc:137] Saved 36 terms to /tmp/beam_reader_ops_test/category-map.
+2017-04-11 18:15:56.315852: I syntaxnet/term_frequency_map.cc:137] Saved 39 terms to /tmp/beam_reader_ops_test/label-map.
+2017-04-11 18:15:56.315977: I syntaxnet/term_frequency_map.cc:137] Saved 57 terms to /tmp/beam_reader_ops_test/char-map.
+2017-04-11 18:15:56.316779: I syntaxnet/term_frequency_map.cc:137] Saved 1680 terms to /tmp/beam_reader_ops_test/char-ngram-map.
+2017-04-11 18:15:56.322810: I syntaxnet/term_frequency_map.cc:101] Loaded 39 terms from /tmp/beam_reader_ops_test/label-map.
+2017-04-11 18:15:56.323157: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:56.323182: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:56.323188: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:56.333861: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:56.335107: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/beam_reader_ops_test/tag-map.
+2017-04-11 18:15:56.338321: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:56.338346: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:56.338352: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:56.349937: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:56.351259: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/beam_reader_ops_test/tag-map.
+2017-04-11 18:15:57.762748: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word input(1).token.word input(2).token.word stack.token.word stack(1).token.word stack(2).token.word;input.tag input(1).tag input(2).tag stack.tag stack(1).tag stack(2).tag;stack.child(1).label stack.child(1).sibling(-1).label stack.child(-1).label stack.child(-1).sibling(1).label
+2017-04-11 18:15:57.762787: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags;labels
+2017-04-11 18:15:57.762793: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 8;8;8
+2017-04-11 18:15:57.773483: I syntaxnet/term_frequency_map.cc:101] Loaded 547 terms from /tmp/beam_reader_ops_test/word-map.
+2017-04-11 18:15:57.774454: I syntaxnet/term_frequency_map.cc:101] Loaded 36 terms from /tmp/beam_reader_ops_test/tag-map.
+.s
+----------------------------------------------------------------------
+Ran 6 tests in 19.032s
+
+OK (skipped=1)

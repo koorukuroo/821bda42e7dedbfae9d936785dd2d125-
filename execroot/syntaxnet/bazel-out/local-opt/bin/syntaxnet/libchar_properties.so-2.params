@@ -1,0 +1,3 @@
+bazel-out/local-opt/bin/syntaxnet/_objs/char_properties/syntaxnet/char_properties.pic.o
+-lstdc++
+-lm

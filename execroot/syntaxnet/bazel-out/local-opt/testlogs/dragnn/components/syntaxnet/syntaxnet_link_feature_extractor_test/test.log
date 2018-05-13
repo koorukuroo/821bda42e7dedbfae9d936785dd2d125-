@@ -1,0 +1,16 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+Running main() from test_main.cc
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ExportSpecTest
+[ RUN      ] ExportSpecTest.WritesChannelSpec
+2017-04-11 18:12:20.258143: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.focus;stack.focus
+2017-04-11 18:12:20.258286: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tagger;parser
+2017-04-11 18:12:20.258293: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 16;16
+[       OK ] ExportSpecTest.WritesChannelSpec (1 ms)
+[----------] 1 test from ExportSpecTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.

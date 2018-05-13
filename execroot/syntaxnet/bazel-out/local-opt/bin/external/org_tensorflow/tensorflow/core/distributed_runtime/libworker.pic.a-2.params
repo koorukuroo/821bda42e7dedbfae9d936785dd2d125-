@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/distributed_runtime/libworker.pic.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/distributed_runtime/_objs/worker/external/org_tensorflow/tensorflow/core/distributed_runtime/worker.pic.o

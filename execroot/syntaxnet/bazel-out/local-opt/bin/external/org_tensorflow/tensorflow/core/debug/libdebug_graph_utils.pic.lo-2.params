@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/debug/libdebug_graph_utils.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/debug/_objs/debug_graph_utils/external/org_tensorflow/tensorflow/core/debug/debug_graph_utils.pic.o

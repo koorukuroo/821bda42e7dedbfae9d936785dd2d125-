@@ -1,0 +1,6 @@
+rcsD
+bazel-out/host/bin/external/org_tensorflow/tensorflow/core/liblib_proto_parsing.a
+bazel-out/host/bin/external/org_tensorflow/tensorflow/core/_objs/lib_proto_parsing/external/org_tensorflow/tensorflow/core/platform/default/logging.o
+bazel-out/host/bin/external/org_tensorflow/tensorflow/core/_objs/lib_proto_parsing/external/org_tensorflow/tensorflow/core/platform/default/protobuf.o
+bazel-out/host/bin/external/org_tensorflow/tensorflow/core/_objs/lib_proto_parsing/external/org_tensorflow/tensorflow/core/platform/env_time.o
+bazel-out/host/bin/external/org_tensorflow/tensorflow/core/_objs/lib_proto_parsing/external/org_tensorflow/tensorflow/core/platform/posix/env_time.o

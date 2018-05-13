@@ -1,0 +1,120 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+Running main() from test_main.cc
+[==========] Running 22 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 22 tests from ComputeSessionImplTest
+[ RUN      ] ComputeSessionImplTest.CreatesComponent
+2017-04-11 18:12:16.212085: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:16.212216: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionImplTest.CreatesComponent (1 ms)
+[ RUN      ] ComputeSessionImplTest.ReturnsComponentSpec
+2017-04-11 18:12:16.212842: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:16.212860: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionImplTest.ReturnsComponentSpec (0 ms)
+[ RUN      ] ComputeSessionImplTest.CreatesMultipleComponents
+2017-04-11 18:12:16.212898: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:16.212941: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionImplTest.CreatesMultipleComponents (0 ms)
+[ RUN      ] ComputeSessionImplTest.InitializesComponents
+2017-04-11 18:12:16.213953: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:16.213973: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionImplTest.InitializesComponents (1 ms)
+[ RUN      ] ComputeSessionImplTest.CreatesTranslator
+2017-04-11 18:12:16.214054: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:16.214069: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionImplTest.CreatesTranslator (1 ms)
+[ RUN      ] ComputeSessionImplTest.CreatesTranslatorWithLongWalk
+2017-04-11 18:12:16.214117: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:16.214129: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionImplTest.CreatesTranslatorWithLongWalk (0 ms)
+[ RUN      ] ComputeSessionImplTest.CreatesTranslatorForMultipleComponents
+2017-04-11 18:12:16.214186: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:16.214195: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionImplTest.CreatesTranslatorForMultipleComponents (0 ms)
+[ RUN      ] ComputeSessionImplTest.CreatesMultipleTranslatorsBetweenSameComponents
+2017-04-11 18:12:16.214232: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:16.214238: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionImplTest.CreatesMultipleTranslatorsBetweenSameComponents (0 ms)
+[ RUN      ] ComputeSessionImplTest.CreatesSelfReferentialTranslator
+2017-04-11 18:12:16.214266: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:16.214272: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionImplTest.CreatesSelfReferentialTranslator (0 ms)
+[ RUN      ] ComputeSessionImplTest.CreateTranslatorFailsWithWrongNameDeathTest
+2017-04-11 18:12:16.418477: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 0
+[       OK ] ComputeSessionImplTest.CreateTranslatorFailsWithWrongNameDeathTest (204 ms)
+[ RUN      ] ComputeSessionImplTest.GetsSourceComponentBeamSize
+2017-04-11 18:12:16.418591: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:16.418603: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionImplTest.GetsSourceComponentBeamSize (0 ms)
+[ RUN      ] ComputeSessionImplTest.GetsTranslatedLinkFeatures
+2017-04-11 18:12:16.418811: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:16.418827: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionImplTest.GetsTranslatedLinkFeatures (0 ms)
+[ RUN      ] ComputeSessionImplTest.InitializesComponentDataWithNoSource
+2017-04-11 18:12:16.418914: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:16.418927: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionImplTest.InitializesComponentDataWithNoSource (0 ms)
+[ RUN      ] ComputeSessionImplTest.InitializesComponentWithSource
+2017-04-11 18:12:16.419043: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:16.419056: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionImplTest.InitializesComponentWithSource (1 ms)
+[ RUN      ] ComputeSessionImplTest.InitializeDataFailsWhenInputDataNotProvidedDeathTest
+2017-04-11 18:12:16.575742: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:16.575772: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionImplTest.InitializeDataFailsWhenInputDataNotProvidedDeathTest (156 ms)
+[ RUN      ] ComputeSessionImplTest.InitializeDataFailsWhenComponentDoesNotExistdeathTest
+2017-04-11 18:12:16.750058: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:16.750098: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionImplTest.InitializeDataFailsWhenComponentDoesNotExistdeathTest (175 ms)
+[ RUN      ] ComputeSessionImplTest.InitializeDataFailsWhenSourceIsNotTerminalDeathTest
+[       OK ] ComputeSessionImplTest.InitializeDataFailsWhenSourceIsNotTerminalDeathTest (215 ms)
+[ RUN      ] ComputeSessionImplTest.ResetSessionResetsAllComponents
+2017-04-11 18:12:16.965347: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:16.965369: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionImplTest.ResetSessionResetsAllComponents (0 ms)
+[ RUN      ] ComputeSessionImplTest.SetTracingPropagatesToAllComponents
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: GetSourceBeamIndex(0, 0)
+          Returns: 0
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/CookBook.md#knowing-when-to-expect for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: GetBeamIndexAtStep(34, 0, 0)
+          Returns: 0
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/CookBook.md#knowing-when-to-expect for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: GetSourceBeamIndex(0, 0)
+          Returns: 0
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/CookBook.md#knowing-when-to-expect for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: GetBeamIndexAtStep(34, 0, 0)
+          Returns: 0
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/googlemock/docs/CookBook.md#knowing-when-to-expect for details.
+2017-04-11 18:12:16.966042: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:16.966053: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionImplTest.SetTracingPropagatesToAllComponents (1 ms)
+[ RUN      ] ComputeSessionImplTest.TraceSourceBeamPath
+2017-04-11 18:12:16.966362: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:16.966380: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionImplTest.TraceSourceBeamPath (0 ms)
+[ RUN      ] ComputeSessionImplTest.InterfacePassesThrough
+2017-04-11 18:12:16.966576: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:16.966592: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionImplTest.InterfacePassesThrough (0 ms)
+[ RUN      ] ComputeSessionImplTest.InterfaceRequiresReady
+2017-04-11 18:12:18.818376: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+2017-04-11 18:12:18.818406: W dragnn/core/compute_session_pool.cc:58] Destroying pool: number of unreturned sessions = 1
+[       OK ] ComputeSessionImplTest.InterfaceRequiresReady (1852 ms)
+[----------] 22 tests from ComputeSessionImplTest (2607 ms total)
+
+[----------] Global test environment tear-down
+[==========] 22 tests from 1 test case ran. (2607 ms total)
+[  PASSED  ] 22 tests.

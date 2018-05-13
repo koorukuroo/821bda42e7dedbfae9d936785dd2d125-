@@ -1,0 +1,7 @@
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/test/external/org_tensorflow/tensorflow/core/platform/test.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/test/external/org_tensorflow/tensorflow/core/util/reporter.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/test/external/org_tensorflow/tensorflow/core/platform/default/test_benchmark.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/test/external/org_tensorflow/tensorflow/core/platform/posix/test.pic.o
+-lm
+-lstdc++
+-lm

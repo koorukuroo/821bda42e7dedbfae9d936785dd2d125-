@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libpadding_fifo_queue.pic.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/padding_fifo_queue/external/org_tensorflow/tensorflow/core/kernels/padding_fifo_queue.pic.o

@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/libversion_lib.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/version_lib/external/org_tensorflow/tensorflow/core/util/version_info.o

@@ -1,0 +1,8 @@
+-whole-archive
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/factorization/_objs/python/ops/_factorization_ops.so/external/org_tensorflow/tensorflow/contrib/factorization/ops/factorization_ops.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/factorization/kernels/libmasked_matmul_ops.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/factorization/kernels/libwals_solver_ops.pic.lo
+-no-whole-archive
+-lm
+-lstdc++
+-lm

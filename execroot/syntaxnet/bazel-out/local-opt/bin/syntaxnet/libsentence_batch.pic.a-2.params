@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/syntaxnet/libsentence_batch.pic.a
+bazel-out/local-opt/bin/syntaxnet/_objs/sentence_batch/syntaxnet/sentence_batch.pic.o

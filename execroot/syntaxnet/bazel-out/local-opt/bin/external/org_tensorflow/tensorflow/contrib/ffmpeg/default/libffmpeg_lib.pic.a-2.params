@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/ffmpeg/default/libffmpeg_lib.pic.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/ffmpeg/default/_objs/ffmpeg_lib/external/org_tensorflow/tensorflow/contrib/ffmpeg/default/ffmpeg_lib.pic.o

@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/distributed_runtime/rpc/libgrpc_worker_service_impl.pic.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/distributed_runtime/rpc/_objs/grpc_worker_service_impl/external/org_tensorflow/tensorflow/core/distributed_runtime/rpc/grpc_worker_service_impl.pic.o

@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libbcast_ops.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/bcast_ops/external/org_tensorflow/tensorflow/core/kernels/bcast_ops.pic.o

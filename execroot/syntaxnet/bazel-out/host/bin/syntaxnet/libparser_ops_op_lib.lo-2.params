@@ -1,0 +1,3 @@
+rcsD
+bazel-out/host/bin/syntaxnet/libparser_ops_op_lib.lo
+bazel-out/host/bin/syntaxnet/_objs/parser_ops_op_lib/syntaxnet/ops/parser_ops.o

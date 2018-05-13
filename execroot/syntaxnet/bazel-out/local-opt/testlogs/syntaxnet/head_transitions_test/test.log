@@ -1,0 +1,32 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+Running main() from test_main.cc
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from HeadTransitionSystemTest
+[ RUN      ] HeadTransitionSystemTest.Characteristics
+[       OK ] HeadTransitionSystemTest.Characteristics (1 ms)
+[ RUN      ] HeadTransitionSystemTest.GoldParsesCorrectly
+2017-04-11 18:12:20.624719: I syntaxnet/head_transitions_test.cc:75] Initial parser state: [-1 -1 -1 -1 -1 -1 -1 -1]
+2017-04-11 18:12:20.624868: I syntaxnet/head_transitions_test.cc:79] Performing action: saw->I
+2017-04-11 18:12:20.624887: I syntaxnet/head_transitions_test.cc:82] Parser state: [1 -1 -1 -1 -1 -1 -1 -1]
+2017-04-11 18:12:20.624898: I syntaxnet/head_transitions_test.cc:79] Performing action: ROOT->saw
+2017-04-11 18:12:20.624904: I syntaxnet/head_transitions_test.cc:82] Parser state: [1 -1 -1 -1 -1 -1 -1 -1]
+2017-04-11 18:12:20.624908: I syntaxnet/head_transitions_test.cc:79] Performing action: man->a
+2017-04-11 18:12:20.624914: I syntaxnet/head_transitions_test.cc:82] Parser state: [1 -1 3 -1 -1 -1 -1 -1]
+2017-04-11 18:12:20.624918: I syntaxnet/head_transitions_test.cc:79] Performing action: saw->man
+2017-04-11 18:12:20.624924: I syntaxnet/head_transitions_test.cc:82] Parser state: [1 -1 3 1 -1 -1 -1 -1]
+2017-04-11 18:12:20.624928: I syntaxnet/head_transitions_test.cc:79] Performing action: saw->with
+2017-04-11 18:12:20.624934: I syntaxnet/head_transitions_test.cc:82] Parser state: [1 -1 3 1 1 -1 -1 -1]
+2017-04-11 18:12:20.624938: I syntaxnet/head_transitions_test.cc:79] Performing action: telescope->a
+2017-04-11 18:12:20.624943: I syntaxnet/head_transitions_test.cc:82] Parser state: [1 -1 3 1 1 6 -1 -1]
+2017-04-11 18:12:20.624948: I syntaxnet/head_transitions_test.cc:79] Performing action: with->telescope
+2017-04-11 18:12:20.624953: I syntaxnet/head_transitions_test.cc:82] Parser state: [1 -1 3 1 1 6 4 -1]
+2017-04-11 18:12:20.624957: I syntaxnet/head_transitions_test.cc:79] Performing action: saw->.
+2017-04-11 18:12:20.624962: I syntaxnet/head_transitions_test.cc:82] Parser state: [1 -1 3 1 1 6 4 1]
+[       OK ] HeadTransitionSystemTest.GoldParsesCorrectly (0 ms)
+[----------] 2 tests from HeadTransitionSystemTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 2 tests.

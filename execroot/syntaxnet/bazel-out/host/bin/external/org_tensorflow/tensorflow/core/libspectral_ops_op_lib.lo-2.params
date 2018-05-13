@@ -1,0 +1,3 @@
+rcsD
+bazel-out/host/bin/external/org_tensorflow/tensorflow/core/libspectral_ops_op_lib.lo
+bazel-out/host/bin/external/org_tensorflow/tensorflow/core/_objs/spectral_ops_op_lib/external/org_tensorflow/tensorflow/core/ops/spectral_ops.o

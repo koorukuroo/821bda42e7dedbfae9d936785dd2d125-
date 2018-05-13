@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/distributed_runtime/liblocal_master.pic.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/distributed_runtime/_objs/local_master/external/org_tensorflow/tensorflow/core/distributed_runtime/local_master.pic.o

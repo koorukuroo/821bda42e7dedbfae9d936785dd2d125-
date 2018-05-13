@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/cc/libops.pic.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/cc/_objs/ops/external/org_tensorflow/tensorflow/cc/framework/ops.pic.o

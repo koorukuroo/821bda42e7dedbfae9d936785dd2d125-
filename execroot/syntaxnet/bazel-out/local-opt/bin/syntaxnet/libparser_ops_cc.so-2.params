@@ -1,0 +1,3 @@
+bazel-out/local-opt/bin/syntaxnet/_objs/parser_ops_cc/syntaxnet/ops/parser_ops.pic.o
+-lstdc++
+-lm

@@ -1,0 +1,5 @@
+rcsD
+bazel-out/local-opt/bin/external/nanopb_git/libnanopb.pic.a
+bazel-out/local-opt/bin/external/nanopb_git/_objs/nanopb/external/nanopb_git/pb_common.pic.o
+bazel-out/local-opt/bin/external/nanopb_git/_objs/nanopb/external/nanopb_git/pb_decode.pic.o
+bazel-out/local-opt/bin/external/nanopb_git/_objs/nanopb/external/nanopb_git/pb_encode.pic.o

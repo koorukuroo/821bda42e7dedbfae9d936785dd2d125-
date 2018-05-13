@@ -1,0 +1,1 @@
+/opt/tensorflow/syntaxnet/dragnn/python/bulk_component_test.py

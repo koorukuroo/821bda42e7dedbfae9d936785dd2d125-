@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libconditional_accumulator_base.pic.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/conditional_accumulator_base/external/org_tensorflow/tensorflow/core/kernels/conditional_accumulator_base.pic.o

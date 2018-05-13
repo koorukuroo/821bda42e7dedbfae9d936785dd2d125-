@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/python/libpython_op_gen.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/python/_objs/python_op_gen/external/org_tensorflow/tensorflow/python/framework/python_op_gen.o

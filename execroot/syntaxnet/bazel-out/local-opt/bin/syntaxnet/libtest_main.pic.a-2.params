@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/syntaxnet/libtest_main.pic.a
+bazel-out/local-opt/bin/syntaxnet/_objs/test_main/syntaxnet/test_main.pic.o

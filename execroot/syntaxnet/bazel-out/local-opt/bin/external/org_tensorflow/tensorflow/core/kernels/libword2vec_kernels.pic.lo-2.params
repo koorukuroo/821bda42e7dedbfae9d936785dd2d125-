@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libword2vec_kernels.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/word2vec_kernels/external/org_tensorflow/tensorflow/core/kernels/word2vec_kernels.pic.o

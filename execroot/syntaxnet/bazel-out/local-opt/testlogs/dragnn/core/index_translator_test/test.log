@@ -1,0 +1,21 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+Running main() from test_main.cc
+[==========] Running 5 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 5 tests from IndexTranslatorTest
+[ RUN      ] IndexTranslatorTest.PerformsIdentityTranslation
+[       OK ] IndexTranslatorTest.PerformsIdentityTranslation (0 ms)
+[ RUN      ] IndexTranslatorTest.PerformsHistoryTranslation
+[       OK ] IndexTranslatorTest.PerformsHistoryTranslation (1 ms)
+[ RUN      ] IndexTranslatorTest.TraversesPathToLookup
+[       OK ] IndexTranslatorTest.TraversesPathToLookup (0 ms)
+[ RUN      ] IndexTranslatorTest.RequestsArbitraryTranslationFunction
+[       OK ] IndexTranslatorTest.RequestsArbitraryTranslationFunction (0 ms)
+[ RUN      ] IndexTranslatorTest.RequestsArbitraryTranslationAcrossComponents
+[       OK ] IndexTranslatorTest.RequestsArbitraryTranslationAcrossComponents (0 ms)
+[----------] 5 tests from IndexTranslatorTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 5 tests.

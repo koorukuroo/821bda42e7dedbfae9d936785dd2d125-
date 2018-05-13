@@ -1,0 +1,61 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+Running main() from test_main.cc
+[==========] Running 25 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 25 tests from CharPropertiesTest
+[ RUN      ] CharPropertiesTest.TestDigit
+[       OK ] CharPropertiesTest.TestDigit (0 ms)
+[ RUN      ] CharPropertiesTest.TestWavyDash
+[       OK ] CharPropertiesTest.TestWavyDash (0 ms)
+[ RUN      ] CharPropertiesTest.TestDigitOrWavyDash
+[       OK ] CharPropertiesTest.TestDigitOrWavyDash (1 ms)
+[ RUN      ] CharPropertiesTest.TestPunctuationPlus
+[       OK ] CharPropertiesTest.TestPunctuationPlus (17 ms)
+[ RUN      ] CharPropertiesTest.StartSentencePunc
+[       OK ] CharPropertiesTest.StartSentencePunc (0 ms)
+[ RUN      ] CharPropertiesTest.EndSentencePunc
+[       OK ] CharPropertiesTest.EndSentencePunc (0 ms)
+[ RUN      ] CharPropertiesTest.OpenExprPunc
+[       OK ] CharPropertiesTest.OpenExprPunc (0 ms)
+[ RUN      ] CharPropertiesTest.CloseExprPunc
+[       OK ] CharPropertiesTest.CloseExprPunc (0 ms)
+[ RUN      ] CharPropertiesTest.OpenQuote
+[       OK ] CharPropertiesTest.OpenQuote (0 ms)
+[ RUN      ] CharPropertiesTest.CloseQuote
+[       OK ] CharPropertiesTest.CloseQuote (0 ms)
+[ RUN      ] CharPropertiesTest.OpenBookquote
+[       OK ] CharPropertiesTest.OpenBookquote (0 ms)
+[ RUN      ] CharPropertiesTest.CloseBookquote
+[       OK ] CharPropertiesTest.CloseBookquote (0 ms)
+[ RUN      ] CharPropertiesTest.OpenPunc
+[       OK ] CharPropertiesTest.OpenPunc (0 ms)
+[ RUN      ] CharPropertiesTest.ClosePunc
+[       OK ] CharPropertiesTest.ClosePunc (0 ms)
+[ RUN      ] CharPropertiesTest.LeadingSentencePunc
+[       OK ] CharPropertiesTest.LeadingSentencePunc (0 ms)
+[ RUN      ] CharPropertiesTest.TrailingSentencePunc
+[       OK ] CharPropertiesTest.TrailingSentencePunc (0 ms)
+[ RUN      ] CharPropertiesTest.NoncurrencyTokenPrefixSymbol
+[       OK ] CharPropertiesTest.NoncurrencyTokenPrefixSymbol (0 ms)
+[ RUN      ] CharPropertiesTest.TokenSuffixSymbol
+[       OK ] CharPropertiesTest.TokenSuffixSymbol (0 ms)
+[ RUN      ] CharPropertiesTest.TokenPrefixSymbol
+[       OK ] CharPropertiesTest.TokenPrefixSymbol (0 ms)
+[ RUN      ] CharPropertiesTest.SubscriptSymbol
+[       OK ] CharPropertiesTest.SubscriptSymbol (0 ms)
+[ RUN      ] CharPropertiesTest.SuperscriptSymbol
+[       OK ] CharPropertiesTest.SuperscriptSymbol (0 ms)
+[ RUN      ] CharPropertiesTest.CurrencySymbol
+[       OK ] CharPropertiesTest.CurrencySymbol (0 ms)
+[ RUN      ] CharPropertiesTest.DirectionalFormattingCode
+[       OK ] CharPropertiesTest.DirectionalFormattingCode (0 ms)
+[ RUN      ] CharPropertiesTest.Punctuation
+[       OK ] CharPropertiesTest.Punctuation (0 ms)
+[ RUN      ] CharPropertiesTest.Separator
+[       OK ] CharPropertiesTest.Separator (1 ms)
+[----------] 25 tests from CharPropertiesTest (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 25 tests from 1 test case ran. (19 ms total)
+[  PASSED  ] 25 tests.

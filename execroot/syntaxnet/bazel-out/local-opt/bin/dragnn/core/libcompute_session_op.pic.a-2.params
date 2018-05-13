@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/dragnn/core/libcompute_session_op.pic.a
+bazel-out/local-opt/bin/dragnn/core/_objs/compute_session_op/dragnn/core/ops/compute_session_op.pic.o

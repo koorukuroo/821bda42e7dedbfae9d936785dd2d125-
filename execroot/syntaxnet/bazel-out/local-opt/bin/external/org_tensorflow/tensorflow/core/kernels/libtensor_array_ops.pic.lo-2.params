@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libtensor_array_ops.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/tensor_array_ops/external/org_tensorflow/tensorflow/core/kernels/tensor_array_ops.pic.o

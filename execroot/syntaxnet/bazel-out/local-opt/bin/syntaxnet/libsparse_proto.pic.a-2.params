@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/syntaxnet/libsparse_proto.pic.a
+bazel-out/local-opt/bin/syntaxnet/_objs/sparse_proto/syntaxnet/sparse.pb.pic.o

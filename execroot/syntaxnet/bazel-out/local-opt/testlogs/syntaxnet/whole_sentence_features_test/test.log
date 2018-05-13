@@ -1,0 +1,17 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+Running main() from test_main.cc
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from WholeSentenceFeaturesTest
+[ RUN      ] WholeSentenceFeaturesTest.SentenceLengthEmpty
+[       OK ] WholeSentenceFeaturesTest.SentenceLengthEmpty (1 ms)
+[ RUN      ] WholeSentenceFeaturesTest.SentenceLengthPopulated
+[       OK ] WholeSentenceFeaturesTest.SentenceLengthPopulated (0 ms)
+[ RUN      ] WholeSentenceFeaturesTest.SentenceLengthClipped
+[       OK ] WholeSentenceFeaturesTest.SentenceLengthClipped (0 ms)
+[----------] 3 tests from WholeSentenceFeaturesTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 3 tests.

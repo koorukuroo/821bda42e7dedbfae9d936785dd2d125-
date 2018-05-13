@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libmatrix_solve_op.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/matrix_solve_op/external/org_tensorflow/tensorflow/core/kernels/matrix_solve_op.pic.o

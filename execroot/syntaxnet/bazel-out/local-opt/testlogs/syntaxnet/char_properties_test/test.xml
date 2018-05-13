@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="25" failures="0" disabled="0" errors="0" timestamp="2017-04-11T18:12:19" time="0.019" name="AllTests">
+  <testsuite name="CharPropertiesTest" tests="25" failures="0" disabled="0" errors="0" time="0.019">
+    <testcase name="TestDigit" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="TestWavyDash" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="TestDigitOrWavyDash" status="run" time="0.001" classname="CharPropertiesTest" />
+    <testcase name="TestPunctuationPlus" status="run" time="0.017" classname="CharPropertiesTest" />
+    <testcase name="StartSentencePunc" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="EndSentencePunc" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="OpenExprPunc" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="CloseExprPunc" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="OpenQuote" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="CloseQuote" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="OpenBookquote" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="CloseBookquote" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="OpenPunc" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="ClosePunc" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="LeadingSentencePunc" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="TrailingSentencePunc" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="NoncurrencyTokenPrefixSymbol" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="TokenSuffixSymbol" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="TokenPrefixSymbol" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="SubscriptSymbol" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="SuperscriptSymbol" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="CurrencySymbol" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="DirectionalFormattingCode" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="Punctuation" status="run" time="0" classname="CharPropertiesTest" />
+    <testcase name="Separator" status="run" time="0.001" classname="CharPropertiesTest" />
+  </testsuite>
+</testsuites>

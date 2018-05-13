@@ -1,0 +1,49 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+Running main() from test_main.cc
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from SegmentationTransitionTest
+[ RUN      ] SegmentationTransitionTest.GoldNextActionTest
+2017-04-11 18:12:21.191605: I syntaxnet/term_frequency_map.cc:137] Saved 5 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1word-map.
+2017-04-11 18:12:21.193053: I syntaxnet/term_frequency_map.cc:101] Loaded 4 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1word-map.
+2017-04-11 18:12:21.193324: I syntaxnet/term_frequency_map.cc:137] Saved 3 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1char-ngram-map.
+[       OK ] SegmentationTransitionTest.GoldNextActionTest (3 ms)
+[ RUN      ] SegmentationTransitionTest.DefaultActionTest
+2017-04-11 18:12:21.193852: I syntaxnet/term_frequency_map.cc:137] Saved 5 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1word-map.
+2017-04-11 18:12:21.194504: I syntaxnet/term_frequency_map.cc:101] Loaded 4 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1word-map.
+2017-04-11 18:12:21.194655: I syntaxnet/term_frequency_map.cc:137] Saved 3 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1char-ngram-map.
+[       OK ] SegmentationTransitionTest.DefaultActionTest (2 ms)
+[ RUN      ] SegmentationTransitionTest.BigramFeatureTest
+2017-04-11 18:12:21.195276: I syntaxnet/term_frequency_map.cc:137] Saved 5 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1word-map.
+2017-04-11 18:12:21.195553: I syntaxnet/term_frequency_map.cc:101] Loaded 4 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1word-map.
+2017-04-11 18:12:21.203036: I syntaxnet/term_frequency_map.cc:137] Saved 3 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1char-ngram-map.
+2017-04-11 18:12:21.203731: I syntaxnet/term_frequency_map.cc:101] Loaded 2 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1char-ngram-map.
+2017-04-11 18:12:21.204107: I syntaxnet/term_frequency_map.cc:101] Loaded 2 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1char-ngram-map.
+2017-04-11 18:12:21.204343: I syntaxnet/term_frequency_map.cc:101] Loaded 2 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1char-ngram-map.
+2017-04-11 18:12:21.204570: I syntaxnet/term_frequency_map.cc:101] Loaded 2 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1char-ngram-map.
+2017-04-11 18:12:21.204808: I syntaxnet/term_frequency_map.cc:101] Loaded 2 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1char-ngram-map.
+2017-04-11 18:12:21.205032: I syntaxnet/term_frequency_map.cc:101] Loaded 2 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1char-ngram-map.
+2017-04-11 18:12:21.205258: I syntaxnet/term_frequency_map.cc:101] Loaded 2 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1char-ngram-map.
+[       OK ] SegmentationTransitionTest.BigramFeatureTest (10 ms)
+[ RUN      ] SegmentationTransitionTest.LastWordFeatureTest
+2017-04-11 18:12:21.205707: I syntaxnet/term_frequency_map.cc:137] Saved 5 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1word-map.
+2017-04-11 18:12:21.205993: I syntaxnet/term_frequency_map.cc:101] Loaded 4 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1word-map.
+2017-04-11 18:12:21.206136: I syntaxnet/term_frequency_map.cc:137] Saved 3 terms to /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1char-ngram-map.
+2017-04-11 18:12:21.206474: I syntaxnet/term_frequency_map.cc:101] Loaded 4 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1word-map.
+2017-04-11 18:12:21.206772: I syntaxnet/term_frequency_map.cc:101] Loaded 4 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1word-map.
+2017-04-11 18:12:21.207590: I syntaxnet/term_frequency_map.cc:101] Loaded 4 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1word-map.
+2017-04-11 18:12:21.207907: I syntaxnet/term_frequency_map.cc:101] Loaded 4 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1word-map.
+2017-04-11 18:12:21.208186: I syntaxnet/term_frequency_map.cc:101] Loaded 4 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1word-map.
+2017-04-11 18:12:21.208862: I syntaxnet/term_frequency_map.cc:101] Loaded 5 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1word-map.
+2017-04-11 18:12:21.209146: I syntaxnet/term_frequency_map.cc:101] Loaded 4 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1word-map.
+2017-04-11 18:12:21.209421: I syntaxnet/term_frequency_map.cc:101] Loaded 4 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1word-map.
+2017-04-11 18:12:21.216260: I syntaxnet/term_frequency_map.cc:101] Loaded 4 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1word-map.
+2017-04-11 18:12:21.216703: I syntaxnet/term_frequency_map.cc:101] Loaded 4 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1word-map.
+2017-04-11 18:12:21.216941: I syntaxnet/term_frequency_map.cc:101] Loaded 4 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/_tmp/binary_segment_transitions_test_1word-map.
+[       OK ] SegmentationTransitionTest.LastWordFeatureTest (11 ms)
+[----------] 4 tests from SegmentationTransitionTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (27 ms total)
+[  PASSED  ] 4 tests.

@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/python/libpy_record_reader_lib.pic.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/python/_objs/py_record_reader_lib/external/org_tensorflow/tensorflow/python/lib/io/py_record_reader.pic.o

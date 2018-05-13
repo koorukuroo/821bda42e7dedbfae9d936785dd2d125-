@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/syntaxnet/libchar_properties.lo
+bazel-out/local-opt/bin/syntaxnet/_objs/char_properties/syntaxnet/char_properties.o

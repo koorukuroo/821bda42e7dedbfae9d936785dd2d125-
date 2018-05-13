@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="0" disabled="0" errors="0" timestamp="2017-04-11T18:12:18" time="0.002" name="AllTests">
+  <testsuite name="SegmenterUtilsTest" tests="4" failures="0" disabled="0" errors="0" time="0.002">
+    <testcase name="DocTokensUTF8ConsistentTest" status="run" time="0.001" classname="SegmenterUtilsTest" />
+    <testcase name="ConvertToCharTokenDocTest" status="run" time="0.001" classname="SegmenterUtilsTest" />
+    <testcase name="GetCharsTest" status="run" time="0" classname="SegmenterUtilsTest" />
+    <testcase name="SetCharsAsTokensTest" status="run" time="0" classname="SegmenterUtilsTest" />
+  </testsuite>
+</testsuites>

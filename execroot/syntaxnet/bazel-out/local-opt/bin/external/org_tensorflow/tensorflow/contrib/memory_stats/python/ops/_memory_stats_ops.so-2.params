@@ -1,0 +1,7 @@
+-whole-archive
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/memory_stats/_objs/python/ops/_memory_stats_ops.so/external/org_tensorflow/tensorflow/contrib/memory_stats/kernels/memory_stats_ops.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/memory_stats/_objs/python/ops/_memory_stats_ops.so/external/org_tensorflow/tensorflow/contrib/memory_stats/ops/memory_stats_ops.pic.o
+-no-whole-archive
+-lm
+-lstdc++
+-lm

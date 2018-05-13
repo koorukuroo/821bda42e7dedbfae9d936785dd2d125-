@@ -1,0 +1,15 @@
+bazel-out/local-opt/bin/syntaxnet/_objs/parser_transitions/syntaxnet/arc_standard_transitions.pic.o
+bazel-out/local-opt/bin/syntaxnet/_objs/parser_transitions/syntaxnet/binary_segment_state.pic.o
+bazel-out/local-opt/bin/syntaxnet/_objs/parser_transitions/syntaxnet/binary_segment_transitions.pic.o
+bazel-out/local-opt/bin/syntaxnet/_objs/parser_transitions/syntaxnet/char_shift_transitions.pic.o
+bazel-out/local-opt/bin/syntaxnet/_objs/parser_transitions/syntaxnet/head_transitions.pic.o
+bazel-out/local-opt/bin/syntaxnet/_objs/parser_transitions/syntaxnet/label_transitions.pic.o
+bazel-out/local-opt/bin/syntaxnet/_objs/parser_transitions/syntaxnet/morpher_transitions.pic.o
+bazel-out/local-opt/bin/syntaxnet/_objs/parser_transitions/syntaxnet/once_transitions.pic.o
+bazel-out/local-opt/bin/syntaxnet/_objs/parser_transitions/syntaxnet/parser_features.pic.o
+bazel-out/local-opt/bin/syntaxnet/_objs/parser_transitions/syntaxnet/parser_state.pic.o
+bazel-out/local-opt/bin/syntaxnet/_objs/parser_transitions/syntaxnet/parser_transitions.pic.o
+bazel-out/local-opt/bin/syntaxnet/_objs/parser_transitions/syntaxnet/shift_transitions.pic.o
+bazel-out/local-opt/bin/syntaxnet/_objs/parser_transitions/syntaxnet/tagger_transitions.pic.o
+-lstdc++
+-lm

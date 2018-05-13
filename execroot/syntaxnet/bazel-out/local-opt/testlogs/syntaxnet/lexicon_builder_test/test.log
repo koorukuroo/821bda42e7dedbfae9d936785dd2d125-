@@ -1,0 +1,52 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+2017-04-11 18:16:10.575793: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:16:10.575838: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:16:10.575845: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:16:10.575849: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:16:10.575854: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:16:10.585914: I syntaxnet/lexicon_builder.cc:162] Term maps collected over 25 tokens from 2 documents
+2017-04-11 18:16:10.591680: I syntaxnet/term_frequency_map.cc:137] Saved 24 terms to /tmp/lexicon_builder_test/word-map.
+2017-04-11 18:16:10.591938: I syntaxnet/term_frequency_map.cc:137] Saved 24 terms to /tmp/lexicon_builder_test/lcword-map.
+2017-04-11 18:16:10.592042: I syntaxnet/term_frequency_map.cc:137] Saved 10 terms to /tmp/lexicon_builder_test/tag-map.
+2017-04-11 18:16:10.592140: I syntaxnet/term_frequency_map.cc:137] Saved 7 terms to /tmp/lexicon_builder_test/category-map.
+2017-04-11 18:16:10.592223: I syntaxnet/term_frequency_map.cc:137] Saved 0 terms to /tmp/lexicon_builder_test/label-map.
+2017-04-11 18:16:10.592319: I syntaxnet/term_frequency_map.cc:137] Saved 31 terms to /tmp/lexicon_builder_test/char-map.
+2017-04-11 18:16:10.592463: I syntaxnet/term_frequency_map.cc:137] Saved 106 terms to /tmp/lexicon_builder_test/char-ngram-map.
+.2017-04-11 18:16:10.603220: I syntaxnet/lexicon_builder.cc:162] Term maps collected over 25 tokens from 2 documents
+2017-04-11 18:16:10.603438: I syntaxnet/term_frequency_map.cc:137] Saved 24 terms to /tmp/lexicon_builder_test/word-map.
+2017-04-11 18:16:10.603563: I syntaxnet/term_frequency_map.cc:137] Saved 24 terms to /tmp/lexicon_builder_test/lcword-map.
+2017-04-11 18:16:10.603677: I syntaxnet/term_frequency_map.cc:137] Saved 10 terms to /tmp/lexicon_builder_test/tag-map.
+2017-04-11 18:16:10.603782: I syntaxnet/term_frequency_map.cc:137] Saved 7 terms to /tmp/lexicon_builder_test/category-map.
+2017-04-11 18:16:10.603881: I syntaxnet/term_frequency_map.cc:137] Saved 0 terms to /tmp/lexicon_builder_test/label-map.
+2017-04-11 18:16:10.603997: I syntaxnet/term_frequency_map.cc:137] Saved 31 terms to /tmp/lexicon_builder_test/char-map.
+2017-04-11 18:16:10.604158: I syntaxnet/term_frequency_map.cc:137] Saved 106 terms to /tmp/lexicon_builder_test/char-ngram-map.
+.2017-04-11 18:16:10.608246: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word;input.tag
+2017-04-11 18:16:10.608372: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags
+2017-04-11 18:16:10.608378: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 
+2017-04-11 18:16:10.608251: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word;input.tag
+2017-04-11 18:16:10.608461: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words;tags
+2017-04-11 18:16:10.608492: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 
+2017-04-11 18:16:10.609777: I syntaxnet/term_frequency_map.cc:101] Loaded 24 terms from /tmp/lexicon_builder_test/word-map.
+2017-04-11 18:16:10.610510: I syntaxnet/term_frequency_map.cc:101] Loaded 10 terms from /tmp/lexicon_builder_test/tag-map.
+.2017-04-11 18:16:10.618392: I syntaxnet/lexicon_builder.cc:162] Term maps collected over 25 tokens from 2 documents
+2017-04-11 18:16:10.618621: I syntaxnet/term_frequency_map.cc:137] Saved 24 terms to /tmp/lexicon_builder_test/word-map.
+2017-04-11 18:16:10.618766: I syntaxnet/term_frequency_map.cc:137] Saved 24 terms to /tmp/lexicon_builder_test/lcword-map.
+2017-04-11 18:16:10.618875: I syntaxnet/term_frequency_map.cc:137] Saved 0 terms to /tmp/lexicon_builder_test/tag-map.
+2017-04-11 18:16:10.618977: I syntaxnet/term_frequency_map.cc:137] Saved 0 terms to /tmp/lexicon_builder_test/category-map.
+2017-04-11 18:16:10.619081: I syntaxnet/term_frequency_map.cc:137] Saved 0 terms to /tmp/lexicon_builder_test/label-map.
+2017-04-11 18:16:10.619200: I syntaxnet/term_frequency_map.cc:137] Saved 31 terms to /tmp/lexicon_builder_test/char-map.
+2017-04-11 18:16:10.619370: I syntaxnet/term_frequency_map.cc:137] Saved 106 terms to /tmp/lexicon_builder_test/char-ngram-map.
+.2017-04-11 18:16:10.626502: I syntaxnet/lexicon_builder.cc:162] Term maps collected over 25 tokens from 2 documents
+2017-04-11 18:16:10.626732: I syntaxnet/term_frequency_map.cc:137] Saved 24 terms to /tmp/lexicon_builder_test/word-map.
+2017-04-11 18:16:10.626861: I syntaxnet/term_frequency_map.cc:137] Saved 24 terms to /tmp/lexicon_builder_test/lcword-map.
+2017-04-11 18:16:10.626975: I syntaxnet/term_frequency_map.cc:137] Saved 0 terms to /tmp/lexicon_builder_test/tag-map.
+2017-04-11 18:16:10.627081: I syntaxnet/term_frequency_map.cc:137] Saved 0 terms to /tmp/lexicon_builder_test/category-map.
+2017-04-11 18:16:10.627187: I syntaxnet/term_frequency_map.cc:137] Saved 0 terms to /tmp/lexicon_builder_test/label-map.
+2017-04-11 18:16:10.627303: I syntaxnet/term_frequency_map.cc:137] Saved 31 terms to /tmp/lexicon_builder_test/char-map.
+2017-04-11 18:16:10.627491: I syntaxnet/term_frequency_map.cc:137] Saved 106 terms to /tmp/lexicon_builder_test/char-ngram-map.
+..
+----------------------------------------------------------------------
+Ran 6 tests in 0.137s
+
+OK

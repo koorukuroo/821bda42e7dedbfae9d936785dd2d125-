@@ -1,0 +1,3 @@
+bazel-out/local-opt/bin/syntaxnet/_objs/dictionary_proto/syntaxnet/dictionary.pb.pic.o
+-lstdc++
+-lm

@@ -1,0 +1,1 @@
+/opt/tensorflow/syntaxnet/tensorflow/third_party/eigen.BUILD

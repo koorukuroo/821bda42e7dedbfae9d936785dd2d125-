@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="5" failures="0" disabled="0" errors="0" timestamp="2017-04-11T18:12:21" time="0.002" name="AllTests">
+  <testsuite name="BinarySegmentStateTest" tests="5" failures="0" disabled="0" errors="0" time="0.002">
+    <testcase name="AddStartLastStartNumStartsTest" status="run" time="0.001" classname="BinarySegmentStateTest" />
+    <testcase name="AddParseToDocumentTest" status="run" time="0" classname="BinarySegmentStateTest" />
+    <testcase name="SpaceDocumentTest" status="run" time="0" classname="BinarySegmentStateTest" />
+    <testcase name="DocumentBeginWithSpaceTest" status="run" time="0" classname="BinarySegmentStateTest" />
+    <testcase name="EmptyDocumentTest" status="run" time="0.001" classname="BinarySegmentStateTest" />
+  </testsuite>
+</testsuites>

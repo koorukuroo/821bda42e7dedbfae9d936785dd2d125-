@@ -1,0 +1,1 @@
+/root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/protobuf/python/google/protobuf/internal/message_listener.py

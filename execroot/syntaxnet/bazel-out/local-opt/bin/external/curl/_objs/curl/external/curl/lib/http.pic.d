@@ -1,0 +1,181 @@
+bazel-out/local-opt/bin/external/curl/_objs/curl/external/curl/lib/http.pic.o: \
+ external/curl/lib/http.c /usr/include/stdc-predef.h \
+ external/curl/lib/curl_setup.h \
+ bazel-out/local-opt/genfiles/external/curl/include/curl_config.h \
+ external/boringssl/src/include/openssl/opensslv.h \
+ external/boringssl/src/include/openssl/crypto.h \
+ external/boringssl/src/include/openssl/base.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ external/boringssl/src/include/openssl/opensslconf.h \
+ external/boringssl/src/include/openssl/mem.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/xlocale.h \
+ /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h \
+ external/boringssl/src/include/openssl/thread.h \
+ external/curl/include/curl/curlbuild.h \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/sys/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/socket2.h \
+ external/curl/include/curl/curlrules.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/assert.h \
+ external/curl/lib/curl_setup_once.h /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/string.h \
+ /usr/include/x86_64-linux-gnu/bits/string2.h \
+ /usr/include/x86_64-linux-gnu/bits/string3.h /usr/include/ctype.h \
+ /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/x86_64-linux-gnu/sys/stat.h \
+ /usr/include/x86_64-linux-gnu/bits/stat.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h \
+ /usr/include/x86_64-linux-gnu/bits/timex.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdbool.h \
+ /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd.h /usr/include/netinet/in.h \
+ /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/netdb.h \
+ /usr/include/rpc/netdb.h /usr/include/x86_64-linux-gnu/bits/siginfo.h \
+ /usr/include/x86_64-linux-gnu/bits/netdb.h /usr/include/arpa/inet.h \
+ /usr/include/net/if.h /usr/include/x86_64-linux-gnu/sys/ioctl.h \
+ /usr/include/x86_64-linux-gnu/bits/ioctls.h \
+ /usr/include/x86_64-linux-gnu/asm/ioctls.h \
+ /usr/include/asm-generic/ioctls.h /usr/include/linux/ioctl.h \
+ /usr/include/x86_64-linux-gnu/asm/ioctl.h \
+ /usr/include/asm-generic/ioctl.h \
+ /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
+ /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
+ /usr/include/x86_64-linux-gnu/sys/param.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h /usr/include/signal.h \
+ /usr/include/x86_64-linux-gnu/bits/signum.h \
+ /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+ /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+ /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+ /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
+ /usr/include/x86_64-linux-gnu/asm/param.h \
+ /usr/include/asm-generic/param.h external/curl/lib/urldata.h \
+ external/curl/lib/cookie.h external/curl/include/curl/curl.h \
+ external/curl/include/curl/curlver.h \
+ external/curl/include/curl/curlbuild.h \
+ external/curl/include/curl/curlrules.h external/curl/include/curl/easy.h \
+ external/curl/include/curl/multi.h external/curl/include/curl/curl.h \
+ external/curl/include/curl/typecheck-gcc.h external/curl/lib/formdata.h \
+ external/boringssl/src/include/openssl/ssl.h \
+ external/boringssl/src/include/openssl/bio.h \
+ external/boringssl/src/include/openssl/buffer.h \
+ external/boringssl/src/include/openssl/buf.h \
+ external/boringssl/src/include/openssl/err.h \
+ external/boringssl/src/include/openssl/ex_data.h \
+ external/boringssl/src/include/openssl/stack.h \
+ external/boringssl/src/include/openssl/type_check.h \
+ external/boringssl/src/include/openssl/stack_macros.h \
+ external/boringssl/src/include/openssl/buf.h \
+ external/boringssl/src/include/openssl/hmac.h \
+ external/boringssl/src/include/openssl/digest.h \
+ external/boringssl/src/include/openssl/lhash.h \
+ external/boringssl/src/include/openssl/lhash_macros.h \
+ external/boringssl/src/include/openssl/pem.h \
+ external/boringssl/src/include/openssl/base64.h \
+ external/boringssl/src/include/openssl/cipher.h \
+ external/boringssl/src/include/openssl/evp.h \
+ external/boringssl/src/include/openssl/aead.h \
+ external/boringssl/src/include/openssl/nid.h \
+ external/boringssl/src/include/openssl/x509.h \
+ external/boringssl/src/include/openssl/asn1.h \
+ external/boringssl/src/include/openssl/bn.h /usr/include/inttypes.h \
+ external/boringssl/src/include/openssl/dh.h \
+ external/boringssl/src/include/openssl/engine.h \
+ external/boringssl/src/include/openssl/dsa.h \
+ external/boringssl/src/include/openssl/ecdh.h \
+ external/boringssl/src/include/openssl/ec_key.h \
+ external/boringssl/src/include/openssl/ec.h \
+ external/boringssl/src/include/openssl/ecdsa.h \
+ external/boringssl/src/include/openssl/obj.h \
+ external/boringssl/src/include/openssl/bytestring.h \
+ external/boringssl/src/include/openssl/rsa.h \
+ external/boringssl/src/include/openssl/sha.h \
+ external/boringssl/src/include/openssl/x509_vfy.h \
+ external/boringssl/src/include/openssl/crypto.h \
+ external/boringssl/src/include/openssl/ssl3.h \
+ external/boringssl/src/include/openssl/tls1.h \
+ external/curl/lib/timeval.h external/zlib_archive/zlib.h \
+ external/zlib_archive/zconf.h external/curl/lib/http_chunks.h \
+ external/curl/lib/hostip.h external/curl/lib/hash.h \
+ external/curl/lib/llist.h external/curl/lib/curl_addrinfo.h \
+ external/curl/lib/asyn.h /usr/include/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp2.h external/curl/lib/splay.h \
+ external/curl/lib/imap.h external/curl/lib/pingpong.h \
+ external/curl/lib/curl_sasl.h external/curl/lib/pop3.h \
+ external/curl/lib/smtp.h external/curl/lib/ftp.h \
+ external/curl/lib/file.h external/curl/lib/ssh.h \
+ external/curl/lib/http.h external/curl/lib/rtsp.h \
+ external/curl/lib/smb.h external/curl/lib/wildcard.h \
+ external/curl/lib/multihandle.h external/curl/lib/conncache.h \
+ external/curl/lib/transfer.h external/curl/lib/sendf.h \
+ external/curl/lib/progress.h external/curl/lib/curl_base64.h \
+ external/curl/lib/strequal.h external/curl/lib/vauth/vauth.h \
+ external/curl/lib/vtls/vtls.h external/curl/lib/curl_setup.h \
+ external/curl/lib/vtls/openssl.h external/curl/lib/urldata.h \
+ external/curl/lib/vtls/gtls.h external/curl/lib/vtls/nssg.h \
+ external/curl/lib/vtls/gskit.h external/curl/lib/vtls/polarssl.h \
+ external/curl/lib/vtls/axtls.h external/curl/lib/vtls/cyassl.h \
+ external/curl/lib/vtls/schannel.h external/curl/lib/vtls/darwinssl.h \
+ external/curl/lib/vtls/mbedtls.h external/curl/lib/http_digest.h \
+ external/curl/lib/http_ntlm.h external/curl/lib/curl_ntlm_wb.h \
+ external/curl/lib/http_negotiate.h external/curl/lib/url.h \
+ external/curl/lib/share.h external/curl/lib/select.h \
+ /usr/include/x86_64-linux-gnu/sys/poll.h \
+ /usr/include/x86_64-linux-gnu/bits/poll.h \
+ /usr/include/x86_64-linux-gnu/bits/poll2.h external/curl/lib/parsedate.h \
+ external/curl/lib/strtoofft.h external/curl/lib/multiif.h \
+ external/curl/lib/rawstr.h external/curl/lib/content_encoding.h \
+ external/curl/lib/http_proxy.h external/curl/lib/warnless.h \
+ external/curl/lib/non-ascii.h external/curl/lib/pipeline.h \
+ external/curl/lib/http2.h external/curl/lib/connect.h \
+ external/curl/lib/nonblock.h external/curl/lib/sockaddr.h \
+ external/curl/lib/curl_printf.h external/curl/include/curl/mprintf.h \
+ external/curl/lib/curl_memory.h external/curl/lib/memdebug.h

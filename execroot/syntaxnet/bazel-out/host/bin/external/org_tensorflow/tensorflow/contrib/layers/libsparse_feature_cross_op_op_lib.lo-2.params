@@ -1,0 +1,3 @@
+rcsD
+bazel-out/host/bin/external/org_tensorflow/tensorflow/contrib/layers/libsparse_feature_cross_op_op_lib.lo
+bazel-out/host/bin/external/org_tensorflow/tensorflow/contrib/layers/_objs/sparse_feature_cross_op_op_lib/external/org_tensorflow/tensorflow/contrib/layers/ops/sparse_feature_cross_op.o

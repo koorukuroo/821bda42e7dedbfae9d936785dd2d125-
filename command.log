@@ -1,0 +1,246 @@
+WARNING: Sandboxed execution is not supported on your system and thus hermeticity of actions cannot be guaranteed. See http://bazel.build/docs/bazel-user-manual.html#sandboxing for more information. You can turn off this warning via --ignore_unsupported_sandboxing.
+WARNING: /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/org_tensorflow/tensorflow/workspace.bzl:72:5: tf_repo_name was specified to tf_workspace but is no longer used and will be removed in the future..
+____Loading package: dragnn/components/syntaxnet
+____Loading package: @bazel_tools//tools/cpp
+____Loading package: @bazel_tools//tools/jdk
+____Loading package: @local_config_xcode//
+____Loading package: @local_jdk//
+____Loading package: @local_config_cc//
+____Loading complete.  Analyzing...
+____Loading package: @org_tensorflow//third_party/eigen3
+____Loading package: @bazel_tools//tools/genrule
+____Loading package: @bazel_tools//tools/python
+____Loading package: @gmock_archive//
+____Loading package: @org_tensorflow//third_party/mkl
+____Loading package: @com_googlesource_code_re2//
+____Loading package: @local_config_sycl//sycl
+____Loading package: @six_archive//
+____Loading package: @org_tensorflow//tensorflow/tools/graph_transforms
+____Loading package: @org_tensorflow//tensorflow/core/distributed_runtime
+____Loading package: @jemalloc//
+____Loading package: @swig//
+____Loading package: @org_tensorflow//tensorflow/cc/saved_model
+____Loading package: @org_tensorflow//tensorflow/core/util/tensor_bundle
+____Loading package: @org_tensorflow//tensorflow/core/kernels/hexagon
+____Loading package: @org_tensorflow//tensorflow/tools/tfprof
+____Loading package: @org_tensorflow//tensorflow/tools/proto_text
+____Loading package: @org_tensorflow//tensorflow/tools/git
+____Loading package: @org_tensorflow//tensorflow/core/platform/default/build_config
+____Loading package: @org_tensorflow//tensorflow/core/platform/hadoop
+____Loading package: @org_tensorflow//tensorflow/stream_executor
+____Loading package: @gif_archive//
+____Loading package: @highwayhash//
+____Loading package: @png_archive//
+____Loading package: @bazel_tools//tools/coverage
+____Loading package: @nasm//
+____Loading package: @gemmlowp//
+____Loading package: @org_tensorflow//tensorflow/core/util/ctc
+____Loading package: @boringssl//
+____Loading package: @org_tensorflow//third_party/hadoop
+____Loading package: @org_tensorflow//tensorflow/cc
+____Loading package: @pcre//
+____Loading package: @nanopb_git//
+____Loading package: @org_tensorflow//tensorflow/contrib/nccl
+____Loading package: @org_tensorflow//tensorflow/contrib/metrics
+____Loading package: @org_tensorflow//tensorflow/contrib/saved_model
+____Loading package: @org_tensorflow//tensorflow/contrib/tensor_forest
+____Loading package: @org_tensorflow//tensorflow/contrib/tensorboard
+____Loading package: @org_tensorflow//tensorflow/contrib/tfprof/python/tools/tfprof
+____Loading package: @org_tensorflow//tensorflow/contrib/slim/python/slim/data
+____Loading package: @org_tensorflow//tensorflow/contrib/learn/python/learn/datasets
+____Loading package: @nccl_archive//
+WARNING: /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/org_tensorflow/tensorflow/contrib/learn/BUILD:15:1: in py_library rule @org_tensorflow//tensorflow/contrib/learn:learn: target '@org_tensorflow//tensorflow/contrib/learn:learn' depends on deprecated target '@org_tensorflow//tensorflow/contrib/session_bundle:exporter': Use SavedModel Builder instead..
+WARNING: /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/org_tensorflow/tensorflow/contrib/learn/BUILD:15:1: in py_library rule @org_tensorflow//tensorflow/contrib/learn:learn: target '@org_tensorflow//tensorflow/contrib/learn:learn' depends on deprecated target '@org_tensorflow//tensorflow/contrib/session_bundle:gc': Use SavedModel instead..
+____Found 161 targets and 51 test targets...
+____Building...
+____[6 / 235] BazelWorkspaceStatusAction stable-status.txt
+____[4,993 / 5,433] Testing //dragnn/core:input_batch_cache_test
+____[4,994 / 5,434] Testing //dragnn/core:beam_test
+PASS: //dragnn/core:input_batch_cache_test
+PASS: //dragnn/core:resource_container_test
+PASS: //dragnn/core:beam_test
+____[5,136 / 5,435] Testing //dragnn/core:index_translator_test
+PASS: //dragnn/core:index_translator_test
+____[5,167 / 5,436] Testing //dragnn/core:dragnn_bulk_op_kernels_test
+PASS: //dragnn/core:dragnn_bulk_op_kernels_test
+____[5,217 / 5,437] Testing //syntaxnet:char_ngram_string_extractor_test
+PASS: //syntaxnet:char_ngram_string_extractor_test
+PASS: //dragnn/io:sentence_input_batch_test
+____[5,236 / 5,439] Testing //dragnn/components/stateless:stateless_component_test
+PASS: //dragnn/components/stateless:stateless_component_test
+____[5,248 / 5,440] Testing //syntaxnet:morphology_label_set_test
+PASS: //syntaxnet:morphology_label_set_test
+____[5,265 / 5,441] Testing //dragnn/core:compute_session_pool_test
+PASS: //dragnn/core:compute_session_pool_test
+PASS: //dragnn/core:dragnn_op_kernels_test
+____[5,285 / 5,444] Testing //syntaxnet:segmenter_utils_test
+____[5,286 / 5,445] Testing //syntaxnet:shared_store_test
+____[5,287 / 5,446] Testing //syntaxnet:char_properties_test
+____[5,288 / 5,447] Testing //util/utf8:unicodetext_unittest
+____[5,298 / 5,448] Testing //syntaxnet:sentence_features_test
+PASS: //dragnn/core:compute_session_impl_test
+PASS: //syntaxnet:segmenter_utils_test
+PASS: //syntaxnet:shared_store_test
+PASS: //syntaxnet:char_properties_test
+PASS: //util/utf8:unicodetext_unittest
+PASS: //syntaxnet:sentence_features_test
+____[5,350 / 5,449] Testing //dragnn/components/syntaxnet:syntaxnet_link_feature_extractor_test
+PASS: //dragnn/components/syntaxnet:syntaxnet_link_feature_extractor_test
+____[5,383 / 5,450] Testing //syntaxnet:whole_sentence_features_test
+PASS: //syntaxnet:whole_sentence_features_test
+____[5,385 / 5,451] Testing //syntaxnet:head_transitions_test
+____[5,386 / 5,452] Testing //syntaxnet:tagger_transitions_test
+PASS: //syntaxnet:head_transitions_test
+____[5,388 / 5,453] Testing //syntaxnet:parser_features_test
+PASS: //syntaxnet:tagger_transitions_test
+____[5,389 / 5,454] Testing //syntaxnet:once_transitions_test
+PASS: //syntaxnet:parser_features_test
+____[5,391 / 5,456] Testing //syntaxnet:char_shift_transitions_test
+PASS: //syntaxnet:once_transitions_test
+____[5,395 / 5,459] Testing //syntaxnet:arc_standard_transitions_test
+____[5,396 / 5,460] Testing //dragnn/components/syntaxnet:syntaxnet_transition_state_test
+PASS: //syntaxnet:label_transitions_test
+PASS: //syntaxnet:char_shift_transitions_test
+PASS: //syntaxnet:binary_segment_transitions_test
+PASS: //syntaxnet:binary_segment_state_test
+PASS: //syntaxnet:arc_standard_transitions_test
+PASS: //dragnn/components/syntaxnet:syntaxnet_transition_state_test
+PASS: //dragnn/components/syntaxnet:syntaxnet_component_test
+____[5,461 / 5,465] Testing //dragnn/python:graph_builder_test
+____[5,461 / 5,470] Testing //dragnn/python:digraph_ops_test
+____[5,461 / 5,477] Testing //dragnn/python:lexicon_test
+____[5,461 / 5,482] Testing //syntaxnet:lexicon_builder_test
+PASS: //dragnn/python:spec_builder_test
+PASS: //dragnn/python:visualization_test
+PASS: //syntaxnet/util:check_test
+PASS: //dragnn/python:digraph_ops_test
+____[5,465 / 5,482] Still waiting for 17 jobs to complete:
+      Running (standalone):
+        Testing //dragnn/python:graph_builder_test, 11 s
+      Scheduling:
+        Testing //dragnn/tools:model_trainer_test, 26 s
+        Testing //syntaxnet:reader_ops_test, 26 s
+        Testing //dragnn/python:bulk_component_test, 26 s
+        Testing //dragnn/python:composite_optimizer_test, 26 s
+        Testing //dragnn/python:render_parse_tree_graphviz_test, 26 s
+        Testing //dragnn/python:lexicon_test, 26 s
+        Testing //dragnn/python:evaluation_test, 26 s
+        Testing //dragnn/python:network_units_test, 26 s
+        Testing //syntaxnet:text_formats_test, 26 s
+        ... 7 more jobs
+____[5,465 / 5,482] Still waiting for 17 jobs to complete:
+      Running (standalone):
+        Testing //dragnn/python:graph_builder_test, 41 s
+      Scheduling:
+        Testing //dragnn/tools:model_trainer_test, 56 s
+        Testing //syntaxnet:reader_ops_test, 56 s
+        Testing //dragnn/python:bulk_component_test, 56 s
+        Testing //dragnn/python:composite_optimizer_test, 56 s
+        Testing //dragnn/python:render_parse_tree_graphviz_test, 56 s
+        Testing //dragnn/python:lexicon_test, 56 s
+        Testing //dragnn/python:evaluation_test, 56 s
+        Testing //dragnn/python:network_units_test, 56 s
+        Testing //syntaxnet:text_formats_test, 56 s
+        ... 7 more jobs
+PASS: //dragnn/python:graph_builder_test
+____[5,466 / 5,482] Still waiting for 16 jobs to complete:
+      Running (standalone):
+        Testing //dragnn/tools:model_trainer_test, 11 s
+      Scheduling:
+        Testing //syntaxnet:reader_ops_test, 107 s
+        Testing //dragnn/python:bulk_component_test, 107 s
+        Testing //dragnn/python:composite_optimizer_test, 107 s
+        Testing //dragnn/python:render_parse_tree_graphviz_test, 107 s
+        Testing //dragnn/python:lexicon_test, 107 s
+        Testing //dragnn/python:evaluation_test, 107 s
+        Testing //dragnn/python:network_units_test, 107 s
+        Testing //syntaxnet:text_formats_test, 107 s
+        Testing //dragnn/python:render_spec_with_graphviz_test, 107 s
+        ... 6 more jobs
+PASS: //dragnn/tools:model_trainer_test
+PASS: //syntaxnet:reader_ops_test
+PASS: //dragnn/python:bulk_component_test
+PASS: //dragnn/python:composite_optimizer_test
+PASS: //dragnn/python:render_parse_tree_graphviz_test
+PASS: //dragnn/python:lexicon_test
+PASS: //dragnn/python:evaluation_test
+PASS: //dragnn/python:network_units_test
+PASS: //syntaxnet:text_formats_test
+PASS: //dragnn/python:render_spec_with_graphviz_test
+____[5,476 / 5,482] Still waiting for 6 jobs to complete:
+      Running (standalone):
+        Testing //syntaxnet:parser_trainer_test, 11 s
+      Scheduling:
+        Testing //dragnn/python:sentence_io_test, 157 s
+        Testing //syntaxnet/util:registry_test, 157 s
+        Testing //syntaxnet:beam_reader_ops_test, 157 s
+        Testing //syntaxnet:graph_builder_test, 157 s
+        Testing //syntaxnet:lexicon_builder_test, 157 s
+PASS: //syntaxnet:parser_trainer_test
+PASS: //dragnn/python:sentence_io_test
+PASS: //syntaxnet/util:registry_test
+____[5,479 / 5,482] Still waiting for 3 jobs to complete:
+      Running (standalone):
+        Testing //syntaxnet:beam_reader_ops_test, 11 s
+      Scheduling:
+        Testing //syntaxnet:graph_builder_test, 203 s
+        Testing //syntaxnet:lexicon_builder_test, 203 s
+PASS: //syntaxnet:beam_reader_ops_test
+PASS: //syntaxnet:graph_builder_test
+PASS: //syntaxnet:lexicon_builder_test
+____Building complete.
+____Elapsed time: 320.277s, Critical Path: 262.52s
+//dragnn/components/stateless:stateless_component_test                   PASSED in 0.1s
+//dragnn/components/syntaxnet:syntaxnet_component_test                   PASSED in 0.3s
+//dragnn/components/syntaxnet:syntaxnet_link_feature_extractor_test      PASSED in 0.0s
+//dragnn/components/syntaxnet:syntaxnet_transition_state_test            PASSED in 0.1s
+//dragnn/core:beam_test                                                  PASSED in 0.5s
+//dragnn/core:compute_session_impl_test                                  PASSED in 2.6s
+//dragnn/core:compute_session_pool_test                                  PASSED in 0.1s
+//dragnn/core:dragnn_bulk_op_kernels_test                                PASSED in 0.1s
+//dragnn/core:dragnn_op_kernels_test                                     PASSED in 0.1s
+//dragnn/core:index_translator_test                                      PASSED in 0.1s
+//dragnn/core:input_batch_cache_test                                     PASSED in 0.8s
+//dragnn/core:resource_container_test                                    PASSED in 0.1s
+//dragnn/io:sentence_input_batch_test                                    PASSED in 0.3s
+//dragnn/python:bulk_component_test                                      PASSED in 3.3s
+//dragnn/python:composite_optimizer_test                                 PASSED in 5.7s
+//dragnn/python:digraph_ops_test                                         PASSED in 2.5s
+//dragnn/python:evaluation_test                                          PASSED in 2.6s
+//dragnn/python:graph_builder_test                                       PASSED in 81.8s
+//dragnn/python:lexicon_test                                             PASSED in 3.0s
+//dragnn/python:network_units_test                                       PASSED in 2.6s
+//dragnn/python:render_parse_tree_graphviz_test                          PASSED in 4.6s
+//dragnn/python:render_spec_with_graphviz_test                           PASSED in 2.3s
+//dragnn/python:sentence_io_test                                         PASSED in 2.9s
+//dragnn/python:spec_builder_test                                        PASSED in 8.0s
+//dragnn/python:visualization_test                                       PASSED in 2.5s
+//dragnn/tools:model_trainer_test                                        PASSED in 17.6s
+//syntaxnet:arc_standard_transitions_test                                PASSED in 0.1s
+//syntaxnet:beam_reader_ops_test                                         PASSED in 21.8s
+//syntaxnet:binary_segment_state_test                                    PASSED in 0.1s
+//syntaxnet:binary_segment_transitions_test                              PASSED in 0.1s
+//syntaxnet:char_ngram_string_extractor_test                             PASSED in 0.0s
+//syntaxnet:char_properties_test                                         PASSED in 0.1s
+//syntaxnet:char_shift_transitions_test                                  PASSED in 0.2s
+//syntaxnet:graph_builder_test                                           PASSED in 10.3s
+//syntaxnet:head_transitions_test                                        PASSED in 0.0s
+//syntaxnet:label_transitions_test                                       PASSED in 0.1s
+//syntaxnet:lexicon_builder_test                                         PASSED in 2.5s
+//syntaxnet:morphology_label_set_test                                    PASSED in 0.1s
+//syntaxnet:once_transitions_test                                        PASSED in 0.0s
+//syntaxnet:parser_features_test                                         PASSED in 0.1s
+//syntaxnet:parser_trainer_test                                          PASSED in 40.9s
+//syntaxnet:reader_ops_test                                              PASSED in 5.0s
+//syntaxnet:segmenter_utils_test                                         PASSED in 0.0s
+//syntaxnet:sentence_features_test                                       PASSED in 0.1s
+//syntaxnet:shared_store_test                                            PASSED in 0.4s
+//syntaxnet:tagger_transitions_test                                      PASSED in 0.0s
+//syntaxnet:text_formats_test                                            PASSED in 2.5s
+//syntaxnet/util:check_test                                              PASSED in 2.2s
+//syntaxnet/util:registry_test                                           PASSED in 2.4s
+//syntaxnet:whole_sentence_features_test                                 PASSED in 0.0s
+//util/utf8:unicodetext_unittest                                         PASSED in 0.1s
+
+Executed 51 out of 51 tests: 51 tests pass.
+There were tests whose specified size is too big. Use the --test_verbose_timeout_warnings command line option to see which ones these are.

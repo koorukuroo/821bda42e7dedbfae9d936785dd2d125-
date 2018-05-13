@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/platform/hadoop/libhadoop_file_system.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/platform/hadoop/_objs/hadoop_file_system/external/org_tensorflow/tensorflow/core/platform/hadoop/hadoop_file_system.pic.o

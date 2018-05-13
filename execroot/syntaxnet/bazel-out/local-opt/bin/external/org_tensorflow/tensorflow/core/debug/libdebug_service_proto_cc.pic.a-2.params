@@ -1,0 +1,4 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/debug/libdebug_service_proto_cc.pic.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/debug/_objs/debug_service_proto_cc/external/org_tensorflow/tensorflow/core/debug/debug_service.pb.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/debug/_objs/debug_service_proto_cc/external/org_tensorflow/tensorflow/core/debug/debug_service.grpc.pb.pic.o

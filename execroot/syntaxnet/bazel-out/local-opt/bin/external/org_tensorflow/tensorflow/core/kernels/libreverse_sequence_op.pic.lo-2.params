@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libreverse_sequence_op.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/reverse_sequence_op/external/org_tensorflow/tensorflow/core/kernels/reverse_sequence_op.pic.o

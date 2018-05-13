@@ -1,0 +1,5 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libbatch_space_ops.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/batch_space_ops/external/org_tensorflow/tensorflow/core/kernels/batchtospace_op.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/batch_space_ops/external/org_tensorflow/tensorflow/core/kernels/spacetobatch_functor.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/batch_space_ops/external/org_tensorflow/tensorflow/core/kernels/spacetobatch_op.pic.o

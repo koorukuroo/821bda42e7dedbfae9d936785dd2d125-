@@ -1,0 +1,7 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/hexagon/libgraph_transferer.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/hexagon/_objs/graph_transferer/external/org_tensorflow/tensorflow/core/kernels/hexagon/graph_transfer_utils.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/hexagon/_objs/graph_transferer/external/org_tensorflow/tensorflow/core/kernels/hexagon/graph_transferer.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/hexagon/_objs/graph_transferer/external/org_tensorflow/tensorflow/core/kernels/hexagon/hexagon_control_wrapper.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/hexagon/_objs/graph_transferer/external/org_tensorflow/tensorflow/core/kernels/hexagon/hexagon_ops_definitions.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/hexagon/_objs/graph_transferer/external/org_tensorflow/tensorflow/core/kernels/hexagon/i_graph_transfer_ops_definitions.pic.o

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="13" failures="0" disabled="0" errors="0" timestamp="2017-04-11T18:12:19" time="0.015" name="AllTests">
+  <testsuite name="CommonSentenceFeaturesTest" tests="12" failures="0" disabled="0" errors="0" time="0.014">
+    <testcase name="WordFeature" status="run" time="0.004" classname="CommonSentenceFeaturesTest" />
+    <testcase name="KnownWordFeature" status="run" time="0.001" classname="CommonSentenceFeaturesTest" />
+    <testcase name="TagFeature" status="run" time="0.001" classname="CommonSentenceFeaturesTest" />
+    <testcase name="TagFeaturePassesArgs" status="run" time="0.001" classname="CommonSentenceFeaturesTest" />
+    <testcase name="OffsetPlusTag" status="run" time="0.001" classname="CommonSentenceFeaturesTest" />
+    <testcase name="CharNgramFeature" status="run" time="0.001" classname="CommonSentenceFeaturesTest" />
+    <testcase name="CharNgramFeatureWithMinLength" status="run" time="0.001" classname="CommonSentenceFeaturesTest" />
+    <testcase name="CharNgramFeatureWithMaxLength" status="run" time="0.001" classname="CommonSentenceFeaturesTest" />
+    <testcase name="CharNgramFeatureWithTerminators" status="run" time="0.001" classname="CommonSentenceFeaturesTest" />
+    <testcase name="CharNgramFeatureWithBoundaries" status="run" time="0.001" classname="CommonSentenceFeaturesTest" />
+    <testcase name="MorphologySetFeature" status="run" time="0.001" classname="CommonSentenceFeaturesTest" />
+    <testcase name="CapitalizationProcessesCorrectly" status="run" time="0" classname="CommonSentenceFeaturesTest" />
+  </testsuite>
+  <testsuite name="CharFeatureTest" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="CharFeature" status="run" time="0.001" classname="CharFeatureTest" />
+  </testsuite>
+</testsuites>

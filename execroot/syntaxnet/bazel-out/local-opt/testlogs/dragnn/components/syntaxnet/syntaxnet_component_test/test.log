@@ -1,0 +1,402 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+Running main() from test_main.cc
+[==========] Running 19 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 19 tests from SyntaxNetComponentTest
+[ RUN      ] SyntaxNetComponentTest.AdvancesFromOracleAndTerminates
+2017-04-11 18:12:21.635705: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.635870: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.635878: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.638717: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_component_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.640850: I syntaxnet/term_frequency_map.cc:101] Loaded 46 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_component_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.label-map.
+2017-04-11 18:12:21.640924: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.640932: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.640936: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+[       OK ] SyntaxNetComponentTest.AdvancesFromOracleAndTerminates (8 ms)
+[ RUN      ] SyntaxNetComponentTest.AdvancesFromPredictionAndTerminates
+2017-04-11 18:12:21.641588: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.641603: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.641607: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.642582: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_component_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.642649: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.642679: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.642684: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+[       OK ] SyntaxNetComponentTest.AdvancesFromPredictionAndTerminates (1 ms)
+[ RUN      ] SyntaxNetComponentTest.RetainsPassedTransitionStateData
+2017-04-11 18:12:21.643157: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.643180: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.643184: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.644132: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_component_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.644227: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.644241: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.644246: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+[       OK ] SyntaxNetComponentTest.RetainsPassedTransitionStateData (2 ms)
+[ RUN      ] SyntaxNetComponentTest.AdvancesFromPredictionForMultiSentenceBatches
+2017-04-11 18:12:21.644701: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.644716: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.644721: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.645628: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_component_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.645712: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.645725: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.645729: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+[       OK ] SyntaxNetComponentTest.AdvancesFromPredictionForMultiSentenceBatches (1 ms)
+[ RUN      ] SyntaxNetComponentTest.AdvancesFromPredictionForVaryingLengthSentences
+2017-04-11 18:12:21.646201: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.646216: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.646220: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.647533: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_component_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.647601: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.647639: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.647644: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+[       OK ] SyntaxNetComponentTest.AdvancesFromPredictionForVaryingLengthSentences (2 ms)
+[ RUN      ] SyntaxNetComponentTest.ResetAllowsReductionInBatchSize
+2017-04-11 18:12:21.648116: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.648132: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.648137: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.649026: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_component_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.649088: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.649125: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.649131: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+[       OK ] SyntaxNetComponentTest.ResetAllowsReductionInBatchSize (2 ms)
+[ RUN      ] SyntaxNetComponentTest.ResetAllowsIncreaseInBatchSize
+2017-04-11 18:12:21.649763: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.649778: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.649783: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.650921: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_component_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.651046: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.651083: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.651107: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+[       OK ] SyntaxNetComponentTest.ResetAllowsIncreaseInBatchSize (2 ms)
+[ RUN      ] SyntaxNetComponentTest.ResetCausesBeamToReset
+2017-04-11 18:12:21.651982: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.652025: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.652051: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.653505: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_component_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.653607: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.653667: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.653701: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+[       OK ] SyntaxNetComponentTest.ResetCausesBeamToReset (2 ms)
+[ RUN      ] SyntaxNetComponentTest.AdjustingMaxBeamSizeAdjustsSizeForAllBeams
+2017-04-11 18:12:21.654370: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.654497: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.654589: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.656029: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_component_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.656129: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.656178: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.656204: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+[       OK ] SyntaxNetComponentTest.AdjustingMaxBeamSizeAdjustsSizeForAllBeams (3 ms)
+[ RUN      ] SyntaxNetComponentTest.SettingBeamSizeZeroFails
+2017-04-11 18:12:21.656732: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.656773: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.656798: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.658222: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_component_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.658325: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.658359: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.658383: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+[       OK ] SyntaxNetComponentTest.SettingBeamSizeZeroFails (170 ms)
+[ RUN      ] SyntaxNetComponentTest.ExportsFixedFeaturesWithPadding
+2017-04-11 18:12:21.826491: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.826514: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.826519: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.828011: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_component_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.828099: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.828114: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.828119: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+[       OK ] SyntaxNetComponentTest.ExportsFixedFeaturesWithPadding (2 ms)
+[ RUN      ] SyntaxNetComponentTest.ExportsFixedFeatures
+2017-04-11 18:12:21.828648: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.828671: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.828676: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.829855: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_component_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.829929: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.829945: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.829949: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+[       OK ] SyntaxNetComponentTest.ExportsFixedFeatures (2 ms)
+[ RUN      ] SyntaxNetComponentTest.AdvancesAccordingToHighestWeightedInputOption
+2017-04-11 18:12:21.830357: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.830372: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.830377: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.831421: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_component_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.831490: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.831497: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.831501: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+[       OK ] SyntaxNetComponentTest.AdvancesAccordingToHighestWeightedInputOption (1 ms)
+[ RUN      ] SyntaxNetComponentTest.ExportsBulkFixedFeatures
+2017-04-11 18:12:21.831870: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.831885: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.831889: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.832956: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_component_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.833019: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.833043: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.833048: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+2017-04-11 18:12:21.833212: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:12:21.833234: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 36 for channel 1
+[       OK ] SyntaxNetComponentTest.ExportsBulkFixedFeatures (2 ms)
+[ RUN      ] SyntaxNetComponentTest.ExportsRawLinkFeaturesWithPadding
+2017-04-11 18:12:21.833526: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.833541: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.833546: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.834709: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_component_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.834777: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.834793: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.834798: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+[       OK ] SyntaxNetComponentTest.ExportsRawLinkFeaturesWithPadding (1 ms)
+[ RUN      ] SyntaxNetComponentTest.ExportsRawLinkFeatures
+2017-04-11 18:12:21.835145: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.835159: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.835164: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.836267: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_component_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.836334: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.836352: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.836356: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+[       OK ] SyntaxNetComponentTest.ExportsRawLinkFeatures (2 ms)
+[ RUN      ] SyntaxNetComponentTest.AdvancesFromOracleWithTracing
+2017-04-11 18:12:21.836691: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.836705: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.836709: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.837604: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_component_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.837693: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.837702: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.837706: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+2017-04-11 18:12:21.838479: I dragnn/components/syntaxnet/syntaxnet_component_test.cc:1230] trace:
+name: "parser"
+step_trace {
+  caption: "SHIFT"
+  fixed_feature_trace {
+    name: "tags"
+    value_trace {
+      value_name: "input.tag=NN"
+      feature_name: ""
+    }
+    value_trace {
+      value_name: "input(1).tag=CD"
+      feature_name: ""
+    }
+  }
+  fixed_feature_trace {
+    name: "tags"
+  }
+  linked_feature_trace {
+    name: "recurrent_stack"
+    source_component: "parser"
+    source_translator: "identity"
+    source_layer: "hidden_0"
+  }
+  html_representation: "Stack: | Input: Sentence "
+  step_finished: true
+}
+step_trace {
+  caption: "SHIFT"
+  fixed_feature_trace {
+    name: "tags"
+    value_trace {
+      value_name: "input.tag=CD"
+      feature_name: ""
+    }
+    value_trace {
+      value_name: "input(1).tag=."
+      feature_name: ""
+    }
+  }
+  fixed_feature_trace {
+    name: "tags"
+  }
+  linked_feature_trace {
+    name: "recurrent_stack"
+    source_component: "parser"
+    source_translator: "identity"
+    source_layer: "hidden_0"
+    value_trace {
+      batch_idx: 0
+      beam_idx: 0
+      step_idx: 0
+      feature_value: 0
+      feature_name: "stack.focus"
+    }
+  }
+  html_representation: "Stack: Sentence | Input: 0 "
+  step_finished: true
+}
+step_trace {
+  caption: "RIGHT_ARC(num)"
+  fixed_feature_trace {
+    name: "tags"
+    value_trace {
+      value_name: "input.tag=."
+      feature_name: ""
+    }
+    value_trace {
+      value_name: "input(1).tag=<OUTSIDE>"
+      feature_name: ""
+    }
+  }
+  fixed_feature_trace {
+    name: "tags"
+  }
+  linked_feature_trace {
+    name: "recurrent_stack"
+    source_component: "parser"
+    source_translator: "identity"
+    source_layer: "hidden_0"
+    value_trace {
+      batch_idx: 0
+      beam_idx: 0
+      step_idx: 0
+      feature_value: 1
+      feature_name: "stack.focus"
+    }
+    value_trace {
+      batch_idx: 0
+      beam_idx: 0
+      step_idx: 1
+      feature_value: 0
+      feature_name: "stack(1).focus"
+    }
+  }
+  html_representation: "Stack: Sentence 0 | Input: . "
+  step_finished: true
+}
+step_trace {
+  caption: "SHIFT"
+  fixed_feature_trace {
+    name: "tags"
+    value_trace {
+      value_name: "input.tag=."
+      feature_name: ""
+    }
+    value_trace {
+      value_name: "input(1).tag=<OUTSIDE>"
+      feature_name: ""
+    }
+  }
+  fixed_feature_trace {
+    name: "tags"
+  }
+  linked_feature_trace {
+    name: "recurrent_stack"
+    source_component: "parser"
+    source_translator: "identity"
+    source_layer: "hidden_0"
+    value_trace {
+      batch_idx: 0
+      beam_idx: 0
+      step_idx: 0
+      feature_value: 0
+      feature_name: "stack.focus"
+    }
+  }
+  html_representation: "Stack: Sentence | Input: . "
+  step_finished: true
+}
+step_trace {
+  caption: "RIGHT_ARC(punct)"
+  fixed_feature_trace {
+    name: "tags"
+    value_trace {
+      value_name: "input.tag=<OUTSIDE>"
+      feature_name: ""
+    }
+    value_trace {
+      value_name: "input(1).tag=<OUTSIDE>"
+      feature_name: ""
+    }
+  }
+  fixed_feature_trace {
+    name: "tags"
+  }
+  linked_feature_trace {
+    name: "recurrent_stack"
+    source_component: "parser"
+    source_translator: "identity"
+    source_layer: "hidden_0"
+    value_trace {
+      batch_idx: 0
+      beam_idx: 0
+      step_idx: 0
+      feature_value: 2
+      feature_name: "stack.focus"
+    }
+    value_trace {
+      batch_idx: 0
+      beam_idx: 0
+      step_idx: 1
+      feature_value: 0
+      feature_name: "stack(1).focus"
+    }
+  }
+  html_representation: "Stack: Sentence . | Input: "
+  step_finished: true
+}
+step_trace {
+  caption: "RIGHT_ARC(ROOT)"
+  fixed_feature_trace {
+    name: "tags"
+    value_trace {
+      value_name: "input.tag=<OUTSIDE>"
+      feature_name: ""
+    }
+    value_trace {
+      value_name: "input(1).tag=<OUTSIDE>"
+      feature_name: ""
+    }
+  }
+  fixed_feature_trace {
+    name: "tags"
+  }
+  linked_feature_trace {
+    name: "recurrent_stack"
+    source_component: "parser"
+    source_translator: "identity"
+    source_layer: "hidden_0"
+    value_trace {
+      batch_idx: 0
+      beam_idx: 0
+      step_idx: 0
+      feature_value: 0
+      feature_name: "stack.focus"
+    }
+  }
+  html_representation: "Stack: Sentence | Input: "
+  step_finished: true
+}
+step_trace {
+  fixed_feature_trace {
+    name: "tags"
+  }
+  fixed_feature_trace {
+    name: "tags"
+  }
+  linked_feature_trace {
+    name: "recurrent_stack"
+    source_component: "parser"
+    source_translator: "identity"
+    source_layer: "hidden_0"
+  }
+  html_representation: "Stack: | Input: "
+}
+
+[       OK ] SyntaxNetComponentTest.AdvancesFromOracleWithTracing (2 ms)
+[ RUN      ] SyntaxNetComponentTest.NoTracingDropsFeatureNames
+2017-04-11 18:12:21.838800: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.838817: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.838821: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.840047: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_component_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.840123: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.840140: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.840144: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+[       OK ] SyntaxNetComponentTest.NoTracingDropsFeatureNames (2 ms)
+[ RUN      ] SyntaxNetComponentTest.TracingOutputsFeatureNames
+2017-04-11 18:12:21.840483: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.tag input(1).tag;input(-1).tag input.tag input(1).tag
+2017-04-11 18:12:21.840498: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: tags;tags
+2017-04-11 18:12:21.840502: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32;32
+2017-04-11 18:12:21.841494: I syntaxnet/term_frequency_map.cc:101] Loaded 49 terms from /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/components/syntaxnet/syntaxnet_component_test.runfiles/__main__/dragnn/components/syntaxnet/testdata/syntaxnet-tagger.tag-map.
+2017-04-11 18:12:21.841558: I syntaxnet/embedding_feature_extractor.cc:35] Features: stack.focus stack(1).focus
+2017-04-11 18:12:21.841579: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: recurrent_stack
+2017-04-11 18:12:21.841584: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 32
+[       OK ] SyntaxNetComponentTest.TracingOutputsFeatureNames (1 ms)
+[----------] 19 tests from SyntaxNetComponentTest (208 ms total)
+
+[----------] Global test environment tear-down
+[==========] 19 tests from 1 test case ran. (208 ms total)
+[  PASSED  ] 19 tests.

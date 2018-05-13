@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libfifo_queue_op.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/fifo_queue_op/external/org_tensorflow/tensorflow/core/kernels/fifo_queue_op.pic.o

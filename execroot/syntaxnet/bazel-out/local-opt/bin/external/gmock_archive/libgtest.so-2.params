@@ -1,0 +1,4 @@
+bazel-out/local-opt/bin/external/gmock_archive/_objs/gtest/external/gmock_archive/googlemock/src/gmock-all.pic.o
+bazel-out/local-opt/bin/external/gmock_archive/_objs/gtest/external/gmock_archive/googletest/src/gtest-all.pic.o
+-lstdc++
+-lm

@@ -1,0 +1,4 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/libjpeg_internal.pic.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/jpeg_internal/external/org_tensorflow/tensorflow/core/lib/jpeg/jpeg_handle.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/jpeg_internal/external/org_tensorflow/tensorflow/core/lib/jpeg/jpeg_mem.pic.o

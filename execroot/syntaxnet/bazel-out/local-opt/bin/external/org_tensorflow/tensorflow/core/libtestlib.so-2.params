@@ -1,0 +1,6 @@
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/testlib/external/org_tensorflow/tensorflow/core/common_runtime/kernel_benchmark_testlib.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/testlib/external/org_tensorflow/tensorflow/core/framework/fake_input.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/testlib/external/org_tensorflow/tensorflow/core/framework/function_testlib.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/testlib/external/org_tensorflow/tensorflow/core/graph/testlib.pic.o
+-lstdc++
+-lm

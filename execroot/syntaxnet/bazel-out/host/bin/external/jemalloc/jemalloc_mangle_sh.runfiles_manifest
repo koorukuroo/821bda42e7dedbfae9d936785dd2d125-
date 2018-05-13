@@ -1,0 +1,4 @@
+__main__/external/jemalloc/include/jemalloc/jemalloc_mangle.sh /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/jemalloc/include/jemalloc/jemalloc_mangle.sh
+__main__/external/jemalloc/jemalloc_mangle_sh /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/host/bin/external/jemalloc/jemalloc_mangle_sh
+jemalloc/include/jemalloc/jemalloc_mangle.sh /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/external/jemalloc/include/jemalloc/jemalloc_mangle.sh
+jemalloc/jemalloc_mangle_sh /root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/host/bin/external/jemalloc/jemalloc_mangle_sh

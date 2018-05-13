@@ -1,0 +1,3 @@
+rcsD
+bazel-out/host/bin/external/org_tensorflow/tensorflow/contrib/cloud/libbigquery_reader_ops_op_lib.lo
+bazel-out/host/bin/external/org_tensorflow/tensorflow/contrib/cloud/_objs/bigquery_reader_ops_op_lib/external/org_tensorflow/tensorflow/contrib/cloud/ops/bigquery_reader_ops.o

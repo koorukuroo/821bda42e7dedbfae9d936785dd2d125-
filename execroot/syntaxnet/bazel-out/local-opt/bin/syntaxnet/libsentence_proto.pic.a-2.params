@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/syntaxnet/libsentence_proto.pic.a
+bazel-out/local-opt/bin/syntaxnet/_objs/sentence_proto/syntaxnet/sentence.pb.pic.o

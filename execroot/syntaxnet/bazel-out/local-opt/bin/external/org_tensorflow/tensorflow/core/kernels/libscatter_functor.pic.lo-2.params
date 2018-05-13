@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libscatter_functor.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/scatter_functor/external/org_tensorflow/tensorflow/core/kernels/scatter_functor.pic.o

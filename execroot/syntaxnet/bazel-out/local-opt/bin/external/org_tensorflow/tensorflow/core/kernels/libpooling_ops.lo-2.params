@@ -1,0 +1,10 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libpooling_ops.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/pooling_ops/external/org_tensorflow/tensorflow/core/kernels/avgpooling_op.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/pooling_ops/external/org_tensorflow/tensorflow/core/kernels/cudnn_pooling_gpu.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/pooling_ops/external/org_tensorflow/tensorflow/core/kernels/fractional_avg_pool_op.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/pooling_ops/external/org_tensorflow/tensorflow/core/kernels/fractional_max_pool_op.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/pooling_ops/external/org_tensorflow/tensorflow/core/kernels/fractional_pool_common.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/pooling_ops/external/org_tensorflow/tensorflow/core/kernels/maxpooling_op.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/pooling_ops/external/org_tensorflow/tensorflow/core/kernels/pooling_ops_3d.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/pooling_ops/external/org_tensorflow/tensorflow/core/kernels/pooling_ops_common.o

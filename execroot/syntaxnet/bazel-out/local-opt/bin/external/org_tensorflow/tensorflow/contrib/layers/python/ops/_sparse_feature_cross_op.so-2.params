@@ -1,0 +1,8 @@
+-whole-archive
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/layers/_objs/python/ops/_sparse_feature_cross_op.so/external/org_tensorflow/tensorflow/contrib/layers/ops/sparse_feature_cross_op.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/layers/kernels/libsparse_feature_cross_kernel.pic.lo
+bazel-out/local-opt/bin/external/farmhash_archive/libfarmhash.pic.a
+-no-whole-archive
+-lm
+-lstdc++
+-lm

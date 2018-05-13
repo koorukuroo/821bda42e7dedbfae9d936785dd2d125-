@@ -1,0 +1,4 @@
+rcsD
+bazel-out/local-opt/bin/util/utf8/libunicodetext.pic.a
+bazel-out/local-opt/bin/util/utf8/_objs/unicodetext/util/utf8/unicodetext.pic.o
+bazel-out/local-opt/bin/util/utf8/_objs/unicodetext/util/utf8/unilib.pic.o

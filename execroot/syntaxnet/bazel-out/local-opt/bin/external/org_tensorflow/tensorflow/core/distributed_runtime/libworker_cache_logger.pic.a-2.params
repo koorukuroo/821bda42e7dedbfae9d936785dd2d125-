@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/distributed_runtime/libworker_cache_logger.pic.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/distributed_runtime/_objs/worker_cache_logger/external/org_tensorflow/tensorflow/core/distributed_runtime/worker_cache_logger.pic.o

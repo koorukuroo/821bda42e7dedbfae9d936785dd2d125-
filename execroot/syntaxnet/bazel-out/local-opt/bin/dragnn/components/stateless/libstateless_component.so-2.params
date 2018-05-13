@@ -1,0 +1,3 @@
+bazel-out/local-opt/bin/dragnn/components/stateless/_objs/stateless_component/dragnn/components/stateless/stateless_component.pic.o
+-lstdc++
+-lm

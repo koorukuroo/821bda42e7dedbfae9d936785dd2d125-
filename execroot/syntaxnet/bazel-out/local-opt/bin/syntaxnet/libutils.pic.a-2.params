@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/syntaxnet/libutils.pic.a
+bazel-out/local-opt/bin/syntaxnet/_objs/utils/syntaxnet/utils.pic.o

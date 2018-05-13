@@ -1,0 +1,5 @@
+rcsD
+bazel-out/local-opt/bin/external/jsoncpp_git/libjsoncpp.pic.a
+bazel-out/local-opt/bin/external/jsoncpp_git/_objs/jsoncpp/external/jsoncpp_git/src/lib_json/json_reader.pic.o
+bazel-out/local-opt/bin/external/jsoncpp_git/_objs/jsoncpp/external/jsoncpp_git/src/lib_json/json_value.pic.o
+bazel-out/local-opt/bin/external/jsoncpp_git/_objs/jsoncpp/external/jsoncpp_git/src/lib_json/json_writer.pic.o

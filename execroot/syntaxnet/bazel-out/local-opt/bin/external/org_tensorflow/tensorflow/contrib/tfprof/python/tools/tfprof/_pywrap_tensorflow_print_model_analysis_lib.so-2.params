@@ -1,0 +1,10 @@
+-whole-archive
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/contrib/tfprof/python/tools/tfprof/_objs/_pywrap_tensorflow_print_model_analysis_lib.so/external/org_tensorflow/tensorflow/contrib/tfprof/python/tools/tfprof/pywrap_tensorflow_print_model_analysis_lib.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/libprotos_all_cc.pic.a
+bazel-out/local-opt/bin/external/protobuf/libprotobuf.pic.a
+bazel-out/local-opt/bin/external/protobuf/libprotobuf_lite.pic.a
+-no-whole-archive
+-lpthread
+-lm
+-lstdc++
+-lm

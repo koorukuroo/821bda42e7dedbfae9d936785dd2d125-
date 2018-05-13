@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libremote_fused_graph_execute_utils.pic.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/remote_fused_graph_execute_utils/external/org_tensorflow/tensorflow/core/kernels/remote_fused_graph_execute_utils.pic.o

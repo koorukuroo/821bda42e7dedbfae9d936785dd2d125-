@@ -1,0 +1,5 @@
+-whole-archive
+bazel-out/local-opt/bin/external/protobuf/_objs/python/google/protobuf/internal/_api_implementation.so/external/protobuf/python/google/protobuf/internal/api_implementation.pic.o
+-no-whole-archive
+-lstdc++
+-lm

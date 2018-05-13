@@ -1,0 +1,15 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+Running main() from test_main.cc
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from SentenceInputBatchTest
+[ RUN      ] SentenceInputBatchTest.ConvertsFromStringifiedProtos
+[       OK ] SentenceInputBatchTest.ConvertsFromStringifiedProtos (1 ms)
+[ RUN      ] SentenceInputBatchTest.BadlyFormedProtosDie
+[       OK ] SentenceInputBatchTest.BadlyFormedProtosDie (209 ms)
+[----------] 2 tests from SentenceInputBatchTest (210 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (210 ms total)
+[  PASSED  ] 2 tests.

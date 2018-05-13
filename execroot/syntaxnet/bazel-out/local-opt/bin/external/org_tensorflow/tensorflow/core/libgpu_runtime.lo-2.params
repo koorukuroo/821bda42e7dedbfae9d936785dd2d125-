@@ -1,0 +1,12 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/libgpu_runtime.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/gpu_runtime/external/org_tensorflow/tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/gpu_runtime/external/org_tensorflow/tensorflow/core/common_runtime/gpu/gpu_debug_allocator.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/gpu_runtime/external/org_tensorflow/tensorflow/core/common_runtime/gpu/gpu_device.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/gpu_runtime/external/org_tensorflow/tensorflow/core/common_runtime/gpu/gpu_device_factory.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/gpu_runtime/external/org_tensorflow/tensorflow/core/common_runtime/gpu/gpu_init.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/gpu_runtime/external/org_tensorflow/tensorflow/core/common_runtime/gpu/gpu_stream_util.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/gpu_runtime/external/org_tensorflow/tensorflow/core/common_runtime/gpu/gpu_util.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/gpu_runtime/external/org_tensorflow/tensorflow/core/common_runtime/gpu/gpu_util_platform_specific.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/gpu_runtime/external/org_tensorflow/tensorflow/core/common_runtime/gpu/pool_allocator.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/gpu_runtime/external/org_tensorflow/tensorflow/core/common_runtime/gpu/process_state.o

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="19" failures="0" disabled="0" errors="0" timestamp="2017-04-11T18:12:21" time="0.208" name="AllTests">
+  <testsuite name="SyntaxNetComponentTest" tests="19" failures="0" disabled="0" errors="0" time="0.208">
+    <testcase name="AdvancesFromOracleAndTerminates" status="run" time="0.008" classname="SyntaxNetComponentTest" />
+    <testcase name="AdvancesFromPredictionAndTerminates" status="run" time="0.001" classname="SyntaxNetComponentTest" />
+    <testcase name="RetainsPassedTransitionStateData" status="run" time="0.002" classname="SyntaxNetComponentTest" />
+    <testcase name="AdvancesFromPredictionForMultiSentenceBatches" status="run" time="0.001" classname="SyntaxNetComponentTest" />
+    <testcase name="AdvancesFromPredictionForVaryingLengthSentences" status="run" time="0.002" classname="SyntaxNetComponentTest" />
+    <testcase name="ResetAllowsReductionInBatchSize" status="run" time="0.002" classname="SyntaxNetComponentTest" />
+    <testcase name="ResetAllowsIncreaseInBatchSize" status="run" time="0.002" classname="SyntaxNetComponentTest" />
+    <testcase name="ResetCausesBeamToReset" status="run" time="0.002" classname="SyntaxNetComponentTest" />
+    <testcase name="AdjustingMaxBeamSizeAdjustsSizeForAllBeams" status="run" time="0.003" classname="SyntaxNetComponentTest" />
+    <testcase name="SettingBeamSizeZeroFails" status="run" time="0.17" classname="SyntaxNetComponentTest" />
+    <testcase name="ExportsFixedFeaturesWithPadding" status="run" time="0.002" classname="SyntaxNetComponentTest" />
+    <testcase name="ExportsFixedFeatures" status="run" time="0.002" classname="SyntaxNetComponentTest" />
+    <testcase name="AdvancesAccordingToHighestWeightedInputOption" status="run" time="0.001" classname="SyntaxNetComponentTest" />
+    <testcase name="ExportsBulkFixedFeatures" status="run" time="0.002" classname="SyntaxNetComponentTest" />
+    <testcase name="ExportsRawLinkFeaturesWithPadding" status="run" time="0.001" classname="SyntaxNetComponentTest" />
+    <testcase name="ExportsRawLinkFeatures" status="run" time="0.002" classname="SyntaxNetComponentTest" />
+    <testcase name="AdvancesFromOracleWithTracing" status="run" time="0.002" classname="SyntaxNetComponentTest" />
+    <testcase name="NoTracingDropsFeatureNames" status="run" time="0.002" classname="SyntaxNetComponentTest" />
+    <testcase name="TracingOutputsFeatureNames" status="run" time="0.001" classname="SyntaxNetComponentTest" />
+  </testsuite>
+</testsuites>

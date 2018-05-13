@@ -1,0 +1,3 @@
+rcsD
+bazel-out/host/bin/external/org_tensorflow/tensorflow/contrib/factorization/libclustering_ops_op_lib.lo
+bazel-out/host/bin/external/org_tensorflow/tensorflow/contrib/factorization/_objs/clustering_ops_op_lib/external/org_tensorflow/tensorflow/contrib/factorization/ops/clustering_ops.o

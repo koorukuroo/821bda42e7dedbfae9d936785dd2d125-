@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/platform/cloud/libhttp_request.pic.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/platform/cloud/_objs/http_request/external/org_tensorflow/tensorflow/core/platform/cloud/http_request.pic.o

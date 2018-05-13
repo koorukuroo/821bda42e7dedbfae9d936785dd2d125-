@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/tools/tfprof/internal/libtfprof_scope.pic.a
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/tools/tfprof/internal/_objs/tfprof_scope/external/org_tensorflow/tensorflow/tools/tfprof/internal/tfprof_scope.pic.o

@@ -1,0 +1,4 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/libctc_ops.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/ctc_ops/external/org_tensorflow/tensorflow/core/kernels/ctc_decoder_ops.pic.o
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/kernels/_objs/ctc_ops/external/org_tensorflow/tensorflow/core/kernels/ctc_loss_op.pic.o

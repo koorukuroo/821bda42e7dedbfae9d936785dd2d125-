@@ -1,0 +1,621 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+-----------------------------------------------------------------------------
+INFO:tensorflow:component lengths concat_input_dim 1
+INFO:tensorflow:[bilstm] input_dropout_rate=0.67 recurrent_dropout_rate=0.8
+INFO:tensorflow:component bilstm concat_input_dim 17
+INFO:tensorflow:[bilstm] Bulk bi-LSTM with input_dim=16 output_dim=32
+INFO:tensorflow:component tagger concat_input_dim 32
+INFO:tensorflow:component heads concat_input_dim 32
+INFO:tensorflow:component modifiers concat_input_dim 32
+INFO:tensorflow:component digraph concat_input_dim 32
+INFO:tensorflow:component parser concat_input_dim -1
+INFO:tensorflow:component parsed_head_tokens concat_input_dim 32
+INFO:tensorflow:component parsed_heads concat_input_dim 32
+INFO:tensorflow:component parsed_modifiers concat_input_dim 32
+INFO:tensorflow:component labels concat_input_dim 32
+INFO:tensorflow:component labeler concat_input_dim 7
+INFO:tensorflow:Creating new training target joint from config: name: "joint"
+component_weights: 0.0
+component_weights: 0.0
+component_weights: 1.0
+component_weights: 0.0
+component_weights: 0.0
+component_weights: 0.0
+component_weights: 1.0
+component_weights: 0.0
+component_weights: 0.0
+component_weights: 0.0
+component_weights: 0.0
+component_weights: 1.0
+unroll_using_oracle: true
+unroll_using_oracle: true
+unroll_using_oracle: true
+unroll_using_oracle: true
+unroll_using_oracle: true
+unroll_using_oracle: true
+unroll_using_oracle: true
+unroll_using_oracle: true
+unroll_using_oracle: true
+unroll_using_oracle: true
+unroll_using_oracle: true
+unroll_using_oracle: true
+
+INFO:tensorflow:Creating training target:
+INFO:tensorflow:	Weights: [0.0, 0.0, 0.3333333333333333, 0.0, 0.0, 0.0, 0.3333333333333333, 0.0, 0.0, 0.0, 0.0, 0.3333333333333333]
+INFO:tensorflow:	Oracle: [True, True, True, True, True, True, True, True, True, True, True, True]
+INFO:tensorflow:Initializing data for component "lengths"
+INFO:tensorflow:Building component: lengths
+INFO:tensorflow:[lengths] Adding fixed feature IDs "length"
+INFO:tensorflow:Initializing data for component "bilstm"
+INFO:tensorflow:Building component: bilstm
+INFO:tensorflow:[bilstm] Adding differentiable fixed feature "words"
+INFO:tensorflow:Returning: bilstm/fixed_embedding_matrix_0:0
+INFO:tensorflow:[bilstm] Adding linked feature "lengths"
+INFO:tensorflow:Returning: bilstm/initial_state_forward_c_0:0
+INFO:tensorflow:Returning: bilstm/initial_state_forward_h_0:0
+INFO:tensorflow:Returning: bilstm/initial_state_backward_c_0:0
+INFO:tensorflow:Returning: bilstm/initial_state_backward_h_0:0
+INFO:tensorflow:Returning: bilstm/initial_state_forward_c_1:0
+INFO:tensorflow:Returning: bilstm/initial_state_forward_h_1:0
+INFO:tensorflow:Returning: bilstm/initial_state_backward_c_1:0
+INFO:tensorflow:Returning: bilstm/initial_state_backward_h_1:0
+INFO:tensorflow:Returning: bilstm/cell/cell_0/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/weights:0
+INFO:tensorflow:Returning: bilstm/cell/cell_0/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/biases:0
+INFO:tensorflow:Returning: bilstm/cell/cell_0/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/weights:0
+INFO:tensorflow:Returning: bilstm/cell/cell_0/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/biases:0
+INFO:tensorflow:Returning: bilstm/cell/cell_1/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/weights:0
+INFO:tensorflow:Returning: bilstm/cell/cell_1/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/biases:0
+INFO:tensorflow:Returning: bilstm/cell/cell_1/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/weights:0
+INFO:tensorflow:Returning: bilstm/cell/cell_1/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/biases:0
+INFO:tensorflow:Returning: bilstm/weights_softmax:0
+INFO:tensorflow:Returning: bilstm/bias_softmax:0
+INFO:tensorflow:Initializing data for component "tagger"
+INFO:tensorflow:Building component: tagger
+INFO:tensorflow:[tagger] Adding linked feature "bilstm"
+INFO:tensorflow:Returning: tagger/weights_0:0
+INFO:tensorflow:Returning: tagger/bias_0:0
+INFO:tensorflow:Returning: tagger/weights_softmax:0
+INFO:tensorflow:Returning: tagger/bias_softmax:0
+INFO:tensorflow:Initializing data for component "heads"
+INFO:tensorflow:Building component: heads
+INFO:tensorflow:[heads] Adding linked feature "bilstm"
+INFO:tensorflow:Returning: heads/weights_0:0
+INFO:tensorflow:Returning: heads/bias_0:0
+INFO:tensorflow:Returning: heads/weights_softmax:0
+INFO:tensorflow:Returning: heads/bias_softmax:0
+INFO:tensorflow:Initializing data for component "modifiers"
+INFO:tensorflow:Building component: modifiers
+INFO:tensorflow:[modifiers] Adding linked feature "bilstm"
+INFO:tensorflow:Returning: modifiers/weights_0:0
+INFO:tensorflow:Returning: modifiers/bias_0:0
+INFO:tensorflow:Returning: modifiers/weights_softmax:0
+INFO:tensorflow:Returning: modifiers/bias_softmax:0
+INFO:tensorflow:Initializing data for component "digraph"
+INFO:tensorflow:Building component: digraph
+INFO:tensorflow:[digraph] Adding linked feature "sources"
+INFO:tensorflow:[digraph] Adding linked feature "targets"
+INFO:tensorflow:Returning: digraph/weights_arc:0
+INFO:tensorflow:Returning: digraph/weights_source:0
+INFO:tensorflow:Returning: digraph/root:0
+INFO:tensorflow:Initializing data for component "parser"
+INFO:tensorflow:Building component: parser
+INFO:tensorflow:[parser] Adding linked feature "digraph"
+INFO:tensorflow:Initializing data for component "parsed_head_tokens"
+INFO:tensorflow:Building component: parsed_head_tokens
+INFO:tensorflow:Initializing data for component "parsed_heads"
+INFO:tensorflow:Building component: parsed_heads
+INFO:tensorflow:[parsed_heads] Adding linked feature "parsed_head_tokens"
+INFO:tensorflow:Returning: parsed_heads/weights_0:0
+INFO:tensorflow:Returning: parsed_heads/bias_0:0
+INFO:tensorflow:Returning: parsed_heads/weights_softmax:0
+INFO:tensorflow:Returning: parsed_heads/bias_softmax:0
+INFO:tensorflow:Initializing data for component "parsed_modifiers"
+INFO:tensorflow:Building component: parsed_modifiers
+INFO:tensorflow:[parsed_modifiers] Adding linked feature "bilstm"
+INFO:tensorflow:Returning: parsed_modifiers/weights_0:0
+INFO:tensorflow:Returning: parsed_modifiers/bias_0:0
+INFO:tensorflow:Returning: parsed_modifiers/weights_softmax:0
+INFO:tensorflow:Returning: parsed_modifiers/bias_softmax:0
+INFO:tensorflow:Initializing data for component "labels"
+INFO:tensorflow:Building component: labels
+INFO:tensorflow:[labels] Adding linked feature "sources"
+INFO:tensorflow:[labels] Adding linked feature "targets"
+INFO:tensorflow:Returning: labels/weights_pair:0
+INFO:tensorflow:Returning: labels/weights_source:0
+INFO:tensorflow:Returning: labels/weights_target:0
+INFO:tensorflow:Returning: labels/biases:0
+INFO:tensorflow:Initializing data for component "labeler"
+INFO:tensorflow:Building component: labeler
+INFO:tensorflow:[labeler] Adding linked feature "labels"
+INFO:tensorflow:Creating train op with 46 variables:
+	bilstm/fixed_embedding_matrix_0:0
+	bilstm/weights_softmax:0
+	bilstm/bias_softmax:0
+	bilstm/cell/cell_0/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/weights:0
+	bilstm/cell/cell_1/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/biases:0
+	bilstm/cell/cell_0/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/biases:0
+	bilstm/cell/cell_1/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/weights:0
+	bilstm/cell/cell_1/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/weights:0
+	bilstm/cell/cell_0/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/weights:0
+	bilstm/cell/cell_0/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/biases:0
+	bilstm/cell/cell_1/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/biases:0
+	bilstm/initial_state_forward_c_0:0
+	bilstm/initial_state_forward_h_0:0
+	bilstm/initial_state_backward_c_0:0
+	bilstm/initial_state_backward_h_0:0
+	bilstm/initial_state_forward_c_1:0
+	bilstm/initial_state_forward_h_1:0
+	bilstm/initial_state_backward_c_1:0
+	bilstm/initial_state_backward_h_1:0
+	tagger/weights_0:0
+	tagger/bias_0:0
+	tagger/weights_softmax:0
+	tagger/bias_softmax:0
+	heads/weights_0:0
+	heads/bias_0:0
+	heads/weights_softmax:0
+	heads/bias_softmax:0
+	modifiers/weights_0:0
+	modifiers/bias_0:0
+	modifiers/weights_softmax:0
+	modifiers/bias_softmax:0
+	digraph/weights_arc:0
+	digraph/weights_source:0
+	digraph/root:0
+	parsed_heads/weights_0:0
+	parsed_heads/bias_0:0
+	parsed_heads/weights_softmax:0
+	parsed_heads/bias_softmax:0
+	parsed_modifiers/weights_0:0
+	parsed_modifiers/bias_0:0
+	parsed_modifiers/weights_softmax:0
+	parsed_modifiers/bias_softmax:0
+	labels/weights_pair:0
+	labels/weights_source:0
+	labels/weights_target:0
+	labels/biases:0
+/root/.cache/bazel/_bazel_root/821bda42e7dedbfae9d936785dd2d125/execroot/syntaxnet/bazel-out/local-opt/bin/dragnn/tools/model_trainer_test.runfiles/org_tensorflow/tensorflow/python/ops/gradients_impl.py:93: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+INFO:tensorflow:Clipping gradient IndexedSlices(indices=Tensor("train-joint/gradients/train-joint/cond_1/bilstm/embedding_lookup/Switch_grad/cond_grad/indices:0", shape=(?,), dtype=int64), values=Tensor("train-joint/gradients/train-joint/cond_1/bilstm/embedding_lookup/Switch_grad/cond_grad:0", shape=(?, ?), dtype=float32), dense_shape=Tensor("train-joint/gradients/train-joint/cond_1/bilstm/embedding_lookup/Switch_grad/cond_grad/dense_shape:0", shape=(2,), dtype=int32))
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_1/bilstm_1/cell/cell/cell_0/bidirectional_rnn/bw/bw/while/layer_norm_basic_lstm_cell/MatMul/Switch_grad/cond_grad:0", shape=(32, 64), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_1/bilstm_1/cell/cell/cell_1/bidirectional_rnn/fw/fw/while/layer_norm_basic_lstm_cell/BiasAdd/Switch_grad/cond_grad:0", shape=(64,), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_1/bilstm_1/cell/cell/cell_0/bidirectional_rnn/fw/fw/while/layer_norm_basic_lstm_cell/BiasAdd/Switch_grad/cond_grad:0", shape=(64,), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_1/bilstm_1/cell/cell/cell_1/bidirectional_rnn/bw/bw/while/layer_norm_basic_lstm_cell/MatMul/Switch_grad/cond_grad:0", shape=(48, 64), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_1/bilstm_1/cell/cell/cell_1/bidirectional_rnn/fw/fw/while/layer_norm_basic_lstm_cell/MatMul/Switch_grad/cond_grad:0", shape=(48, 64), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_1/bilstm_1/cell/cell/cell_0/bidirectional_rnn/fw/fw/while/layer_norm_basic_lstm_cell/MatMul/Switch_grad/cond_grad:0", shape=(32, 64), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_1/bilstm_1/cell/cell/cell_0/bidirectional_rnn/bw/bw/while/layer_norm_basic_lstm_cell/BiasAdd/Switch_grad/cond_grad:0", shape=(64,), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_1/bilstm_1/cell/cell/cell_1/bidirectional_rnn/bw/bw/while/layer_norm_basic_lstm_cell/BiasAdd/Switch_grad/cond_grad:0", shape=(64,), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_1/bilstm_1/Tile/Switch_grad/cond_grad:0", shape=(1, 16), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_1/bilstm_1/Tile_1/Switch_grad/cond_grad:0", shape=(1, 16), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_1/bilstm_1/Tile_2/Switch_grad/cond_grad:0", shape=(1, 16), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_1/bilstm_1/Tile_3/Switch_grad/cond_grad:0", shape=(1, 16), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_1/bilstm_1/Tile_4/Switch_grad/cond_grad:0", shape=(1, 16), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_1/bilstm_1/Tile_5/Switch_grad/cond_grad:0", shape=(1, 16), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_1/bilstm_1/Tile_6/Switch_grad/cond_grad:0", shape=(1, 16), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_1/bilstm_1/Tile_7/Switch_grad/cond_grad:0", shape=(1, 16), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_2/tagger/MatMul/Switch_grad/cond_grad:0", shape=(32, 16), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_2/tagger/BiasAdd/Switch_grad/cond_grad:0", shape=(16,), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_2/tagger/MatMul_1/Switch_grad/cond_grad:0", shape=(16, 7), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_2/tagger/add/Switch_grad/cond_grad:0", shape=(7,), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_3/heads_1/MatMul/Switch_grad/cond_grad:0", shape=(32, 16), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_3/heads_1/BiasAdd/Switch_grad/cond_grad:0", shape=(16,), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_4/modifiers_1/MatMul/Switch_grad/cond_grad:0", shape=(32, 16), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_4/modifiers_1/BiasAdd/Switch_grad/cond_grad:0", shape=(16,), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_5/digraph_1/MatMul/Switch_grad/cond_grad:0", shape=(16, 16), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_5/digraph_1/ExpandDims/Switch_grad/cond_grad:0", shape=(16,), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_5/digraph_1/ExpandDims_1/Switch_grad/cond_grad:0", shape=(16,), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_8/parsed_heads_1/MatMul/Switch_grad/cond_grad:0", shape=(32, 16), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_8/parsed_heads_1/BiasAdd/Switch_grad/cond_grad:0", shape=(16,), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_9/parsed_modifiers_1/MatMul/Switch_grad/cond_grad:0", shape=(32, 16), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_9/parsed_modifiers_1/BiasAdd/Switch_grad/cond_grad:0", shape=(16,), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_10/labels_1/Reshape_2/Switch_grad/cond_grad:0", shape=(7, 16, 16), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_10/labels_1/MatMul_2/Switch_grad/cond_grad:0", shape=(7, 16), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_10/labels_1/MatMul_3/Switch_grad/cond_grad:0", shape=(7, 16), dtype=float32)
+INFO:tensorflow:Clipping gradient Tensor("train-joint/gradients/train-joint/cond_10/labels_1/add_2/Switch_grad/cond_grad:0", shape=(7,), dtype=float32)
+INFO:tensorflow:Building component: lengths
+INFO:tensorflow:[lengths] Adding fixed feature IDs "length"
+INFO:tensorflow:Building component: bilstm
+INFO:tensorflow:[bilstm] Adding 1 fast fixed features
+INFO:tensorflow:Returning: bilstm/fixed_embedding_matrix_0:0
+INFO:tensorflow:[bilstm] Adding linked feature "lengths"
+INFO:tensorflow:Returning: bilstm/initial_state_forward_c_0:0
+INFO:tensorflow:Returning: bilstm/initial_state_forward_h_0:0
+INFO:tensorflow:Returning: bilstm/initial_state_backward_c_0:0
+INFO:tensorflow:Returning: bilstm/initial_state_backward_h_0:0
+INFO:tensorflow:Returning: bilstm/initial_state_forward_c_1:0
+INFO:tensorflow:Returning: bilstm/initial_state_forward_h_1:0
+INFO:tensorflow:Returning: bilstm/initial_state_backward_c_1:0
+INFO:tensorflow:Returning: bilstm/initial_state_backward_h_1:0
+INFO:tensorflow:Returning: bilstm/cell/cell_0/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/weights:0
+INFO:tensorflow:Returning: bilstm/cell/cell_0/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/weights:0
+INFO:tensorflow:Returning: bilstm/cell/cell_0/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/biases:0
+INFO:tensorflow:Returning: bilstm/cell/cell_0/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/weights:0
+INFO:tensorflow:Returning: bilstm/cell/cell_0/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/weights:0
+INFO:tensorflow:Returning: bilstm/cell/cell_0/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/biases:0
+INFO:tensorflow:Returning: bilstm/cell/cell_1/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/weights:0
+INFO:tensorflow:Returning: bilstm/cell/cell_1/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/weights:0
+INFO:tensorflow:Returning: bilstm/cell/cell_1/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/biases:0
+INFO:tensorflow:Returning: bilstm/cell/cell_1/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/weights:0
+INFO:tensorflow:Returning: bilstm/cell/cell_1/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/weights:0
+INFO:tensorflow:Returning: bilstm/cell/cell_1/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/biases:0
+INFO:tensorflow:Returning: bilstm/weights_softmax:0
+INFO:tensorflow:Returning: bilstm/bias_softmax:0
+INFO:tensorflow:Building component: tagger
+INFO:tensorflow:[tagger] Adding linked feature "bilstm"
+INFO:tensorflow:Returning: tagger/weights_0:0
+INFO:tensorflow:Returning: tagger/bias_0:0
+INFO:tensorflow:Returning: tagger/weights_softmax:0
+INFO:tensorflow:Returning: tagger/bias_softmax:0
+INFO:tensorflow:Building component: heads
+INFO:tensorflow:[heads] Adding linked feature "bilstm"
+INFO:tensorflow:Returning: heads/weights_0:0
+INFO:tensorflow:Returning: heads/bias_0:0
+INFO:tensorflow:Returning: heads/weights_softmax:0
+INFO:tensorflow:Returning: heads/bias_softmax:0
+INFO:tensorflow:Building component: modifiers
+INFO:tensorflow:[modifiers] Adding linked feature "bilstm"
+INFO:tensorflow:Returning: modifiers/weights_0:0
+INFO:tensorflow:Returning: modifiers/bias_0:0
+INFO:tensorflow:Returning: modifiers/weights_softmax:0
+INFO:tensorflow:Returning: modifiers/bias_softmax:0
+INFO:tensorflow:Building component: digraph
+INFO:tensorflow:[digraph] Adding linked feature "sources"
+INFO:tensorflow:[digraph] Adding linked feature "targets"
+INFO:tensorflow:Returning: digraph/weights_arc:0
+INFO:tensorflow:Returning: digraph/weights_source:0
+INFO:tensorflow:Returning: digraph/root:0
+INFO:tensorflow:Building component: parser
+INFO:tensorflow:[parser] Adding linked feature "digraph"
+INFO:tensorflow:Building component: parsed_head_tokens
+INFO:tensorflow:Building component: parsed_heads
+INFO:tensorflow:[parsed_heads] Adding linked feature "parsed_head_tokens"
+INFO:tensorflow:Returning: parsed_heads/weights_0:0
+INFO:tensorflow:Returning: parsed_heads/bias_0:0
+INFO:tensorflow:Returning: parsed_heads/weights_softmax:0
+INFO:tensorflow:Returning: parsed_heads/bias_softmax:0
+INFO:tensorflow:Building component: parsed_modifiers
+INFO:tensorflow:[parsed_modifiers] Adding linked feature "bilstm"
+INFO:tensorflow:Returning: parsed_modifiers/weights_0:0
+INFO:tensorflow:Returning: parsed_modifiers/bias_0:0
+INFO:tensorflow:Returning: parsed_modifiers/weights_softmax:0
+INFO:tensorflow:Returning: parsed_modifiers/bias_softmax:0
+INFO:tensorflow:Building component: labels
+INFO:tensorflow:[labels] Adding linked feature "sources"
+INFO:tensorflow:[labels] Adding linked feature "targets"
+INFO:tensorflow:Returning: labels/weights_pair:0
+INFO:tensorflow:Returning: labels/weights_source:0
+INFO:tensorflow:Returning: labels/weights_target:0
+INFO:tensorflow:Returning: labels/biases:0
+INFO:tensorflow:Building component: labeler
+INFO:tensorflow:[labeler] Adding linked feature "labels"
+INFO:tensorflow:Saving non-quantized variables:
+	lengths/step:0
+	lengths/total:0
+	bilstm/step:0
+	bilstm/total:0
+	bilstm/fixed_embedding_matrix_0:0
+	bilstm/weights_softmax:0
+	bilstm/bias_softmax:0
+	bilstm/cell/cell_0/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/weights:0
+	bilstm/cell/cell_0/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/biases:0
+	bilstm/cell/cell_0/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/weights:0
+	bilstm/cell/cell_0/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/biases:0
+	bilstm/cell/cell_1/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/weights:0
+	bilstm/cell/cell_1/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/biases:0
+	bilstm/cell/cell_1/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/weights:0
+	bilstm/cell/cell_1/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/biases:0
+	bilstm/initial_state_forward_c_0:0
+	bilstm/initial_state_forward_h_0:0
+	bilstm/initial_state_backward_c_0:0
+	bilstm/initial_state_backward_h_0:0
+	bilstm/initial_state_forward_c_1:0
+	bilstm/initial_state_forward_h_1:0
+	bilstm/initial_state_backward_c_1:0
+	bilstm/initial_state_backward_h_1:0
+	tagger/step:0
+	tagger/total:0
+	tagger/weights_0:0
+	tagger/bias_0:0
+	tagger/weights_softmax:0
+	tagger/bias_softmax:0
+	heads/step:0
+	heads/total:0
+	heads/weights_0:0
+	heads/bias_0:0
+	heads/weights_softmax:0
+	heads/bias_softmax:0
+	modifiers/step:0
+	modifiers/total:0
+	modifiers/weights_0:0
+	modifiers/bias_0:0
+	modifiers/weights_softmax:0
+	modifiers/bias_softmax:0
+	digraph/step:0
+	digraph/total:0
+	digraph/weights_arc:0
+	digraph/weights_source:0
+	digraph/root:0
+	parser/step:0
+	parser/total:0
+	parsed_head_tokens/step:0
+	parsed_head_tokens/total:0
+	parsed_heads/step:0
+	parsed_heads/total:0
+	parsed_heads/weights_0:0
+	parsed_heads/bias_0:0
+	parsed_heads/weights_softmax:0
+	parsed_heads/bias_softmax:0
+	parsed_modifiers/step:0
+	parsed_modifiers/total:0
+	parsed_modifiers/weights_0:0
+	parsed_modifiers/bias_0:0
+	parsed_modifiers/weights_softmax:0
+	parsed_modifiers/bias_softmax:0
+	labels/step:0
+	labels/total:0
+	labels/weights_pair:0
+	labels/weights_source:0
+	labels/weights_target:0
+	labels/biases:0
+	labeler/step:0
+	labeler/total:0
+	master/step:0
+	train-joint/beta1_power:0
+	train-joint/beta2_power:0
+	bilstm/fixed_embedding_matrix_0/Adam:0
+	bilstm/fixed_embedding_matrix_0/Adam_1:0
+	bilstm/cell/cell_0/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/weights/Adam:0
+	bilstm/cell/cell_0/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/weights/Adam_1:0
+	bilstm/cell/cell_1/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/biases/Adam:0
+	bilstm/cell/cell_1/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/biases/Adam_1:0
+	bilstm/cell/cell_0/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/biases/Adam:0
+	bilstm/cell/cell_0/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/biases/Adam_1:0
+	bilstm/cell/cell_1/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/weights/Adam:0
+	bilstm/cell/cell_1/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/weights/Adam_1:0
+	bilstm/cell/cell_1/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/weights/Adam:0
+	bilstm/cell/cell_1/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/weights/Adam_1:0
+	bilstm/cell/cell_0/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/weights/Adam:0
+	bilstm/cell/cell_0/bidirectional_rnn/fw/layer_norm_basic_lstm_cell/weights/Adam_1:0
+	bilstm/cell/cell_0/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/biases/Adam:0
+	bilstm/cell/cell_0/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/biases/Adam_1:0
+	bilstm/cell/cell_1/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/biases/Adam:0
+	bilstm/cell/cell_1/bidirectional_rnn/bw/layer_norm_basic_lstm_cell/biases/Adam_1:0
+	bilstm/initial_state_forward_c_0/Adam:0
+	bilstm/initial_state_forward_c_0/Adam_1:0
+	bilstm/initial_state_forward_h_0/Adam:0
+	bilstm/initial_state_forward_h_0/Adam_1:0
+	bilstm/initial_state_backward_c_0/Adam:0
+	bilstm/initial_state_backward_c_0/Adam_1:0
+	bilstm/initial_state_backward_h_0/Adam:0
+	bilstm/initial_state_backward_h_0/Adam_1:0
+	bilstm/initial_state_forward_c_1/Adam:0
+	bilstm/initial_state_forward_c_1/Adam_1:0
+	bilstm/initial_state_forward_h_1/Adam:0
+	bilstm/initial_state_forward_h_1/Adam_1:0
+	bilstm/initial_state_backward_c_1/Adam:0
+	bilstm/initial_state_backward_c_1/Adam_1:0
+	bilstm/initial_state_backward_h_1/Adam:0
+	bilstm/initial_state_backward_h_1/Adam_1:0
+	tagger/weights_0/Adam:0
+	tagger/weights_0/Adam_1:0
+	tagger/bias_0/Adam:0
+	tagger/bias_0/Adam_1:0
+	tagger/weights_softmax/Adam:0
+	tagger/weights_softmax/Adam_1:0
+	tagger/bias_softmax/Adam:0
+	tagger/bias_softmax/Adam_1:0
+	heads/weights_0/Adam:0
+	heads/weights_0/Adam_1:0
+	heads/bias_0/Adam:0
+	heads/bias_0/Adam_1:0
+	modifiers/weights_0/Adam:0
+	modifiers/weights_0/Adam_1:0
+	modifiers/bias_0/Adam:0
+	modifiers/bias_0/Adam_1:0
+	digraph/weights_arc/Adam:0
+	digraph/weights_arc/Adam_1:0
+	digraph/weights_source/Adam:0
+	digraph/weights_source/Adam_1:0
+	digraph/root/Adam:0
+	digraph/root/Adam_1:0
+	parsed_heads/weights_0/Adam:0
+	parsed_heads/weights_0/Adam_1:0
+	parsed_heads/bias_0/Adam:0
+	parsed_heads/bias_0/Adam_1:0
+	parsed_modifiers/weights_0/Adam:0
+	parsed_modifiers/weights_0/Adam_1:0
+	parsed_modifiers/bias_0/Adam:0
+	parsed_modifiers/bias_0/Adam_1:0
+	labels/weights_pair/Adam:0
+	labels/weights_pair/Adam_1:0
+	labels/weights_source/Adam:0
+	labels/weights_source/Adam_1:0
+	labels/weights_target/Adam:0
+	labels/weights_target/Adam_1:0
+	labels/biases/Adam:0
+	labels/biases/Adam_1:0
+	train-joint/TargetStep:0
+2017-04-11 18:14:14.446006: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:14.446042: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:14.446048: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:14.446053: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-04-11 18:14:14.446057: W external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+INFO:tensorflow:Reading corpus...
+INFO:tensorflow:Read 5 sentences.
+INFO:tensorflow:Reading corpus...
+INFO:tensorflow:Read 5 sentences.
+INFO:tensorflow:Training on 5 sentences.
+INFO:tensorflow:Tuning on 5 sentences.
+INFO:tensorflow:Creating TensorFlow checkpoint dir...
+INFO:tensorflow:TensorBoard directory: /tmp/model_trainer_test.1510/biaffine.model/tensorboard
+INFO:tensorflow:Deleting prior data if exists...
+ERROR:tensorflow:Directory did not exist? Error: /tmp/model_trainer_test.1510/biaffine.model/tensorboard not found
+INFO:tensorflow:Deleted! Creating the directory again...
+INFO:tensorflow:Created! Instatiating SummaryWriter...
+INFO:tensorflow:Determining the training schedule...
+INFO:tensorflow:Training schedule defined!
+INFO:tensorflow:Starting training...
+2017-04-11 18:14:15.707644: I dragnn/core/ops/dragnn_op_kernels.cc:79] Creating new ComputeSessionPool in container handle: shared
+2017-04-11 18:14:15.708342: I syntaxnet/embedding_feature_extractor.cc:35] Features: sentence.length
+2017-04-11 18:14:15.708362: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: length
+2017-04-11 18:14:15.708368: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: -1
+2017-04-11 18:14:15.741283: I syntaxnet/term_frequency_map.cc:101] Loaded 7 terms from /tmp/model_trainer_test.1510/biaffine.model/resources/label-map.
+2017-04-11 18:14:15.741424: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.token.word(min-freq=2)
+2017-04-11 18:14:15.741434: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: words
+2017-04-11 18:14:15.741438: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 16
+2017-04-11 18:14:15.742637: I syntaxnet/term_frequency_map.cc:101] Loaded 8 terms from /tmp/model_trainer_test.1510/biaffine.model/resources/word-map.
+2017-04-11 18:14:15.742713: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.focus
+2017-04-11 18:14:15.742723: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: lengths
+2017-04-11 18:14:15.742728: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: -1
+2017-04-11 18:14:15.742809: I syntaxnet/embedding_feature_extractor.cc:35] Features: 
+2017-04-11 18:14:15.742823: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: 
+2017-04-11 18:14:15.742827: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 
+2017-04-11 18:14:15.744175: I syntaxnet/term_frequency_map.cc:101] Loaded 7 terms from /tmp/model_trainer_test.1510/biaffine.model/resources/tag-map.
+2017-04-11 18:14:15.745354: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.focus
+2017-04-11 18:14:15.745373: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: bilstm
+2017-04-11 18:14:15.745378: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: -1
+2017-04-11 18:14:15.745475: I syntaxnet/embedding_feature_extractor.cc:35] Features: 
+2017-04-11 18:14:15.745488: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: 
+2017-04-11 18:14:15.745492: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 
+2017-04-11 18:14:15.745505: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.focus
+2017-04-11 18:14:15.745511: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: digraph
+2017-04-11 18:14:15.745514: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: -1
+2017-04-11 18:14:15.745567: I syntaxnet/embedding_feature_extractor.cc:35] Features: 
+2017-04-11 18:14:15.745579: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: 
+2017-04-11 18:14:15.745583: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 
+2017-04-11 18:14:15.745596: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.gold-head
+2017-04-11 18:14:15.745601: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: bilstm
+2017-04-11 18:14:15.745605: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: -1
+2017-04-11 18:14:15.745694: I syntaxnet/embedding_feature_extractor.cc:35] Features: 
+2017-04-11 18:14:15.745707: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: 
+2017-04-11 18:14:15.745711: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: 
+2017-04-11 18:14:15.745722: I syntaxnet/embedding_feature_extractor.cc:35] Features: input.focus
+2017-04-11 18:14:15.745727: I syntaxnet/embedding_feature_extractor.cc:36] Embedding names: labels
+2017-04-11 18:14:15.745730: I syntaxnet/embedding_feature_extractor.cc:37] Embedding dims: -1
+2017-04-11 18:14:15.746008: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:15.746336: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+INFO:tensorflow:training step: 0, actual: 0
+INFO:tensorflow:finished step: 0, actual: 0
+INFO:tensorflow:Annotating datset: 5 examples
+2017-04-11 18:14:15.868943: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 5 for channel 0
+2017-04-11 18:14:15.869175: I dragnn/core/ops/dragnn_bulk_op_kernels.cc:174] Creating new VectorTripleResource
+2017-04-11 18:14:15.869275: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 30 for channel 0
+INFO:tensorflow:Done. Produced 5 annotations
+INFO:tensorflow:Total num documents: 5
+INFO:tensorflow:Total num tokens: 24
+INFO:tensorflow:POS: 20.83%
+INFO:tensorflow:UAS: 0.00%
+INFO:tensorflow:LAS: 0.00%
+INFO:tensorflow:Updating best eval to 0.00%, saving checkpoint.
+WARNING:tensorflow:*******************************************************
+WARNING:tensorflow:TensorFlow's V1 checkpoint format has been deprecated.
+WARNING:tensorflow:Consider switching to the more efficient V2 format:
+WARNING:tensorflow:   `tf.train.Saver(write_version=tf.train.SaverDef.V2)`
+WARNING:tensorflow:now on by default.
+WARNING:tensorflow:*******************************************************
+INFO:tensorflow:Writing stats: 0,1
+2017-04-11 18:14:16.856996: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:16.857694: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:16.874617: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:16.875369: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 20 for channel 0
+2017-04-11 18:14:16.891193: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:16.892272: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:16.908226: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:16.909016: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 20 for channel 0
+2017-04-11 18:14:16.923992: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:16.925014: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 20 for channel 0
+2017-04-11 18:14:16.939608: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:16.940792: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:16.956832: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:16.958525: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:16.974927: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:16.976085: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:16.992131: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:16.992866: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.010504: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.011521: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.028053: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.029265: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.046057: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.046829: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.063606: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.064372: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 20 for channel 0
+2017-04-11 18:14:17.079445: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.080176: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.097808: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.098144: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.116522: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.117321: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.133851: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.134618: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.151110: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.151610: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.168406: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.169395: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.186003: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.186712: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 20 for channel 0
+2017-04-11 18:14:17.201719: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.202445: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 20 for channel 0
+2017-04-11 18:14:17.217523: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.218271: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 20 for channel 0
+2017-04-11 18:14:17.233131: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.234154: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.251758: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.252443: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.269400: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.270018: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.287522: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.288234: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.305184: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.305959: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.323625: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.324440: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.340992: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.341534: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.358634: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.359786: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.376254: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.377107: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 20 for channel 0
+2017-04-11 18:14:17.393529: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.394234: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.411015: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.411642: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.429457: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.429959: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.447780: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.448488: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.466826: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.467143: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.485336: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.486193: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.502951: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.504168: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.520129: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.520860: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.539286: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.539915: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.556797: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.557499: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.575011: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.576525: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.592410: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.593042: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.610875: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.611396: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.628883: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.629559: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.647203: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.647704: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+2017-04-11 18:14:17.664796: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.665422: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 20 for channel 0
+2017-04-11 18:14:17.681882: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.682475: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 20 for channel 0
+2017-04-11 18:14:17.697796: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.698592: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 20 for channel 0
+2017-04-11 18:14:17.713731: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 4 for channel 0
+2017-04-11 18:14:17.714251: I dragnn/components/syntaxnet/syntaxnet_component.cc:525] Feature count is 24 for channel 0
+INFO:tensorflow:Finished training!
+INFO:tensorflow:Best checkpoint written to:
+/tmp/model_trainer_test.1510/biaffine.model/checkpoints/best
+2017-04-11 18:14:17.863302: I dragnn/core/compute_session_pool.cc:55] Destroying pool: total number of sessions created = 1
+PASS

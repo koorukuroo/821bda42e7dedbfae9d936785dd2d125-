@@ -1,0 +1,3 @@
+bazel-out/local-opt/bin/syntaxnet/_objs/kbest_syntax_proto/syntaxnet/kbest_syntax.pb.pic.o
+-lstdc++
+-lm

@@ -1,0 +1,3 @@
+rcsD
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/libdebug_ops_op_lib.pic.lo
+bazel-out/local-opt/bin/external/org_tensorflow/tensorflow/core/_objs/debug_ops_op_lib/external/org_tensorflow/tensorflow/core/ops/debug_ops.pic.o
